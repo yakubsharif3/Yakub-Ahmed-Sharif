@@ -1,0 +1,34 @@
+ 471  telnet 8019
+  472  exit
+  473  exit
+  474  ps -ef | grep java
+  475  cd /opt/Jetty/bin
+  476  kill 28833
+  477  kill 28911
+  478  kill 28774
+  479  kill 27110
+  480  ps -ef | grep java
+  481  kill 28774 28818
+  482  ps -ef | grep java
+  483  kill -9 28774 28818
+  484  ps -ef | grep java
+  485  history| grep start
+  486  ./jetty.sh stop
+  487  ./jetty.sh check
+  488  ./jetty.sh start
+  489  tail -f /opt/Jetty/logs/2015_08_12.stderrout.log
+  490  history
+  491  ps -ef | grep java
+  492  ./jetty.sh check
+  493  exit
+  494  bash
+  495  exit
+  496  exit
+  497  bash
+  498  exit
+  499  history
+
+
+
+
+ps -ef | more

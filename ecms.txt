@@ -1,0 +1,132 @@
+root@gptestecms # telnet 8020
+Trying 0.0.31.84...
+^Croot@gptestecms # 
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # ps -ef | grep java
+    root 19943     1   0 10:16:26 ?           0:02 /usr/bin/java -Djetty.home=/opt/Jetty -Djava.io.tmpdir=/tmp -jar /opt/Jetty/sta
+    root 20630 20600   0 10:52:35 pts/2       0:00 grep java
+    root 19945 19943   2 10:16:27 ?          19:22 /usr/jdk/instances/jdk1.6.0/jre/bin/java -Xmx1024m -Xms1024m -XX:HeapDumpPath=/
+root@gptestecms # ps -ef
+     UID   PID  PPID   C    STIME TTY         TIME CMD
+    root     0     0   0   Sep 13 ?        219751:35 sched
+    root     5     0   0   Sep 13 ?        1574:57 zpool-rootpool
+    root     1     0   0   Sep 13 ?           6:44 /sbin/init
+    root     2     0   0   Sep 13 ?           5:05 pageout
+    root     3     0   0   Sep 13 ?        10457:18 fsflush
+    root     6     0   0   Sep 13 ?          14:23 vmtasks
+    root   153     1   0   Sep 13 ?           0:00 /usr/lib/picl/picld
+    root    10     1   0   Sep 13 ?          14:26 /lib/svc/bin/svc.startd
+    root    12     1   0   Sep 13 ?           9:59 /lib/svc/bin/svc.configd
+    root    79     1   0   Sep 13 ?          15:36 devfsadmd
+  daemon   146     1   0   Sep 13 ?          13:06 /usr/lib/crypto/kcfd
+    root   199     1   0   Sep 13 ?           0:00 /lib/svc/method/iscsi-initiator
+  daemon   360     1   0   Sep 13 ?           0:00 /usr/lib/nfs/statd
+  daemon   355     1   0   Sep 13 ?           0:00 /usr/sbin/rpcbind
+    root   387     1   0   Sep 13 ?           0:00 /usr/lib/inet/inetd start
+    root   394     1   0   Sep 13 ?           0:00 /usr/lib/autofs/automountd
+    root 11994    10   0   Feb 04 console     0:00 /usr/lib/saf/ttymon -g -d /dev/console -l console -T sun-color -m ldterm,ttcomp
+    root   239     1   0   Sep 13 ?           0:04 /usr/sbin/cron
+    root   140     1   0   Sep 13 ?           0:00 /usr/lib/sysevent/syseventd
+    root   145     1   0   Sep 13 ?          83:46 /usr/sbin/nscd
+    root   386    10   0   Sep 13 ?           0:14 /usr/lib/saf/sac -t 300
+  daemon   376     1   0   Sep 13 ?           0:00 /usr/lib/nfs/lockd
+    root   393     1   0   Sep 13 ?           1:26 /usr/lib/utmpd
+    root   411   386   0   Sep 13 ?           0:12 /usr/lib/saf/ttymon
+    root   437     1   0   Sep 13 ?          10:30 /usr/lib/fm/fmd/fmd
+    root   395   394   0   Sep 13 ?           1:19 /usr/lib/autofs/automountd
+    root   434     1   0   Sep 13 ?          99:26 /usr/sbin/syslogd
+    root 11307     1   0   Jul 31 ?          46:49 /bin/sh /etc/init.d/init.ohasd run
+    root   463     1   0   Sep 13 ?           0:00 /usr/sbin/vold -f /etc/vold.conf
+   smmsp  1691     1   0   Sep 13 ?           1:11 /usr/lib/sendmail -Ac -q15m
+    root   480     1   0   Sep 13 ?        1790:53 /usr/sfw/sbin/snmpd
+  oracle  1612     1   0   Sep 13 ?         112:50 /opt/oracle_homes/oracle/rdbms/11.2.0/bin/tnslsnr LISTENER_ECMSDB -inherit
+    root 19943     1   0 10:16:26 ?           0:02 /usr/bin/java -Djetty.home=/opt/Jetty -Djava.io.tmpdir=/tmp -jar /opt/Jetty/sta
+    root 20635 20600   0 10:52:44 pts/2       0:00 ps -ef
+    root 20634 11307   0 10:52:41 ?           0:00 /bin/sleep 10
+    root 20589 11963   0 10:51:54 ?           0:00 /usr/lib/ssh/sshd
+    root 20600 20590   0 10:51:57 pts/2       0:00 -sh
+    root 20590 20589   0 10:51:55 ?           0:00 /usr/lib/ssh/sshd
+    root 19945 19943   0 10:16:27 ?          19:29 /usr/jdk/instances/jdk1.6.0/jre/bin/java -Xmx1024m -Xms1024m -XX:HeapDumpPath=/
+    root 11963     1   0   Feb 04 ?           0:00 /usr/lib/ssh/sshd
+root@gptestecms # cd /opt/Jetty/bin
+root@gptestecms # ps -ef | grep java
+    root 19943     1   0 10:16:26 ?           0:02 /usr/bin/java -Djetty.home=/opt/Jetty -Djava.io.tmpdir=/tmp -jar /opt/Jetty/sta
+    root 20642 20600   0 10:53:06 pts/2       0:00 grep java
+    root 19945 19943   2 10:16:27 ?          19:46 /usr/jdk/instances/jdk1.6.0/jre/bin/java -Xmx1024m -Xms1024m -XX:HeapDumpPath=/
+root@gptestecms # ./jetty.sh check                      
+Checking arguments to Jetty: 
+JETTY_HOME     =  //opt/Jetty
+JETTY_CONF     =  //opt/Jetty/etc/jetty.conf
+JETTY_RUN      =  /var/run
+JETTY_PID      =  /var/run/jetty.pid
+JETTY_PORT     =  
+JETTY_LOGS     =  
+START_INI      =  //opt/Jetty/start.ini
+CONFIGS        =  --pre=etc/jetty-logging.xml
+JAVA_OPTIONS   =  -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp
+JAVA           =  /usr/bin/java
+CLASSPATH      =  
+RUN_CMD        =  /usr/bin/java -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp -jar //opt/Jetty/start.jar --pre=etc/jetty-logging.xml
+
+Jetty running pid=19943
+root@gptestecms # kill -9 20642 19945 19943
+kill: no such process
+root@gptestecms # ps -ef | grep java
+    root 20709 20600   0 10:55:40 pts/2       0:00 grep java
+root@gptestecms # kill 20709
+kill: no such process
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # pwd
+/opt/Jetty/bin
+root@gptestecms # ps -ef | grep java
+    root 20720 20600   0 10:56:10 pts/2       0:00 grep java
+root@gptestecms # ./jetty.sh stop
+Stopping Jetty: OK
+root@gptestecms # ./jetty.sh check
+Checking arguments to Jetty: 
+JETTY_HOME     =  //opt/Jetty
+JETTY_CONF     =  //opt/Jetty/etc/jetty.conf
+JETTY_RUN      =  /var/run
+JETTY_PID      =  /var/run/jetty.pid
+JETTY_PORT     =  
+JETTY_LOGS     =  
+START_INI      =  //opt/Jetty/start.ini
+CONFIGS        =  --pre=etc/jetty-logging.xml
+JAVA_OPTIONS   =  -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp
+JAVA           =  /usr/bin/java
+CLASSPATH      =  
+RUN_CMD        =  /usr/bin/java -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp -jar //opt/Jetty/start.jar --pre=etc/jetty-logging.xml
+
+root@gptestecms # ./jetty.sh start
+Starting Jetty: STARTED Jetty Tue Aug 25 10:56:46 BDT 2015
+root@gptestecms # 2015-08-25 10:56:47.501:INFO::Redirecting stderr/stdout to /opt/Jetty/logs/2015_08_25.stderrout.log
+^C
+root@gptestecms # ps -ef | grep java
+    root 20796     1   0 10:56:47 pts/2       0:01 /usr/bin/java -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp -jar //opt/Jetty/s
+    root 20805 20600   0 10:57:07 pts/2       0:00 grep java
+    root 20798 20796   7 10:56:47 pts/2       0:31 /usr/jdk/instances/jdk1.6.0/jre/bin/java -Xmx1024m -Xms1024m -XX:HeapDumpPath=/
+root@gptestecms # bash    
+root@gptestecms # ./jetty.sh check
+Checking arguments to Jetty: 
+JETTY_HOME     =  //opt/Jetty
+JETTY_CONF     =  //opt/Jetty/etc/jetty.conf
+JETTY_RUN      =  /var/run
+JETTY_PID      =  /var/run/jetty.pid
+JETTY_PORT     =  
+JETTY_LOGS     =  
+START_INI      =  //opt/Jetty/start.ini
+CONFIGS        =  --pre=etc/jetty-logging.xml
+JAVA_OPTIONS   =  -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp
+JAVA           =  /usr/bin/java
+CLASSPATH      =  
+RUN_CMD        =  /usr/bin/java -Djetty.home=//opt/Jetty -Djava.io.tmpdir=/tmp -jar //opt/Jetty/start.jar --pre=etc/jetty-logging.xml
+
+Jetty running pid=20796
+root@gptestecms # telnet 8020
+Trying 0.0.31.84...
+telnet: Unable to connect to remote host: Connection timed out
+root@gptestecms # cd /opt/Jetty/bin

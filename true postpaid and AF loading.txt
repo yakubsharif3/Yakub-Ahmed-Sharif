@@ -1,0 +1,26 @@
+oder sim kenar por audit krbe oder behavior
+so taka dewar age credit limit barae dbe etae true postpaid
+ekhn postpaid o ekdhrner prepaid,but true postpaid means credit limit barae dewa,commitment bundle n eta almost same
+
+
+for AF change:
+ssh tbair1
+cd /opt/temp
+ls -lrth
+vi test.txt
+then
+/opt/af/bin/AFDataManager -n -i 48 test.txt
+
+ 994  cd /opt/temp/
+  995  ls -lrht
+  996  vi test.txt
+  997  cat /dev/null > test.txt 
+  998  vi test.txt 
+  999  /opt/af/bin/AFDataManager -n -i 254 test.txt 
+ 1000  nslookup 880174715589.8.msisdn.sub.cs
+ 1001  history
+./cdrmonitor.sh
+
+
+357886050115402
+357886050115410

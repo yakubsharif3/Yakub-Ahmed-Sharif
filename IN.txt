@@ -1,0 +1,368 @@
+10.182.33.16:10000
+air30: password:root123
+ss7:root/sdp@2n
+sdp 
+user: sdpuser
+pass: sdp@1N/sdpuser
+
+citrix ica client,totall textpad,winrar,winacp,toad data manager
+491999
+air and sdp :10000
+CCN :khali ip
+EMA :3080
+OCC: 2308
+VI editor for basic command
+
+file zilla ftp client
+citrix ica client
+total commander
+editor (textpad)
+winrar 
+winscp
+wireshark
+ALEX
+
+REP: recycling number provisioning
+SAP: system application and products
+BSCS: business support control system
+
+sdp 11-46 porjnto ni
+
+sdp 75,sdp86,air 30 ei 3ta lagbe
+
+202.56.4.165 basa thke access er jnno
+
+add mobile number msisdn likhe 3020 te pthae dte hbe
+
+230187
+
+sim replacement: ls -ltr
+vi stp
+
+unused+open amount=current balance
+vi STP die i die then paste then esc :wq! die save for sim replacement
+
+
+ssh sdp83a
+
+bash
+
+/opt/ESA/bin/fmactivealarms
+calculation of CDR:
+
+VAT: 15% and 3% over that(surcharge)
+1.18 of overall charge
+
+DA34
+
+LOGIN:CMAX:Ecms@gpc$1n; (used for telneting ecms port)
+
+http://www.tutorialspoint.com/unix/unix-useful-commands.htm
+grep occ06/etc/hosts
+
+SDP92
+A:- 10.171.8.4
+B:- 10.171.12.14
+
+SDP93
+A-10.171.8.5
+B-10.171.12.15
+
+SDP94
+A-10.171.8.6
+B-10.171.12.16
+
+SDP95
+A-10.171.8.7
+B-10.171.12.17
+
+SDP96
+A-10.171.8.8
+B-10.171.12.18
+
+
+1080
+8225 ei 2ta port
+
+LOGIN:CMAX:Ecms@gpc$1n;
+http://172.18.15.56/nsa/
+
+test_in
+123
+
+
+Customer Product Information (CPI)
+product life cycle. (PLC)
+
+ Active Library Explorer (ALEX)
+
+Telecom Server Platform (TSP)
+
+Command Line Interface (CLI)
+
+Uniform Resource Locator (URL)
+
+As Ericsson is responsible for the installation of CCN, all CPI written for installation, upgrade, migration, and verification is written for the following target groups. CPI covering these areas will also be read and to some extent used by the network operators.
+
+he Network Element Description describes the different types of calls and events that are available to the subscriber, and what kind of signalling and events these call types trigger in the different network elements.
+Primary Target Group: Network Planning Engineer, System Administrator, Network Administrator, and Solution Architect
+Secondary Target Groups: Application Administrator, Subscriber Administrator and Customer Care, O&M Management, and Marketing
+
+ALEX 
+Active Library Explorer  
+API 
+Application Programming Interface   
+CCF 
+Cost Control Function   
+CCN 
+Charging Control Node  
+CDR 
+Charging Data Record   
+CLI 
+Command Line Interface   
+CPI 
+Customer Product Information   
+GGSN 
+Gateway GSN   
+GUI 
+Graphical User Interface   
+HLR 
+Home Location Register   
+HSSL 
+High Speed Signalling Link   
+IN 
+Intelligent Network   
+ISP 
+In Service Performance   
+IT 
+Information Technology   
+LDAP 
+Lightweight Directory Access Protocol   
+LDIF 
+LDAP Data Interchange Format   
+MO 
+Managed Object   
+MSC 
+Mobile Switching Center   
+O&M 
+Operation & Maintenance   
+OPI 
+Operation Instruction   
+SASN 
+Service Aware Support Node   
+SCF 
+Service Control Function   
+SDK 
+Software Development Kit   
+SGSN 
+Serving GSN   
+SS7 
+Signaling System No. 7  
+TSP 
+Ericsson Telecom Server Platform 
+
+su - sogadm and then pooltracer die traffic dkhe jkno cbioemar
+
+The request methods in CCN are Charging Interrogation Protocol (CIP/IP and CIP/SS7), Account Finder Protocol, Mobile Application Part (MAP)v3 and Capability Set 1+ (CS1+).
+
+The termination methods in CCN are Ericsson Real Time Charging (ERTC), Capability Set 1 with Ericsson extension (CS1+), CAMEL Application Part (CAP)v1, CAPv2, CAPv3, Service Charging Application Protocol (SCAP), Service Charging Application Protocol version 2 (SCAPv2), Service Rating Application Protocol (SRAP) and Gy.
+
+The transfer method is File Transfer Protocol (FTP).
+DA= dedicated account
+
+SCTP (SIGTRAN) 
+
+for SS7 The front-end processes run on the traffic processors equipped with physical E1/T1 termination and the back-end processes can be run on dedicated traffic processors. 
+CCN acts as a relay function between the MSC and the SDP.
+
+
+Diameter Accounting and Authorization Control (DAAC)/SCAPv2, which is based on Diameter RFC.
+
+
+Two different types of CIP are available: CIP/SS7 and CIP/IP.
+
+Customized Applications for Mobile network Enhanced Logic (CAMEL)
+
+see the connection: HPLMN/VPLMN
+
+It is possible to charge for calls originating outside Home Public Land Mobile Network (HPLMN).
+
+It is possible to charge for originating, terminating, and forwarding calls inside and outside HPLMN. When a circuit switch connection is to be established, a call has to be activated. After the validation in order to set up the call has been made, the MSC/Gateway MSC (GMSC) contacts CCN for the instructions to handle a call for the subscriber. CCN then contacts SDP, which verifies that the subscriber has enough money for the call and reserves the amount for the first time interval. CCN then sends instructions to MSC/GMSC for the call.
+When the time threshold is reached, MSC/GMSC notifies CCN. If it is possible to allow a new charging limit, after checking that there is money on the subscriber's account, CCN specifies a new threshold and the call continues. When the account balance equals or goes below the account empty limit the call is rejected. The call could end because either one of the parties hangs up or the credit is not enough for the next credit reservation. In both cases the CCN generates CDRs.
+
+When a subscriber wants to establish a circuit switch connection, the subscriber can send a USSD message to Home Location Register (HLR). The message is forwarded to SDP using Ericsson's application of MAP (EMAP). SDP uses CIP to notify CCN about the call setup request. CCN then contacts SDP, which verifies if the subscriber has enough money for the call. CCN then sends a request to setup the call to MSC using CS1+ signaling, see Section 3.3.3 Relay Online Charging of Voice, CS1+. The call continues as a CS1+ call.
+
+Relay Online Charging of GPRS is part of the Charging System feature GPRS real-time charging based on CAMEL phase 3. The feature enables charging of Packet Data Protocol (PDP) contexts (data transfer) in real time. The feature is realized, from a network point of view, by implementing the control logic of the charging service in CCN. CCN manages the PDP context control over CAMEL Application Part (CAP) version 3 and interacts with the SDP over CIP for rating and credit check. With PDP context control it means that CCN instructs the SGSN on how to proceed at error situations or when the subscriber account runs out of money.
+
+Relay Online Charging of Content allows the operator to do session-based charging of time, volume, specific units or specified price in real time. All of these types of charging are based on Service Charging Application Protocol (SCAP) 
+
+to see gpstore ip through data CCN(CCN25)go to:data-esy-diameter RFC-peers-diameter connection
+
+*sdpdump shuru hoy 12.00 tar dke,15 min e shesh hoye jay,so 12.30 e kaj shuru krte bolte hbe,VVI: sdpdump er por jno kaj shuru hoy
+
+Yakub ke bolo je ekta way ber korte jate we can get these report on weekly IN meeting
+1. IN availability
+2. MTTR
+3. CSTP SLA achievement
+
+1,3,18,25,27,31 hcche DCCN
+
+ccn25 e session being rejected due to overload ignore kri
+fallback due to remedy was not successful
+dump: subscrbr.ksh na felale abar generate kore
+
+expired account,MBD issue,please ask concerned team
+amra thik krsi script e r ericsson thik krse config file e
+
+
+for duplexity check use command: kstat -p 'igb:0::/link_(speed|up|duplex)/'
+100MBPS mane full duplex and 2,1 akare thakte hbe
+
+ownership rootroot hole sob high 4tar dkeo rpt file generate krte parena,itz bcz of ICP
+
+opt/ dump
+var/opt/fds
+
+hex to aschii or ascii to hex :
+http://www.rapidtables.com/convert/number/hex-to-ascii.htm
+http://www.rapidtables.com/convert/number/ascii-to-hex.htm
+
+uname -a 
+prtdiag -v die node er version dkhe xseries or what
+
+
+nslookup 880178115067.8.msisdn.sub.cs air30
+
+air 71,72 e sap er traffic ase,egulo cps er mainly
+
+CCN33 er por r konotate traffic nai
+
+gpconnect postpaid er jnno
+SSH @ 10.165.52.53 on port 2222
+GUI @ https://10.165.52.54/
+
+For VPN access –
+1)	Please add IP to your VPN group: 10.165.52.53, 10.165.52.40, 10.165.52.41, 10.165.52.54, 10.165.52.55, 10.165.52.56
+2)	Add the below two lines to your host file (C:\Windows\System32\drivers\etc) for GUI access from home:
+10.165.52.55    oit-prod-ts01.grameenphone.com
+10.165.52.56    oit-prod-ts02.grameenphone.com
+
+air 27-77 live
+Angel1@#45
+Yakub Ahmed Sharif Service Operations Technology 1:34 PM
+ECMS1APP1 er pass ki?
+M. A. Aziz Jahan Service Operations Technology 1:34 PM
+Sys@dm1n
+________________________________
+OCC1 disk space and ecms1app1 e disk alarm ase
+
+D@tasync1N
+________________________________
+
+M. A. Aziz Jahan Service Operations Technology 1:19 PM
+CMAX#54321 
+M. A. Aziz Jahan Service Operations Technology 1:25 PM
+./Get_FP_Report.sh cat SUBSCRPT_DATA_20150923_12171.RPT
+
+
+AF: 30,32,37,42,43
+to see backup: cd /var/opt/fds/backup/statistics
+
+m0_s7 of CCN22,anae restart dte hbe
+
+to see CCN processor:
+ssh telorb@ccn22io2 (password telorb)
+ping_all
+cd /opt/telorb/axe/tsp/applog/ (for trace)
+to see any number failed from air use below command in the given airs
+ERS to AIR and AIR to SAP: 41,52,56,70,73,74,75
+SAP to AIr : 56,60,47,48,71,72,66
+/var/opt/air/ftp/batchfiles/onlinerecords
+cat the recent files
+
+file synching kre up krte 2hr lgbe
+
+for gp-gp it will charge from DA
+for gp-any other operator it will charge from MA
+
+CR: http://10.12.1.61:7007/workspace/faces/jsf/workspace/workspace.xhtml
+DB alignment er overall ektai firmware
+
+Minsat batch deletion(MBD) ksu number expire hoye gele auto delete hoye jay
+
+SDP75 and CCN31 e trace bsabo j particular number dbe otar jnno
+
+ecms e ekta number install r delete krte msisdn,imsi r sim lgbe--contract overview thke active option e deactivate krte hbe
+
+df -kh for swap space...1GB er kom hole jhamela
+
+121 e call kre 0 press krle j sobkoyti line besto ase bole seta time free krbe,mainly planning e krbe,amder ksu krte hbe kina jante hbe
+100 error die jkhn fail kre tkhn IN error ase,ota solve,but 115 error live campaign er jnno j karone recharge hbe 1st time but DA34,14,16 egulote bari khbe ebong IN error tarpor o asbe
+
+/var/DWS/processing/CS40/AIR
+nsa another link: http://172.18.15.56/nsa/active_number_series2.php
+
+Gpcs_adm
+solaris server hole prob
+
+io2 local
+io1 cluster1771690399 
+
+
+sdp 66a te rehana apu te xml ase gui password change er
+
+to change ccn password:
+
+passwd --cluster root (or may be telorb)
+save_passwd
+
+su -
+1. before CBIO request 377 (delete krte hbe)
+2. New IMSI in use 783
+3. sending request failed to CPS 632 (too many error)
+4. sending req failed (communication prob) 448
+5.action id 3,4 not valid 227
+6.response timeout,sending failed to bscs 170
+7.HLR failed contr flow enable 97
+8.Null Error: (VMD/GMD) 24007
+
+5000 numbers for customer complain,another 42000 for MBD
+trunc(insert_date) userid in('CIL','BEE')
+
+we'll do for 5000 numbers
+01738648753 
+request iD,msisdn,prm,action details,sync soho
+01730101616
+
+194136445
+datasync
+D@tasync1N
+FDSRequestSender -u fdsuser -p fdsuser -h air31 GUI_Pass_AIR_Change.xml
+
+test prepaid means nischinto in 84,vp in 16 modify krbo r ekhne UAT lkha thkbe
+if live respctvly 80 & 30 and time,vetting egulo dewa thkbe
+
+war room: please bypass(modifying cs)
+rest: as per log,egulo wrong but correct krte hbe
+feb2 porjnto reissue er date dbo switch pass er
+admx user n pw:
+ccnview/CCN@view123
+http://10.179.0.36:8011/admx_ecms/login
+user conf--user maintnnce--search
+air31 history
+cd /var/opt/air/ftp/batchfiles/adjustment
+
+10.165.36.11:2308
+su - ogw (pw:thule)
+
+# which ftp      
+/usr/bin/ftp
+# which rsh
+/usr/bin/rsh
+# CLI
+CBiOocc.1
+GUI
+Gpocc@1123
+air27 test
+
+

@@ -1,0 +1,7 @@
+signmcli
+sysop
+(if down)
+ss7Stack stop
+ss7Stack check
+ss7Stack start
+

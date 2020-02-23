@@ -1,0 +1,49 @@
+Last login: Sun Aug 30 10:47:49 2015 from 10.166.33.17
+Oracle Corporation      SunOS 5.10      Generic Patch   January 2005
+Sourcing //.profile-EIS.....
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # df -k
+Filesystem            kbytes    used   avail capacity  Mounted on
+rootpool/ROOT/sol10u10
+                     286949376 93633254 69927050    58%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 33847168     376 33846792     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/usr/lib/libc/libc_hwcap1.so.1
+                     163560304 93633254 69927050    58%    /lib/libc.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 33923668   76876 33846792     1%    /tmp
+swap                 33846820      28 33846792     1%    /var/run
+rootpool/backup      157286400   19036 69927050     1%    /backup
+rootpool/export      286949376      22 69927050     1%    /export
+rootpool/export/home 286949376 28521862 69927050    29%    /export/home
+rootpool             286949376      47 69927050     1%    /rootpool
+rootpool/core        10485760  234987 10250773     3%    /var/core
+root@gptestecms # cd /var/core
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # ls -ltr
+total 469901
+-rw--w--w-   1 root     root     17369362 Apr 17  2013 cored_0_0.gptestecms.ssmagent.bin.pid_29518.time_1366178744
+-rw--w--w-   1 root     root     17369362 Apr 17  2013 cored_0_0.gptestecms.ssmagent.bin.pid_29518.time_1366178746
+-rw--w--w-   1 root     other    17369362 Apr 17  2013 cored_1_0.gptestecms.ssmagent.bin.pid_29577.time_1366178747
+-rw--w--w-   1 root     root     17369362 Apr 17  2013 cored_1_0.gptestecms.ssmagent.bin.pid_29577.time_1366178750
+-rw--w--w-   1 root     root     59978395 Apr 17  2013 cored_347_347.gptestecms.sqlplus.pid_891.time_1366179764
+-rw--w--w-   1 ecms     ecmsgroup 30820115 May  3  2013 cored_347_347.gptestecms.Naming_Service.pid_21122.time_1367579242
+-rw--w--w-   1 root     root     30820115 May  3  2013 cored_347_347.gptestecms.Naming_Service.pid_21122.time_1367579245
+-rw--w--w-   1 ecms     ecmsgroup 30820115 Jun 18  2013 cored_347_347.gptestecms.Naming_Service.pid_2891.time_1371529462
+-rw--w--w-   1 root     root     30820115 Jun 18  2013 cored_347_347.gptestecms.Naming_Service.pid_2891.time_1371529465
+root@gptestecms # cd /opt/Jetty/logs
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # ls -ltr
+total 98430771
+-rw-r--r--   1 root     root     9945351709 Aug 29 23:59 2015_08_29.stderrout.log.175902249
+-rw-r--r--   1 root     root     18405077463 Aug 30 06:00 2015_08_29.stderrout.log
+-rw-r--r--   1 root     root     22024924689 Aug 30 13:09 2015_08_30.stderrout.log
+root@gptestecms # \rm -f 2015_08_29.stderrout.log.175902249

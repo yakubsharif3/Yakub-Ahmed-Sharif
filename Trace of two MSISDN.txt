@@ -1,0 +1,1860 @@
+[root@sdp75a logs]# tail -f TraceEventLogFile.txt.0 | tr "|" "\n"
+1447153040.465000[20151110 16:57:20.465000] Module: PSC-TrafficHandler/8.1/A/1 Event: Tree execution trace ID: 9900006 Type: 2269699863190011905 Count: 110663 Aff.Obj: 1711080561 Info: Provider: DedicatedAccount RatingPlan: 11
+SDP local time: 2015-11-10 16:57:20 +06:00
+Start time:         2015-11-10 16:56:31 +06:00
+
+Print out of data set:
+  Account group id: 15
+  Service offerings: 268435464
+  FaF indicator: 0
+  Service class: 1015
+  Subscription type: -1
+  Community ID: 0
+  Main account: 0.000000
+  Dedicated Accounts: 
+   ID   Prod. ID  Balance          Start date     Expiry date     Empty level  Real money  Composite  DA type  DA owner  PAM relative dates  
+   ---  --------  ---------------  -------------  --------------  -----------  ----------  ---------  -------  --------  ------------------  
+    99         0     50000.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   100         0   9999429.395834     2007-06-05  No expiry date           No         Yes         No    Money  Consumer                  No  
+   101         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   102         0       500.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   103         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   104         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   105         0       108.680000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   106         0         0.010000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   107         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   108         0         0.010000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   109         0         0.010000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   110         0         0.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   111         0         0.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   112         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   113         0         0.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   136         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   137         0       500.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   138         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   139         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   141         0       500.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   145         0        88.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   146         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   150         0      1042.663324  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   200         0  10000000.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   207         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   211         0        57.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   212         0       345.980000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   213         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No
+  Offers:
+   ID    Prod. ID  Offer type  Start date/time  Expiry date/time  Enabled  PAM relative dates  Fee Applied  
+   ----  --------  ----------  ---------------  ----------------  -------  ------------------  -----------  
+   1100         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1101         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1102         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1103         0     Account       2015-06-20         No expiry      Yes                  No          N/A
+
+ Context specific information: 
+  Charging context: CAPv2_V.1.0@ericsson.com
+  Service identifier: 0
+  Call setup result: Successful
+  Subscription-Id-Address: 1711080561
+  Subscription-Id-IMSI-Address: 470010550921534
+  Service extension: Not set
+  Service scenario: Mobile Originating
+  Roaming position: Inside HPLMN
+  Other-Party-Id-Address: 01552202841
+  Subscription-Id-Location: 880170300032089
+
+
+
+ ========================================== [CBiO_DA_PA39]
+  ========================================== [Migration]
+   1? <FALSE> String : SPI-Utf8String-011([VALUE NOT FOUND]) equals (case insensitive) "migration"
+  ========================================== [Consumer]
+   1? <FALSE> The list of Offer IDs was  NOT a match to the list in Rating Data
+  ========================================== [Voice]
+   1? <TRUE> Using AND on the result from all children.
+    1? <TRUE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "CAPv2_V.1.0@ericsson.com"
+    2? <TRUE> ULong : Service identifier(0) = 0
+    3? <TRUE> Using OR on the result from all children.
+     1? <TRUE> UInteger : Service-Scenario(Mobile Originating) = Mobile Originating
+     2? <FALSE> UInteger : Service-Scenario(Mobile Originating) = Mobile Forwarding
+   ========================================== [Originating]
+    ========================================== [Explicit]
+     ========================================== [All-Net]
+      1? <FALSE> Using AND on the result from all children.
+       1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+       2? <FALSE> Dedicated account value at call setup for DA 7 is  expired or does not exist.
+     ========================================== [AllNet New]
+      1? <FALSE> Using AND on the result from all children.
+       1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+       2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+     ========================================== [On-Net]
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+     ========================================== [On-Net]
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+     ========================================== [Multi]
+      ========================================== [Two]
+       ========================================== [ONNET]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+       ========================================== [All-ON]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 7 is  expired or does not exist.
+       ========================================== [All FaF]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+       ========================================== [New ALL]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 7 is  expired or does not exist.
+       ========================================== [New ON]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+       ========================================== [New FaF]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+      ========================================== [Three]
+       ========================================== [All FaF]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+       ========================================== [All-ON]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+       ========================================== [ONNET]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+       ========================================== [AllONFaF]
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+          2? <FALSE> Dedicated account value at call setup for DA 7 is  expired or does not exist.
+     ========================================== [Net]
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> Using AND on the result from all children.
+        1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+        2? <FALSE> Dedicated account value at call setup for DA 8 is  expired or does not exist.
+    ========================================== [Extraordinary]
+     ========================================== [On-Net]
+      1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+     ========================================== [Offnet]
+      1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+      ========================================== [DA23]
+       1! Selected Offer Id = 1102
+       1! Max number of dedicated accounts = 255
+       1! Sorting on first expiry
+       1! ID   Balance   Expiry Date   
+       1! 23       0.0   No expiry date   
+       1!  8       0.0   No expiry date   
+       1!  7       0.0   No expiry date
+    ========================================== [Explicit]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> The list of Offer IDs was  NOT a match to the list in Rating Data
+    ========================================== [Extraordinary]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+  ========================================== [SMS]
+   1? <FALSE> Using AND on the result from all children.
+    1? <FALSE> ULong : Service identifier(0) = 3
+  ========================================== [VSMS]
+   1? <TRUE> Using AND on the result from all children.
+    1? <TRUE> ULong : Service identifier(0) = 0
+    2? <TRUE> UInteger : Service-Scenario(Mobile Originating) = Mobile Originating
+   ========================================== [Implicit]
+    ========================================== [VSMS]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+   ========================================== [Explicit]
+    ========================================== [EX7,8,9,17,37]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> The list of Offer IDs was  NOT a match to the list in Rating Data
+   ========================================== [Extra-ordinary]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> Called party number (01552202841) is NOT found in list.
+  ========================================== [MMS SCAPV2]
+   1? <FALSE> Using AND on the result from all children.
+    1? <FALSE> ULong : Service identifier(0) = 3
+  ========================================== [Mcentrex]
+   1? <FALSE> Using AND on the result from all children.
+    1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+  ========================================== [GPRS]
+   1? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match EDGE
+  ========================================== [TAP-IN]
+   1? <FALSE> Using OR on the result from all children.
+    1? <FALSE> CompareField : X_FILE_IND(H) Exact_match V
+    2? <FALSE> CompareField : X_FILE_IND(H) Exact_match v
+  ========================================== [Normal]
+   1? <TRUE> Using NOT on the result from all children.
+    1? <FALSE> The list of Offer IDs was  NOT a match to the list in Rating Data
+   ========================================== [PRBT]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> UShort : Tele service code(Voice) = Content
+   ========================================== [PRBT_Music360]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> ULong : Service identifier(0) = 1
+   ========================================== [GPWORLD]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> IntegerNumberList : Service provider ID(0) is found in list
+   ========================================== [VAS Usage]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+   ========================================== [Default]
+    ========================================== [DA100]
+     1! Max number of dedicated accounts = 255
+     1! Sorting on Identity
+     1! Account ID   Balance    Expiry Date
+     1!    100     9999429.395834     1970-01-01
+
+Result:
+Selected Offers [Selected DAs][Main Account]: 0 [DedicatedAccountKey [dedicatedAccountId=100, productId=0]][MA]
+
+ 1102 [DedicatedAccountKey [dedicatedAccountId=23, productId=0], DedicatedAccountKey [dedicatedAccountId=8, productId=0], DedicatedAccountKey [dedicatedAccountId=7, productId=0]]
+
+Selected DAs: [100]
+
+Parameters that were changed:
+
+Output Tree defined variables
+LOGICAL_QUANTITY_CODE = DUR
+NETWORK_PKEY = BGDGP
+CHARGEABLE_QUANTITY_UDMCODE = 5
+USAGE_IND_PKEY = OUT
+IS_PREPAID = N
+SN_PKEY = TLPHY
+CallType = 1
+IS_HYBRID = N
+X_FILE_IND = H
+UOM_PKEY = Sec
+
+
+1447153040.485000[20151110 16:57:20.485000] Module: PSC-TrafficHandler/8.1/A/1 Event: Tree execution trace ID: 9900006 Type: 2269699863190011905 Count: 110664 Aff.Obj: 1711080561 Info: Provider: Rating RatingPlan: 99
+SDP local time: 2015-11-10 16:56:31 +06:00
+Start time:         2015-11-10 16:56:31 +06:00
+
+Print out of data set:
+  Account group id: 15
+  Service offerings: 268435464
+  FaF indicator: 0
+  Service class: 1015
+  Subscription type: -1
+  Community ID: 0
+  Activation date: 2007-6-5
+  Active service: true
+  Passive service: true
+  Account in Euro: false
+  Euro conversion factor: 1.0
+  Main account: 0.000000
+  Main account empty level: 0.000000
+  Individual Price Factor: 100.0% (default value)
+  Dedicated Accounts: 
+   ID   Prod. ID  Balance          Start date     Expiry date     Empty level  Real money  Composite  DA type  DA owner  PAM relative dates  
+   ---  --------  ---------------  -------------  --------------  -----------  ----------  ---------  -------  --------  ------------------  
+    99         0     50000.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   100         0   9999429.395834     2007-06-05  No expiry date           No         Yes         No    Money  Consumer                  No  
+   101         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   102         0       500.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   103         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   104         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   105         0       108.680000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   106         0         0.010000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   107         0         0.000000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   108         0         0.010000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   109         0         0.010000     2007-06-05  No expiry date           No          No         No    Money  Consumer                  No  
+   110         0         0.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   111         0         0.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   112         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   113         0         0.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   136         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   137         0       500.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   138         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   139         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   141         0       500.010000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   145         0        88.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   146         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   150         0      1042.663324  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   200         0  10000000.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   207         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   211         0        57.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   212         0       345.980000  No start date  No expiry date           No          No         No    Money  Consumer                  No  
+   213         0         0.000000  No start date  No expiry date           No          No         No    Money  Consumer                  No
+  Accumulators:
+   ID   Counter  Clearing date  
+   ---  -------  -------------  
+     5        0     2015-06-21  
+    98        0     2015-09-21  
+    99        0     2015-11-10  
+   100        0     2015-06-20
+  Usage counters: No usage counters exists
+  Offers:
+   ID    Prod. ID  Offer type  Start date/time  Expiry date/time  Enabled  PAM relative dates  Fee Applied  
+   ----  --------  ----------  ---------------  ----------------  -------  ------------------  -----------  
+   1100         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1101         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1102         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1103         0     Account       2015-06-20         No expiry      Yes                  No          N/A
+  Dynamic discounts: No available discounts
+   Selected Offers:
+   Product ID  ID    [DA IDs]  Include Main  Major Priority  Minor Priority  Sorted  
+   ----------  ----  --------  ------------  --------------  --------------  ------  
+            0  1102        []         false
+
+ Context specific information: 
+  Charging context: CAPv2_V.1.0@ericsson.com
+  Service identifier: 0
+  Call setup result: Successful
+  Subscription-Id-Address: 1711080561
+  Subscription-Id-IMSI-Address: 470010550921534
+  Service extension: Not set
+  Service scenario: Mobile Originating
+  Roaming position: Inside HPLMN
+  Other-Party-Id-Address: 01552202841
+  Subscription-Id-Location: 880170300032089
+
+*** Debit ****
+ Units to rate:
+  Duration (cont.): 49 of 49, units already paid for is 0
+
+
+
+ ========================================== [Live_16420]
+  ========================================== [Migration]
+   1? <FALSE> String : SPI-Utf8String-011([VALUE NOT FOUND]) contains (case insensitive) "migration"
+  ========================================== [Roaming]
+   ========================================== [Voice]
+    1? <FALSE> Using AND on the result from all children.
+     1? <TRUE> ULong : Service identifier(0) = 0
+     2? <FALSE> UInteger : Roaming-Position(Inside HPLMN) = Outside HPLMN
+     3? <TRUE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "CAPv2_V.1.0@ericsson.com"
+  ========================================== [Numberlist]
+   ========================================== [GP]
+    1? <FALSE> Called party number (01552202841) is NOT found in list.
+   ========================================== [Other than GP]
+    1? <TRUE> Called party number (01552202841) is found in list.
+   ========================================== [Other than GP with BTTB]
+    1? <TRUE> Called party number (01552202841) is found in list.
+   ========================================== [BTTB]
+    1? <FALSE> Called party number (01552202841) is NOT found in list.
+   ========================================== [ISD]
+    1? <FALSE> Called party number (01552202841) is NOT found in list.
+  ========================================== [TDF]
+   1? <TRUE> CompareField : X_FILE_IND(H) Exact_match H
+   ========================================== [Default Code]
+    ========================================== [Voice/Video]
+     1? <TRUE> Using AND on the result from all children.
+      1? <TRUE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "CAPv2_V.1.0@ericsson.com"
+      2? <TRUE> StringLength : Other-Party-Id-Address("01552202841") has length >= 8 characters
+      3? <TRUE> Using OR on the result from all children.
+       1? <FALSE> UShort : Tele service code(Voice) = Fax
+       2? <FALSE> UShort : Tele service code(Voice) = Video
+       3? <TRUE> UShort : Tele service code(Voice) = Voice
+       4? <FALSE> UShort : Tele service code(Voice) = Data
+      4? <TRUE> Using OR on the result from all children.
+       1? <TRUE> Short : Traffic case(Originating) = Originating
+       2? <FALSE> Short : Traffic case(Originating) = Forwarded
+       3? <FALSE> Short : Traffic case(Originating) = Originating service charging
+     ========================================== [Onnet]
+      1? <FALSE> Called party number (01552202841) is NOT found in list.
+     == INVERTED ============================== [Offnet]
+      1? <FALSE> Called party number (01552202841) is NOT found in list.
+      1! SetField : BUSINESS_INFO_BS_ID = "54"
+    ========================================== [SMS]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+      2? <TRUE> StringLength : Other-Party-Id-Address("01552202841") has length >= 8 characters
+      3? <FALSE> IntegerNumberList : Service provider ID(0) is found in list
+      4? <FALSE> ULong : Service identifier(0) = 3
+      5? <TRUE> Using OR on the result from all children.
+       1? <TRUE> Short : Traffic case(Originating) = Originating
+       2? <FALSE> Short : Traffic case(Originating) = Originating service charging
+    ========================================== [EDGE]
+     1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "Ericsson_OCS_V1_0.0.0.7.32251@3gpp.org"
+   ========================================== [MCentrex]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+     2? <FALSE> ULong : Service identifier(0) = 100
+     3? <FALSE> Using OR on the result from all children.
+      1? <FALSE> Short : Traffic case(Originating) = Originating service charging
+      2? <FALSE> Integer : SPI-Integer32-003([VALUE NOT FOUND]) = 20
+   ========================================== [VSMS]
+    1? <FALSE> Using AND on the result from all children.
+     1? <TRUE> UInteger : Service-Scenario(Mobile Originating) = Mobile Originating
+     2? <TRUE> ULong : Service identifier(0) = 0
+     3? <FALSE> Called party number (01552202841) is NOT found in list.
+   ========================================== [Voice HPLMN]
+    1? <TRUE> Using AND on the result from all children.
+     1? <TRUE> Using OR on the result from all children.
+      1? <TRUE> CompareField : SN_PKEY(TLPHY) Exact_match TLPHY
+      2? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match DT96B
+      3? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match AFAXG
+     2? <TRUE> CompareField : SPL_NO(0) = 0
+    ========================================== [ONNET]
+     1? <FALSE> Using OR on the result from all children.
+      1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "017"
+      2? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "88017"
+    ========================================== [OFFNET]
+     1? <TRUE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+     ========================================== [OFFNET DESTINATIONS]
+      1? <TRUE> Using NOT on the result from all children.
+       1? <FALSE> ShortNumberList : Service class(1015) is found in list
+      ========================================== [CityCell Mobile]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "011"
+      ========================================== [TeleTalk Mobile]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <TRUE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "015"
+        1! SetField : ZP_PKEY = "ZP001045"
+        1! Qualifier hit list: 1
+      ========================================== [Warid Mobile]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "016"
+      ========================================== [Robi Mobile]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "018"
+      ========================================== [Banglalink Mobile]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "019"
+      ========================================== [PSTN World Tel Central]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0307"
+      ========================================== [PSTN BayPhone 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0313"
+      ========================================== [PSTN BanglaPhone]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0359"
+      ========================================== [PSTN Telebarta 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0363"
+      ========================================== [PSTN Telebarta 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0364"
+      ========================================== [PSTN Telebarta 3]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0365"
+      ========================================== [PSTN Telebarta Central]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0367"
+      ========================================== [PSTN Telebarta 4]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0369"
+      ========================================== [Khagrachari District / SMS NT]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "037"
+      ========================================== [PSTN National Telecom 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0373"
+      ========================================== [PSTN National Telecom 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0374"
+      ========================================== [PSTN National Telecom 3]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0375"
+      ========================================== [PSTN National Telecom Central]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0377"
+      ========================================== [PSTN National Telecom 4]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0379"
+      ========================================== [PSTN Peoples Tel 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0383"
+      ========================================== [PSTN Peoples Tel 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0384"
+      ========================================== [PSTN Peoples Tel 3]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0385"
+      ========================================== [PSTN Peoples Tel 4]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0389"
+      ========================================== [PSTN SA Telecom]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0393"
+      ========================================== [PSTN Jalaalabad NE]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0409"
+      ========================================== [PSTN ShebaPhone 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0423"
+      ========================================== [PSTN ShebaPhone 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0424"
+      ========================================== [PSTN ShebaPhone 3]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0425"
+      ========================================== [Patuakhali District / SMS RTL]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "044"
+      ========================================== [PSTN RanksTel South East]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0443"
+      ========================================== [PSTN RanksTel South West]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0444"
+      ========================================== [PSTN RanksTel North West 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "04450"
+      ========================================== [PSTN RanksTel North West 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "04451"
+      ========================================== [PSTN RanksTel North West 3]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "04458"
+      ========================================== [PSTN RanksTel North West 4]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "04459"
+      ========================================== [PSTN RanksTel Central]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0447"
+      ========================================== [PSTN Ranks Tel North East]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0449"
+      ========================================== [PSTN Jalaalabad Telcom NE 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "060540"
+      ========================================== [PSTN Jalaalabad Telcom NE 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "060541"
+      ========================================== [PSTN RanksTel]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0607"
+      ========================================== [PSTN OneTel]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0644"
+      ========================================== [PSTN Dhaka Phone SMS]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "0666"
+      ========================================== [PSTN Dhaka Phone Central]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "06662"
+      ========================================== [PSTN Dhaka Phone South East]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "06663"
+      ========================================== [PSTN Dhaka Phone South West]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "06664"
+      ========================================== [PSTN Dhaka Phone North West]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "06665"
+      ========================================== [PSTN Dhaka Phone North East 1]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "06668"
+      ========================================== [PSTN Dhaka Phone North East 2]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "06669"
+      ========================================== [PSTN IPTSP BTS Communication]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09601"
+      ========================================== [PSTN IPTSP ISN]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09602"
+      ========================================== [PSTN IPTSP Royal Green Online]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09603"
+      ========================================== [PSTN IPTSP Fusion Net]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09604"
+      ========================================== [PSTN IPTSP Agni Systems Ltd]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09606"
+      ========================================== [PSTN IPTSP Beximco Online Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09609"
+      ========================================== [PSTN IPTSP Advanced Data Net]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09610"
+      ========================================== [PSTN IPTSP Dhakacom Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09611"
+      ========================================== [PSTN IPTSP Metro Net BD Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09612"
+      ========================================== [PSTN IPTSP HRC Technologies]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09613"
+      ========================================== [PSTN IPTSP Next Online Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09614"
+      ========================================== [PSTN IPTSP Ranks ITT]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09617"
+      ========================================== [PSTN IPTSP Ctg Online Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09619"
+      ========================================== [AccessTEL]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09622"
+      ========================================== [PSTN IPTSP JF Optical Service]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09623"
+      ========================================== [PSTN IPTSP Sadiatec Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09628"
+      ========================================== [PSTN IPTSP IS Pros Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09631"
+      ========================================== [PSTN IPTSP Media and Multimedia]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09632"
+      ========================================== [PSTN IPTSP Pritty Internationa]
+       1? <TRUE> Using OR on the result from all children.
+        1? <TRUE> Using NOT on the result from all children.
+         1? <FALSE> Using OR on the result from all children.
+          1? <FALSE> Using AND on the result from all children.
+           1? <FALSE> Integer : Account Group ID(15) = 128
+           2? <FALSE> ShortNumberList : Service class(1015) is found in list
+          2? <FALSE> Using AND on the result from all children.
+           1? <FALSE> Integer : Account Group ID(15) = 166
+           2? <FALSE> ShortNumberList : Service class(1015) is found in list
+        2? <FALSE> Using NOT on the result from all children.
+         1? <TRUE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09634"
+      ========================================== [PSTN IPTSP HN Telecom]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09635"
+      ========================================== [PSTN IPTSP NReach Net]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09636"
+      ========================================== [PSTN IPTSP INTERCLOUD]
+       1? <TRUE> Using OR on the result from all children.
+        1? <TRUE> Using NOT on the result from all children.
+         1? <FALSE> Using OR on the result from all children.
+          1? <FALSE> Using AND on the result from all children.
+           1? <FALSE> Integer : Account Group ID(15) = 128
+           2? <FALSE> ShortNumberList : Service class(1015) is found in list
+          2? <FALSE> Using AND on the result from all children.
+           1? <FALSE> Integer : Account Group ID(15) = 166
+           2? <FALSE> ShortNumberList : Service class(1015) is found in list
+        2? <FALSE> Using NOT on the result from all children.
+         1? <TRUE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09638"
+      ========================================== [PSTN IPTSP E-Bangla]
+       1? <TRUE> Using OR on the result from all children.
+        1? <FALSE> Using NOT on the result from all children.
+         1? <TRUE> ShortNumberList : Service class(1015) is found in list
+        2? <TRUE> Using NOT on the result from all children.
+         1? <FALSE> Using OR on the result from all children.
+          1? <FALSE> Using AND on the result from all children.
+           1? <FALSE> Integer : Account Group ID(15) = 128
+           2? <FALSE> ShortNumberList : Service class(1015) is found in list
+          2? <FALSE> Using AND on the result from all children.
+           1? <FALSE> Integer : Account Group ID(15) = 166
+           2? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09654"
+      ========================================== [PSTN IPTSP BDCOM Online]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09666"
+      ========================================== [PSTN IPTSP ConnectBD Ltd]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09669"
+      ========================================== [PSTN IPTSP Link 3 Technology]
+       1? <TRUE> Using NOT on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "09678"
+      ========================================== [Crown Logistics]
+       ========================================== [ZP Code]
+        1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "16397"
+     ========================================== [RICODE 4,61,109]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE74,79,86,87,91,105,110, 114,355]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE269]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE277,333,340,345,348,349]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 166,178,255,256,257,258,354]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 266,269,270,275,276,278,280,291,293,294,297,298,311,312,314,320,331,332,334,342,347,593,594]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 322]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 268,351,352,353,382,383,384,390,418,423,424,433,436,440-444 (24]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE161,162,169,171, 350,358,391,396,419,157,160]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 393,438,439]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 85]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 416,435]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE29]
+      1? <TRUE> ShortNumberList : Service class(1015) is found in list
+      1! SetField : ZN_PKEY = "GVZN000072"
+      1! Qualifier hit list: 1
+      ========================================== [TT Code]
+       ========================================== [8AM-8PM]
+        1? <TRUE> Current time IS between 08:00:00 and 19:59:59
+        1! SetField : TT_PKEY = "TWTT000088"
+        1! Qualifier hit list: 1
+       ========================================== [8PM-8AM]
+        1? <FALSE> Current time is NOT between 20:00:00 and 07:59:59
+     ========================================== [RICODE 27]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE58]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 60]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 78]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 163]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 167,168,259]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 170]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 172]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 475]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 176,177]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 149]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+     ========================================== [RICODE 444,551,559,569,570,575,583,584]
+      1? <FALSE> ShortNumberList : Service class(1015) is found in list
+    ========================================== [CATCH ALL]
+     1? <FALSE> Using AND on the result from all children.
+      1? <TRUE> Using NOT on the result from all children.
+       1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "00"
+      2? <FALSE> CompareField : ZP_PKEY(ZP001045) Exact_match
+    ========================================== [ISD]
+     1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "00"
+   ========================================== [Video Call HPLMN]
+    1? <FALSE> Using AND on the result from all children.
+     1? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match 3GVC
+     2? <TRUE> CompareField : X_FILE_IND(H) Exact_match H
+   ========================================== [SMS HPLM]
+    ========================================== [ORIGINATING]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match SMS
+      2? <TRUE> CompareField : SPL_NO(0) = 0
+    ========================================== [TERMINATING]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+      2? <FALSE> Short : Traffic case(Originating) = Terminating service charging
+      3? <FALSE> NumberSeries : Service-Provider-Id([VALUE NOT FOUND]) is found in series
+   ========================================== [GPRS]
+    1? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match EDGE
+   ========================================== [VAS]
+    1? <FALSE> CompareField : Charging context ID(CAPv2_V.1.0@ericsson.com) Exact_match CIP/SS7
+   ========================================== [MMS]
+    1? <FALSE> CompareField : SN_PKEY(TLPHY) Exact_match MMS
+   ========================================== [Short Codes]
+    ========================================== [ShortCode TDF]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+      2? <FALSE> Using AND on the result from all children.
+       1? <FALSE> CompareField : SPL_NO(0) = 1
+       2? <FALSE> Short : Traffic case(Originating) = Originating service charging
+       3? <FALSE> Integer : SPI-Integer32-004([VALUE NOT FOUND]) = 20
+       4? <FALSE> NumberSeries : Service-Provider-Id([VALUE NOT FOUND]) is found in series
+     2? <FALSE> Using AND on the result from all children.
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) CIP/SS7
+      2? <FALSE> Using OR on the result from all children.
+       1? <FALSE> Using AND on the result from all children.
+        1? <FALSE> NumberSeries : Orig. location info([VALUE NOT FOUND]) is found in series
+        2? <FALSE> UShort : Tele service code(Voice) = SMS
+        3? <FALSE> Checking input Unit Type 'Time' against 'Event/ServiceSpecific', Result is False
+       2? <FALSE> Using AND on the result from all children.
+        1? <FALSE> Short : Traffic case(Originating) = Terminating service charging
+        2? <FALSE> Integer : SPI-Integer32-004([VALUE NOT FOUND]) = 21
+        3? <FALSE> NumberSeries : Service-Provider-Id([VALUE NOT FOUND]) is found in series
+       3? <FALSE> Using AND on the result from all children.
+        1? <TRUE> Originating location information (880170300032089) is found in list.
+        2? <FALSE> Short : Traffic case(Originating) = Originating service charging
+       4? <FALSE> Using AND on the result from all children.
+        1? <FALSE> Short : Traffic case(Originating) = Originating service charging
+        2? <FALSE> Integer : SPI-Integer32-004([VALUE NOT FOUND]) = 21
+        3? <FALSE> NumberSeries : Service-Provider-Id([VALUE NOT FOUND]) is found in series
+     3? <FALSE> Using AND on the result from all children.
+      1? <TRUE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "CAPv2_V.1.0@ericsson.com"
+      2? <FALSE> CompareField : SPL_NO(0) = 1
+   ========================================== [Tunes]
+    ========================================== [Welcome Tune]
+     1? <FALSE> String : SPI-Utf8String-001([VALUE NOT FOUND]) contains (case insensitive) "WelcomeTune"
+    ========================================== [Icche Tune]
+     1? <FALSE> String : SPI-Utf8String-001([VALUE NOT FOUND]) contains (case insensitive) "IccheTune"
+   ========================================== [VAS1]
+    ========================================== [SMS]
+     1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+    ========================================== [UMB]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+      2? <FALSE> IntegerNumberList : Service provider ID(0) is found in list
+      3? <FALSE> ULong : Service identifier(0) = 3
+    ========================================== [Pay 4 Me]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+      2? <FALSE> IntegerNumberList : Service provider ID(0) is found in list
+      3? <FALSE> ULong : Service identifier(0) = 100
+  ========================================== [Free Unit]
+   ===== Offer ID: 1102 ===================== [Extra ordinary]
+    ========================================== [VSMS]
+     1? <FALSE> Using AND on the result from all children.
+      1? <FALSE> Called party number (01552202841) is NOT found in list.
+      2? <TRUE> ULong : Service identifier(0) = 0
+      3? <TRUE> UInteger : Service-Scenario(Mobile Originating) = Mobile Originating
+    ========================================== [VOICE]
+     1? <TRUE> Using OR on the result from all children.
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+       2? <FALSE> ULong : Service identifier(0) = 100
+       3? <FALSE> Integer : SPI-Integer32-003([VALUE NOT FOUND]) = 20
+      2? <TRUE> Using AND on the result from all children.
+       1? <TRUE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "CAPv2_V.1.0@ericsson.com"
+       2? <TRUE> ULong : Service identifier(0) = 0
+       3? <TRUE> UInteger : Service-Scenario(Mobile Originating) = Mobile Originating
+     ========================================== [Onnet]
+      1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "017"
+     ========================================== [Offnet]
+      1? <TRUE> Using NOT on the result from all children.
+       1? <FALSE> String : Other-Party-Id-Address("01552202841") begins with (case sensitive) "017"
+      ========================================== [CI1]
+       1? <TRUE> ShortNumberList : Service class(1015) is found in list
+       1! Non-monetary modifier for Time units.
+       1!    Requested units left=49  Money left=0  Non-monetary units left=0.0
+       1!    Price=0.06  Price factor=1.0  Individual price factor=1.0  Interval=1  Non-monetary interval=60
+       1!    Allocated units=0  Cost=0  Accumulated cost=0  Non-monetary cost=0  Accumulated non-monetary cost=0
+       1!    Accumulator delta=No accumulator selected
+       1!            UsageCounter: No usage counter ids specified in modifier
+       1! 
+       1! Qualifier hit list: 102, 1022
+  ========================================== [Large Account]
+  ========================================== [Below CL(crossed ut5 but below ut4)]
+   ========================================== [Below CL]
+    ========================================== [CL]
+     ========================================== [TAPIN]
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> Using OR on the result from all children.
+        1? <FALSE> String : SPI-Utf8String-005([VALUE NOT FOUND]) equals (case sensitive) "v"
+        2? <FALSE> String : SPI-Utf8String-005([VALUE NOT FOUND]) equals (case sensitive) "V"
+       2? <FALSE> Using OR on the result from all children.
+        1? <FALSE> Using AND on the result from all children.
+         1? <FALSE> String : SPI-Utf8String-006([VALUE NOT FOUND]) equals (case sensitive) "2"
+         2? <FALSE> Using OR on the result from all children.
+          1? <FALSE> ULong : Service identifier(0) = 500
+          2? <FALSE> ULong : Service identifier(0) = 504
+        2? <FALSE> Using AND on the result from all children.
+         1? <FALSE> String : SPI-Utf8String-006([VALUE NOT FOUND]) equals (case sensitive) "1"
+         2? <FALSE> Using OR on the result from all children.
+          1? <FALSE> ULong : Service identifier(0) = 500
+          2? <FALSE> ULong : Service identifier(0) = 504
+        3? <FALSE> Using OR on the result from all children.
+         1? <FALSE> String : SPI-Utf8String-006([VALUE NOT FOUND]) equals (case sensitive) "11"
+         2? <FALSE> String : SPI-Utf8String-006([VALUE NOT FOUND]) equals (case sensitive) "12"
+     ========================================== [VAS]
+      1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+     ========================================== [VSMS]
+      1? <FALSE> Using OR on the result from all children.
+       1? <FALSE> Using AND on the result from all children.
+        1? <FALSE> Integer : SPI-Integer32-003([VALUE NOT FOUND]) = 20
+        2? <FALSE> ULong : Service identifier(0) = 100
+        3? <FALSE> NumberSeries : SPI-Utf8String-007([VALUE NOT FOUND]) is found in series
+       2? <FALSE> Using AND on the result from all children.
+        1? <TRUE> UInteger : Service-Scenario(Mobile Originating) = Mobile Originating
+        2? <TRUE> ULong : Service identifier(0) = 0
+        3? <FALSE> Called party number (01552202841) is NOT found in list.
+       3? <FALSE> Using AND on the result from all children.
+        1? <FALSE> Short : Traffic case(Originating) = Originating service charging
+        2? <FALSE> Using OR on the result from all children.
+         1? <FALSE> Using AND on the result from all children.
+          1? <FALSE> ExtensionNr 1 with value -1 NOT found in list
+          2? <FALSE> String : Extension text("") begins with (case sensitive) "gpgp_ssdt_ssdt_VSMSFWD"
+         2? <FALSE> Using AND on the result from all children.
+          1? <FALSE> ExtensionNr 1 with value -1 NOT found in list
+          2? <FALSE> String : Extension text("") begins with (case sensitive) "gpgp_ssdt_ssdt_VSMSREPLY"
+     ========================================== [Welcometue/IccheTune]
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> Using OR on the result from all children.
+        1? <FALSE> String : SPI-Utf8String-001([VALUE NOT FOUND]) contains (case insensitive) "WelcomeTune"
+        2? <FALSE> String : SPI-Utf8String-001([VALUE NOT FOUND]) contains (case insensitive) "IccheTune"
+       2? <FALSE> Short : Traffic case(Originating) = Originating service charging
+       3? <FALSE> IntegerNumberList : Service provider ID(0) is found in list
+       4? <FALSE> ULong : Service identifier(0) = 1
+     ========================================== [MUSIC 360]
+      1? <FALSE> ULong : Service identifier(0) = 1
+     ========================================== [MCentrex]
+      1? <FALSE> Using AND on the result from all children.
+       1? <FALSE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "SCAP_V.2.0@ericsson.com"
+       2? <FALSE> ULong : Service identifier(0) = 100
+       3? <FALSE> Using OR on the result from all children.
+        1? <FALSE> Short : Traffic case(Originating) = Originating service charging
+        2? <FALSE> Integer : SPI-Integer32-003([VALUE NOT FOUND]) = 20
+     ========================================== [Fax]
+      1? <FALSE> UShort : Tele service code(Voice) = Fax
+     ========================================== [Data]
+      1? <FALSE> UShort : Tele service code(Voice) = Data
+     ========================================== [Voice Data Fax]
+      1? <TRUE> UShort : Tele service code(Voice) = Voice
+      2? <FALSE> UShort : Tele service code(Voice) = Data
+      3? <FALSE> UShort : Tele service code(Voice) = Fax
+      4? <FALSE> Using AND on the result from all children.
+       1? <FALSE> ULong : Service identifier(0) = 100
+       2? <FALSE> Using AND on the result from all children.
+        1? <FALSE> Integer : SPI-Integer32-001([VALUE NOT FOUND]) = 1
+        2? <FALSE> Integer : SPI-Integer32-003([VALUE NOT FOUND]) = 20
+      ========================================== [RP]
+       1? <FALSE> Using AND on the result from all children.
+        1? <FALSE> ShortNumberList : Service class(1015) is found in list
+        2? <FALSE> Using OR on the result from all children.
+         1? <FALSE> UShort : Tele service code(Voice) = Data
+         2? <FALSE> UShort : Tele service code(Voice) = Fax
+      ========================================== [VMS long Code]
+       1? <FALSE> Using AND on the result from all children.
+        1? <TRUE> Short : Traffic case(Originating) = Originating
+        2? <FALSE> Called party number (01552202841) is NOT found in list.
+      ========================================== [Originating]
+       1? <TRUE> Short : Traffic case(Originating) = Originating
+       2? <FALSE> Short : Traffic case(Originating) = Forwarded
+       3? <FALSE> Short : Traffic case(Originating) = Originating service charging
+       ========================================== [Charging]
+        1? <TRUE> ActiveDedicatedAccounts.
+        ========================================== [OFFNET DA]
+         1? <FALSE> Dedicated account ID (23) is NOT equal to current selected account.
+        ========================================== [All]
+         1? <TRUE> Dedicated account ID (100) is equal to current selected account.
+         ========================================== [Charging]
+          ========================================== [SPL NO. CONFIGURATION]
+           ========================================== [Intl Toll Free]
+            1? <FALSE> Called party number (01552202841) is NOT found in list.
+           ========================================== [SPECIAL NUMBER CLASS]
+            1? <FALSE> StringList : SPL_NO_CLASS("") exactly matches (case sensitive) an entry in list
+           ========================================== [Single Hotline (121)]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+             2? <TRUE> NumberSeries : Subscription-Id-IMSI-Address(470010550921534) is found in series
+             3? <TRUE> Using OR on the result from all children.
+              1? <FALSE> Integer : Account Group ID(15) = 27
+              2? <FALSE> Integer : Account Group ID(15) = 4
+              3? <FALSE> Integer : Account Group ID(15) = 105
+              4? <FALSE> Integer : Account Group ID(15) = 62
+              5? <FALSE> Integer : Account Group ID(15) = 77
+              6? <FALSE> Integer : Account Group ID(15) = 111
+              7? <FALSE> Integer : Account Group ID(15) = 110
+              8? <FALSE> Integer : Account Group ID(15) = 120
+              9? <FALSE> Integer : Account Group ID(15) = 121
+              10? <FALSE> Integer : Account Group ID(15) = 118
+              11? <FALSE> Integer : Account Group ID(15) = 119
+              12? <FALSE> Integer : Account Group ID(15) = 66
+              13? <FALSE> Integer : Account Group ID(15) = 117
+              14? <FALSE> Integer : Account Group ID(15) = 64
+              15? <FALSE> Integer : Account Group ID(15) = 60
+              16? <FALSE> Integer : Account Group ID(15) = 59
+              17? <FALSE> Integer : Account Group ID(15) = 69
+              18? <FALSE> Integer : Account Group ID(15) = 112
+              19? <FALSE> Integer : Account Group ID(15) = 116
+              20? <FALSE> Integer : Account Group ID(15) = 63
+              21? <FALSE> Integer : Account Group ID(15) = 58
+              22? <FALSE> Integer : Account Group ID(15) = 57
+              23? <FALSE> Integer : Account Group ID(15) = 115
+              24? <FALSE> Integer : Account Group ID(15) = 114
+              25? <FALSE> Integer : Account Group ID(15) = 104
+              26? <FALSE> Integer : Account Group ID(15) = 86
+              27? <FALSE> Integer : Account Group ID(15) = 83
+              28? <FALSE> Integer : Account Group ID(15) = 80
+              29? <FALSE> Integer : Account Group ID(15) = 99
+              30? <FALSE> Integer : Account Group ID(15) = 96
+              31? <FALSE> Integer : Account Group ID(15) = 93
+              32? <FALSE> Integer : Account Group ID(15) = 89
+              33? <FALSE> Integer : Account Group ID(15) = 85
+              34? <FALSE> Integer : Account Group ID(15) = 84
+              35? <FALSE> Integer : Account Group ID(15) = 82
+              36? <FALSE> Integer : Account Group ID(15) = 81
+              37? <FALSE> Integer : Account Group ID(15) = 79
+              38? <FALSE> Integer : Account Group ID(15) = 78
+              39? <FALSE> Integer : Account Group ID(15) = 98
+              40? <FALSE> Integer : Account Group ID(15) = 97
+              41? <FALSE> Integer : Account Group ID(15) = 95
+              42? <FALSE> Integer : Account Group ID(15) = 94
+              43? <FALSE> Integer : Account Group ID(15) = 91
+              44? <FALSE> Integer : Account Group ID(15) = 90
+              45? <FALSE> Integer : Account Group ID(15) = 88
+              46? <FALSE> Integer : Account Group ID(15) = 87
+              47? <FALSE> Integer : Account Group ID(15) = 16
+              48? <FALSE> Integer : Account Group ID(15) = 22
+              49? <FALSE> Integer : Account Group ID(15) = 21
+              50? <FALSE> Integer : Account Group ID(15) = 20
+              51? <FALSE> Integer : Account Group ID(15) = 19
+              52? <FALSE> Integer : Account Group ID(15) = 18
+              53? <FALSE> Integer : Account Group ID(15) = 28
+              54? <FALSE> Integer : Account Group ID(15) = 34
+              55? <FALSE> Integer : Account Group ID(15) = 35
+              56? <FALSE> Integer : Account Group ID(15) = 74
+              57? <FALSE> Integer : Account Group ID(15) = 49
+              58? <FALSE> Integer : Account Group ID(15) = 108
+              59? <FALSE> Integer : Account Group ID(15) = 107
+              60? <FALSE> Integer : Account Group ID(15) = 76
+              61? <FALSE> Integer : Account Group ID(15) = 102
+              62? <FALSE> Integer : Account Group ID(15) = 65
+              63? <FALSE> Integer : Account Group ID(15) = 6
+              64? <FALSE> Integer : Account Group ID(15) = 23
+              65? <FALSE> Integer : Account Group ID(15) = 5
+              66? <TRUE> Integer : Account Group ID(15) = 15
+           ========================================== [121@0.15_BS_CC_1514]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+             3? <FALSE> Using NOT on the result from all children.
+              1? <TRUE> NumberSeries : Subscription-Id-IMSI-Address(470010550921534) is found in series
+           ========================================== [121@0.5_BS_CC_1513]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+             3? <TRUE> NumberSeries : Subscription-Id-IMSI-Address(470010550921534) is found in series
+           ========================================== [3000@0.5_BS_CC1523]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") begins with (case sensitive) an entry in list
+             3? <TRUE> NumberSeries : Subscription-Id-IMSI-Address(470010550921534) is found in series
+           ========================================== [4040 @0]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> NumberSeries : IMSI([VALUE NOT FOUND]) is found in series
+             2? <TRUE> Short : Traffic case(Originating) = Originating
+             3? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class2@1===]
+            1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class2_1200@.5 BS_CC_1517===]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             2? <FALSE> ShortNumberList : Service class(1015) is found in list
+             3? <FALSE> Integer : Account Group ID(15) = 135
+           ========================================== [SPL NO. class2@free]
+            1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class1@Tk 2== BS520]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class1@Tk .83]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class3]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class7]
+            1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [BS: Special Number SI-SPNUM SPL NO. class5==BS_CC1510+524]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [BS: Special Number SI-SPNUM SPL NO. 2828]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             3? <FALSE> NumberSeries : IMSI([VALUE NOT FOUND]) is found in series
+           ========================================== [SPL NO. class4@0.00 TM 15]
+            ========================================== [SPL NO. class4@0.00]
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             ========================================== [bsc id 61a]
+              1? <FALSE> Using AND on the result from all children.
+               1? <TRUE> Short : Traffic case(Originating) = Originating
+               2? <FALSE> NumberSeries : Other-Party-Id-Address(01552202841) is found in series
+               3? <FALSE> NumberSeries : IMSI([VALUE NOT FOUND]) is found in series
+             ========================================== [bsc id 61b]
+              1? <FALSE> Using AND on the result from all children.
+               1? <TRUE> Short : Traffic case(Originating) = Originating
+               2? <FALSE> NumberSeries : Other-Party-Id-Address(01552202841) is found in series
+               3? <FALSE> NumberSeries : IMSI([VALUE NOT FOUND]) is found in series
+             ========================================== [bsc id 61c]
+              1? <FALSE> Using AND on the result from all children.
+               1? <TRUE> Short : Traffic case(Originating) = Originating
+               2? <FALSE> NumberSeries : Other-Party-Id-Address(01552202841) is found in series
+               3? <FALSE> NumberSeries : IMSI([VALUE NOT FOUND]) is found in series
+             ========================================== [10pm to 00am]
+              1? <FALSE> Current time is NOT between 22:00:00 and 23:59:59
+             ========================================== [00pm to 8am]
+              1? <FALSE> Current time is NOT between 00:00:00 and 07:59:59
+             ========================================== [8am to 10pm]
+              1? <TRUE> Current time IS between 08:00:00 and 21:59:59
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [7pm to 00 am]
+              1? <FALSE> Current time is NOT between 19:00:00 and 23:59:59
+             ========================================== [00am to 7 am]
+              1? <FALSE> Current time is NOT between 00:00:00 and 06:59:59
+             ========================================== [any time]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [any time4000]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [any time2828 BS_CC_1512]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [10941]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [121]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [2111]
+              ========================================== [8am-10pm]
+               1? <TRUE> Current time IS between 08:00:00 and 21:59:59
+               ========================================== [Rate]
+                1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+              == INVERTED ============================== [10pm-8am]
+               1? <TRUE> Current time IS between 08:00:00 and 21:59:59
+             ========================================== [7am to 7pm]
+              1? <TRUE> Current time IS between 07:00:00 and 18:59:59
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [8am to 10pm 2255]
+              1? <TRUE> Current time IS between 08:00:00 and 21:59:59
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [any time 789]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+             ========================================== [catch allspl 4]
+              ========================================== [A new Node]
+               1? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class6@1.15000023]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [SPL NO. class8@6.9/10sec]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> StringList : Other-Party-Id-Address("01552202841") exactly matches (case sensitive) an entry in list
+           ========================================== [GP Campaign - GPCAMP]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> NumberSeries : IMSI([VALUE NOT FOUND]) is found in series
+             2? <FALSE> ShortNumberList : Service class(1015) is found in list
+             3? <FALSE> Integer : Account Group ID(15) = 128
+           ========================================== [BS: GP Solution Hotline]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> NumberSeries : Subscription-Id-IMSI-Address(470010550921534) is found in series
+             2? <FALSE> NumberSeries : Other-Party-Id-Address(01552202841) is found in series
+           ========================================== [MOC for GP PABX-M2M 3%  / 4%]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> Short : Traffic case(Originating) = Originating
+             2? <FALSE> NumberSeries : Other-Party-Id-Address(01552202841) is found in series
+           ========================================== [RI CODE 17]
+            1? <FALSE> Using AND on the result from all children.
+             1? <TRUE> String : Charging context ID("CAPv2_V.1.0@ericsson.com") equals (case sensitive) "CAPv2_V.1.0@ericsson.com"
+             2? <FALSE> CompareField : SPL_NO(0) = 1
+          ========================================== [GP]
+           1? <FALSE> Called party number (01552202841) is NOT found in list.
+          ========================================== [NON GP]
+           1? <TRUE> Called party number (01552202841) is found in list.
+           ========================================== [Churn Back Campaign Offnet]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> Integer : Account Group ID(15) = 166
+             2? <FALSE> Using OR on the result from all children.
+              1? <FALSE> Current time is NOT between 18:00:00 and 23:59:59
+              2? <FALSE> Current time is NOT between 00:00:00 and 08:59:59
+           ========================================== [Voice f&f]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> UShortNumberList : FaF indicator(0) is found in list
+             2? <FALSE> ShortNumberList : Service class(1015) is found in list
+           ========================================== [BS Churn Back Campaign]
+            1? <FALSE> Using AND on the result from all children.
+             1? <FALSE> Integer : Account Group ID(15) = 176
+             2? <TRUE> Using NOT on the result from all children.
+              1? <FALSE> The list of Community IDs was  NOT a match to the list in Rating Data
+           ========================================== [SC Based]
+            1! SetField : BUSINESS_INFO_BS_ID = "54"
+            1! Qualifier hit list: 5, 6, 7, 12
+            ========================================== [RI4]
+             1? <FALSE> ShortNumberList : Service class(1015) is found in list
+            ========================================== [RI27]
+             1? <FALSE> ShortNumberList : Service class(1015) is found in list
+            ========================================== [RI29]
+             1? <TRUE> ShortNumberList : Service class(1015) is found in list
+             1! Modifier for Time unit.
+             1!            Price=0.01083333333 / 1 s. Interval=1. Price factor=1.0
+             1!            IndividualPriceFactor=1.0
+             1!            Max duration= 49. Money left= 9999429.395834
+             1!            TimeDuration= 49. Cost= 0.5308333332  Accumulated cost= 0.5308333332
+             1!            Accumulator delta= No accumulator selected
+             1!            UsageCounter: No usage counter ids specified in modifier
+             1! Qualifier hit list: 5, 6, 7, 12
+
+Result:
+Total cost: 0.53083333317
+Allocated MA: 0.000000
+Product Fee Allocated MA: 0.000000
+Allocated DA: DedicatedAccountKey [dedicatedAccountId=100, productId=0]:0.530833  
+Product Fee Allocated DA: 
+Total Non-Monetary units: 0
+Allocated Non-Monetary DA: 
+Rated ContinuousTime: 49 units
+Remaining ContinuousTime: 0 (0) units
+Accumulator values: 
+Used offers: []
+Selected offers used in rating: []
+
+Parameters that were changed:
+
+Duration to closest time switch: No timeswitch
+
+Output Tree defined variables
+ZN_PKEY = GVZN000072
+CHARGEABLE_QUANTITY_UDMCODE = 5
+USAGE_IND_PKEY = OUT
+IS_PREPAID = N
+SN_PKEY = TLPHY
+CallType = 1
+UOM_PKEY = Sec
+LOGICAL_QUANTITY_CODE = DUR
+SPL_NO_CLASS = 
+NETWORK_PKEY = BGDGP
+SPL_NO = 0
+BUSINESS_INFO_BS_ID = 54
+ZP_PKEY = ZP001045
+X_FILE_IND = H
+IS_HYBRID = N
+TT_PKEY = TWTT000088
+
+
+1447153040.488000[20151110 16:57:20.488000] Module: PSC-TrafficHandler/8.1/A/1 Event: Tree execution trace ID: 9900006 Type: 2269699863190011905 Count: 110665 Aff.Obj: 1711080561 Info: Provider: UssdTextMessage RatingPlan: 0
+SDP local time: 2015-11-10 16:57:20 +06:00
+Start time:         2015-11-10 16:56:31 +06:00
+
+Print out of data set:
+  Account group id: 15
+  Service offerings: 268435464
+  FaF indicator: 0
+  Selected language: 2
+  Service class: 1015
+  Subscription type: -1
+  Cost of event: 0.530833
+  Duration of event: 49
+  Notification type: End of call
+  Community ID: 0
+  Active service: true
+  Passive service: true
+  Account in Euro: false
+  Euro conversion factor: 1.0
+  Main account: 0.000000
+  Bonus main account: 0.0
+  Prepaid empty limit: 0.0
+  Dedicated Accounts:
+   ID   Balance          Start date     Expiry date     Selected  Affected  Given bonus  Real money  Composite  DA type  
+   ---  ---------------  -------------  --------------  --------  --------  -----------  ----------  ---------  -------  
+    99     50000.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   100   9999428.865001     2007-06-05  No expiry date       yes       yes          0.0         yes         no    Money  
+   101         0.000000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   102       500.000000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   103         0.000000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   104         0.000000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   105       108.680000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   106         0.010000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   107         0.000000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   108         0.010000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   109         0.010000     2007-06-05  No expiry date        no        no          0.0          no         no    Money  
+   110         0.010000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   111         0.010000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   112         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   113         0.010000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   136         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   137       500.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   138         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   139         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   141       500.010000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   145        88.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   146         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   150      1042.663324  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   200  10000000.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   207         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   211        57.000000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   212       345.980000  No Start date  No expiry date        no        no          0.0          no         no    Money  
+   213         0.000000  No Start date  No expiry date        no        no          0.0          no         no    Money
+  Sub Dedicated Accounts: No sub dedicated accounts defined
+  Accumulators:
+   ID   Counter  Clearing date  
+   ---  -------  -------------  
+     5        0     2015-06-21  
+    98        0     2015-09-21  
+    99        0     2015-11-10  
+   100        0     2015-06-20
+  Offers:
+   ID    Prod. ID  Offer type  Start date/time  Expiry date/time  Enabled  PAM relative dates  Fee Applied  
+   ----  --------  ----------  ---------------  ----------------  -------  ------------------  -----------  
+   1100         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1101         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1102         0     Account       2015-06-20         No expiry      Yes                  No          N/A  
+   1103         0     Account       2015-06-20         No expiry      Yes                  No          N/A
+  Usage counters: No usage counters exists
+  Dynamic discounts: No available discounts
+
+ Context specific information: 
+  Charging context: CAPv2_V.1.0@ericsson.com
+  Service identifier: 0
+  Call setup result: Successful
+  Subscription-Id-Address: 1711080561
+  Subscription-Id-IMSI-Address: 470010550921534
+  Service extension: Not set
+  Service scenario: Mobile Originating
+  Roaming position: Inside HPLMN
+  Other-Party-Id-Address: 01552202841
+  Subscription-Id-Location: 880170300032089
+
+
+
+ Execution ERROR:
+  com.ericsson.charging.psc.sdpere.selectiontree.structures.UssdMsgStructure$NoUssdModifierExecutedException: The used input data did not trigger any tariff.
+ ========================================== [Warning_postpaid_v1]
+  ========================================== [Postpaid]
+   1? <TRUE> CompareField : Accumulator Value[100](0) <= 5
+   ========================================== [Notification]
+    1? <FALSE> Using NOT on the result from all children.
+     1? <TRUE> Using OR on the result from all children.
+      1? <TRUE> Using OR on the result from all children.
+       1? <FALSE> The value '268435464' was NOT found in the list.
+       2? <TRUE> The value '268435464' was found in the list.
+      2? <FALSE> The list of Offer IDs was  NOT a match to the list in Rating Data
+
+Result:
+Messages: 
+
+Parameters that were changed:
+
+Output Tree defined variables
+ZN_PKEY = GVZN000072
+CHARGEABLE_QUANTITY_UDMCODE = 5
+USAGE_IND_PKEY = OUT
+IS_PREPAID = N
+SN_PKEY = TLPHY
+CallType = 1
+UOM_PKEY = Sec
+LOGICAL_QUANTITY_CODE = DUR
+SPL_NO_CLASS = 
+NETWORK_PKEY = BGDGP
+SPL_NO = 0
+BUSINESS_INFO_BS_ID = 54
+ZP_PKEY = ZP001045
+X_FILE_IND = H
+IS_HYBRID = N
+TT_PKEY = TWTT000088
+
+
+1447153040.489000[20151110 16:57:20.489000] Module: PSC-TrafficHandler/8.1/A/1 Event: Tree execution trace ID: 9900006 Type: 2269699863190011905 Count: 110666 Aff.Obj: 1711080561 Info: Provider: Statistic RatingPlan: main
+SDP local time: 2015-11-10 16:57:20 +06:00
+Start time:         2015-11-10 16:56:31 +06:00
+
+Print out of data set:
+
+ Context specific information: 
+  Charging context: CAPv2_V.1.0@ericsson.com
+  Service identifier: 0
+  Call setup result: Successful
+  Subscription-Id-Address: 1711080561
+  Subscription-Id-IMSI-Address: 470010550921534
+  Service extension: Not set
+  Service scenario: Mobile Originating
+  Roaming position: Inside HPLMN
+  Other-Party-Id-Address: 01552202841
+  Subscription-Id-Location: 880170300032089
+
+
+
+ ========================================== [main]
+  ========================================== [SUCCESSFULL]
+   ========================================== [SUCCESSFUL_RELEASE_BY_SERVICE]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Successful - Released by service)
+   ========================================== [SUCCESSFUL_ONGOING_TOLL_FREE]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Successful - Ongoing (toll free))
+   ========================================== [SUCCESSFUL_DISCONNECT_BY_CALLING_PARTY]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Successful - Disconnect by calling party)
+   ========================================== [SUCCESSFUL_DISCONNECT_BY_CALLED_PARTY]
+    1? <TRUE> ResultCode.test == TRUE (Session setup result extended (Successful - Disconnect by called party) == Successful - Disconnect by called party)
+    1! SetField : SUCCESSFUL_DISCONNECT_BY_CALLED_PARTY = true
+  ========================================== [UNSUCESSFUL]
+   ========================================== [UNSUCCESSFUL_CALLED_PARTY_BUSY]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Unsuccessful - Called party busy)
+   ========================================== [UNSUCCESSFUL_CALLED_PARTY_NOT_REACHABLE]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Unsuccessful - Called party not reachable)
+   ========================================== [UNSUCCESSFUL_CALLED_PARTY_NO_ANSWER]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Unsuccessful - Called party no answer)
+   ========================================== [UNSUCCESSFUL_CALLED_PARTY_ABANDON]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Unsuccessful - Calling party abandon)
+   ========================================== [UNSUCCESSFUL_CONGESTION_CALLED_PARTY_ROUTE_SELECT_FAILURE]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Unsuccessful - Called party route select failure)
+   ========================================== [CANCELLED_CALL_FORWARDING_INVOKED_CHARGING_CANCELLED]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Call Forwarding invoked - Charging cancelled)
+   ========================================== [UNSUCCESSFUL_OTHER_REASON]
+    1? <FALSE> ResultCode.test == FALSE (Session setup result extended (Successful - Disconnect by called party) == Unsuccessful - Other reason)
+  ========================================== [NOT_ALLOWED_NOT_ENOUGH_MONEY]
+   1? <FALSE> ResultCode.test == FALSE (Interrogation response type (OK) == NOT allowed not enough money)
+  ========================================== [NOT_ALLOWED_NOT_ENOUGH_MONEY_MAX_COST]
+   1? <FALSE> ResultCode.test == FALSE (Interrogation response type (OK) == NOT allowed not enough money max cost)
+  ========================================== [NOT_ALLOWED_NO_ACTIVE_SERVICE]
+   1? <FALSE> ResultCode.test == FALSE (Interrogation response type (OK) == NOT allowed no active service)
+
+Result:
+Extended Statistic Counters :
+  SUCCESSFUL_DISCONNECT_BY_CALLED_PARTY : true
+
+
+Parameters that were changed:
+
+Output Tree defined variables
+ZN_PKEY = GVZN000072
+CHARGEABLE_QUANTITY_UDMCODE = 5
+USAGE_IND_PKEY = OUT
+IS_PREPAID = N
+SN_PKEY = TLPHY
+CallType = 1
+UOM_PKEY = Sec
+LOGICAL_QUANTITY_CODE = DUR
+SPL_NO_CLASS = 
+NETWORK_PKEY = BGDGP
+SPL_NO = 0
+BUSINESS_INFO_BS_ID = 54
+ZP_PKEY = ZP001045
+X_FILE_IND = H
+IS_HYBRID = N
+TT_PKEY = TWTT000088
+
+
+1447153040.492000[20151110 16:57:20.492000] Module: PSC-TrafficHandler/8.1/A/1 Event: OperationManager: Trace of output message, ResultData and ChargingState ID: 5000101 Type: 2269699863188406273 Count: 38204 Aff.Obj: 1711080561 Info: 
+<serviceResult index="0">
+   <header>
+      <subscriberId type="Subscriber (SDP format)">1711080561</subscriberId>
+      <chargingContextId>CAPv2_V.1.0@ericsson.com</chargingContextId>
+      <requestInfo>
+         <requestId>0x[63,63,6e,31,35,2e,67,72,61,6d,65,65,6e,70,68,6f,6e,65,2e,63,6f,6d,2e,9c,49,a0]</requestId>
+         <requestResent>false</requestResent>
+      </requestInfo>
+      <chargingSessionData>
+         <sessionId>5-1709679126-16a2e765</sessionId>
+         <originRealm>grameenphone.com</originRealm>
+         <originHost>ccn15.grameenphone.com</originHost>
+      </chargingSessionData>
+      <chargingControlRequestType>REQ_TERMINATION</chargingControlRequestType>
+   </header>
+   <data>
+      <result>
+         <serviceResult>
+            <code>OK</code>
+            <grantedUnits/>
+            <validityTime>0</validityTime>
+            <tariffTimeChange>0</tariffTimeChange>
+            <timeQuotaThreshold>0</timeQuotaThreshold>
+            <volumeQuotaThreshold>0</volumeQuotaThreshold>
+            <serviceSpecificQuotaThreshold>0</serviceSpecificQuotaThreshold>
+            <quotaHoldingTime>-1</quotaHoldingTime>
+            <quotaConsumptionTime>-1</quotaConsumptionTime>
+            <finalUnitIndication>NOT_FINAL_UNIT</finalUnitIndication>
+            <resultCodeExtension>NO_RESULT_CODE_EXTENSION</resultCodeExtension>
+            <noOfDecimalsLocal>4</noOfDecimalsLocal>
+            <noOfDecimalsEuro>4</noOfDecimalsEuro>
+            <redirectServer/>
+            <reservedAmount/>
+            <deductedAmount/>
+            <usedOfferIdResult/>
+         </serviceResult>
+         <contextResult>
+            <ratingOutput/>
+         </contextResult>
+         <announcementResult disc="NO_ANNOUNCEMENT"/>
+         <accountResult>
+            <accountValueAfterCall>
+               <currencyCode>50</currencyCode>
+               <value>0</value>
+               <exponent>-6</exponent>
+            </accountValueAfterCall>
+            <totalCost>
+               <currencyCode>50</currencyCode>
+               <value>530833</value>
+               <exponent>-6</exponent>
+            </totalCost>
+            <totalCharge>
+               <currencyCode>50</currencyCode>
+               <value>530833</value>
+               <exponent>-6</exponent>
+            </totalCharge>
+         </accountResult>
+         <defaultFixedNetworkCarrier/>
+         <optimizedDialogueResult>
+            <doNotSendReportAtCallSetUpFailure>false</doNotSendReportAtCallSetUpFailure>
+         </optimizedDialogueResult>
+         <statisticsResult>
+            <sendReportAtEndOfTollFreeCallSetUp>true</sendReportAtEndOfTollFreeCallSetUp>
+         </statisticsResult>
+         <customizationResult>
+            <customizationData/>
+         </customizationResult>
+         <chargingFromTriggerResult/>
+      </result>
+      <state disc="CSIT_UNPACKED">
+         <contextState>
+            <parameterMemory/>
+         </contextState>
+         <fafState>
+            <fafIndicator>0</fafIndicator>
+         </fafState>
+         <accumulatorState>
+            <accumulatorStartValue>[0]</accumulatorStartValue>
+            <accumulatorIDs>[100]</accumulatorIDs>
+            <activatedAccumulatorID>-1</activatedAccumulatorID>
+            <activeAccumulatorIncrease>0</activeAccumulatorIncrease>
+            <accumulatorIncrease>[]</accumulatorIncrease>
+            <accumulatorsUsedForTriggeringFees>[]</accumulatorsUsedForTriggeringFees>
+         </accumulatorState>
+         <communityState>
+            <selectedCommunityIndicator>0</selectedCommunityIndicator>
+            <nonChargedState>7</nonChargedState>
+            <nonChargedCommunityIds>[]</nonChargedCommunityIds>
+         </communityState>
+         <sessionAccumulatorState>
+            <subAccumulatedDuration>[]</subAccumulatedDuration>
+            <accumulatedUnits>
+               <time>
+                  <value>49</value>
+               </time>
+               <money/>
+               <volume/>
+               <serviceSpecific/>
+            </accumulatedUnits>
+         </sessionAccumulatorState>
+         <dedicatedAccountState>
+            <isServiceInterruptActive>false</isServiceInterruptActive>
+            <selectedDedicatedAccounts>[]</selectedDedicatedAccounts>
+            <dedicatedAccountCampaignID>[]</dedicatedAccountCampaignID>
+            <isDedicatedAccountReselectionRequested>true</isDedicatedAccountReselectionRequested>
+         </dedicatedAccountState>
+         <accountState>
+            <currencyCode>50</currencyCode>
+            <value>0</value>
+            <exponent>-6</exponent>
+         </accountState>
+         <aggregatedBalanceState>
+            <currencyCode>50</currencyCode>
+            <value>9999429395834</value>
+            <exponent>-6</exponent>
+         </aggregatedBalanceState>
+         <walletState>
+            <correlationId>-1</correlationId>
+            <accumulatedChargeOfCall>
+               <currencyCode>50</currencyCode>
+               <value>530833</value>
+               <exponent>-6</exponent>
+            </accumulatedChargeOfCall>
+            <accumulatedNonMonetaryChargeOfCall>0</accumulatedNonMonetaryChargeOfCall>
+            <providerCorrelationId>-1</providerCorrelationId>
+            <providerId/>
+            <providerAccumulatedChargeOfCall>
+               <currencyCode>0</currencyCode>
+               <value>0</value>
+               <exponent>0</exponent>
+            </providerAccumulatedChargeOfCall>
+            <providerAccumulatedNonMonetaryChargeOfCall>0</providerAccumulatedNonMonetaryChargeOfCall>
+         </walletState>
+         <serviceOfferingsState>268435464</serviceOfferingsState>
+         <ratingState>
+            <accumulatedCost value="0.53083333317">
+               <myNumber>
+                  <myNumerator>53083333317</myNumerator>
+                  <myDenominator>100000000000</myDenominator>
+                  <myBase>1</myBase>
+               </myNumber>
+            </accumulatedCost>
+            <chargedUnits>
+               <time>
+                  <value>49</value>
+               </time>
+               <money>
+                  <currencyCode>-1</currencyCode>
+                  <value>0</value>
+                  <exponent>0</exponent>
+               </money>
+               <volume>
+                  <totalOctets>0</totalOctets>
+                  <inputOctets>0</inputOctets>
+                  <outputOctets>0</outputOctets>
+               </volume>
+               <serviceSpecific>
+                  <value>0</value>
+               </serviceSpecific>
+            </chargedUnits>
+            <triggerTime>1447152991</triggerTime>
+            <isSessionSetup>false</isSessionSetup>
+            <tariffTimeChange>-1</tariffTimeChange>
+            <affectedDedicatedAccount>[100]</affectedDedicatedAccount>
+            <sdpReservationTime>1447152991</sdpReservationTime>
+            <offersUsedInRating>[]</offersUsedInRating>
+            <callStartedAsChargeIfPossible>false</callStartedAsChargeIfPossible>
+            <nonMonetaryUnitRest>0x[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]</nonMonetaryUnitRest>
+            <lastUsedOffer>0</lastUsedOffer>
+            <previousInterrogationGrantedUnits/>
+         </ratingState>
+         <treeDefinedFieldsState>
+            <fields index="1">
+               <name>CHARGEABLE_QUANTITY_UDMCODE</name>
+               <value disc="STRING_T">5</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="2">
+               <name>USAGE_IND_PKEY</name>
+               <value disc="STRING_T">OUT</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="3">
+               <name>IS_PREPAID</name>
+               <value disc="STRING_T">N</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="4">
+               <name>SN_PKEY</name>
+               <value disc="STRING_T">TLPHY</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="5">
+               <name>CallType</name>
+               <value disc="STRING_T">1</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="6">
+               <name>UOM_PKEY</name>
+               <value disc="STRING_T">Sec</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="7">
+               <name>LOGICAL_QUANTITY_CODE</name>
+               <value disc="STRING_T">DUR</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="8">
+               <name>SPL_NO_CLASS</name>
+               <value disc="STRING_T"></value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="9">
+               <name>NETWORK_PKEY</name>
+               <value disc="STRING_T">BGDGP</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="10">
+               <name>BUSINESS_INFO_BS_ID</name>
+               <value disc="STRING_T">54</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="11">
+               <name>X_FILE_IND</name>
+               <value disc="STRING_T">H</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+            <fields index="12">
+               <name>IS_HYBRID</name>
+               <value disc="STRING_T">N</value>
+               <writeToCdr>true</writeToCdr>
+            </fields>
+         </treeDefinedFieldsState>
+         <priceFactorState>
+            <priceFactor>0x[]</priceFactor>
+         </priceFactorState>
+         <serviceConfigState>
+            <previousInterrogationUnitType>0</previousInterrogationUnitType>
+            <tariffSwitchHandling>1</tariffSwitchHandling>
+            <previousInterrogationTimeStamp>1447152991000</previousInterrogationTimeStamp>
+         </serviceConfigState>
+         <usageCounterState>
+            <correlationId>-1</correlationId>
+            <providerCorrelationId>-1</providerCorrelationId>
+            <providerId/>
+         </usageCounterState>
+         <accumulatedChargeState/>
+         <chargingFromTriggerState/>
+         <dynamicDiscountState/>
+         <productState/>
+      </state>
+      <dataRecordResult disc="DATA_RECORD">0x[a0,82,3,69,81,1,0,a2,8,30,6,80,1,0,81,1,31,83,13,32,30,31,35,31,31,31,30,31,36,35,37,32,30,2b,30,36,30,30,84,13,32,30,31,35,31,31,31,30,31,36,35,36,33,31,2b,30,36,30,30,85,1,0,87,1,0,a8,45,30,43,80,2,39,39,81,3a,32,30,31,35,31,31,31,30,54,31,31,31,39,35,39,30,30,30,2d,31,30,2e,37,2e,32,36,2e,32,30,35,2d,38,34,36,38,30,38,37,38,38,2d,39,30,33,39,35,34,31,34,30,2c,20,76,65,72,3a,20,30,82,1,0,a9,81,f3,80,6,81,71,11,80,50,16,81,2,3,f7,82,1,f,a3,9,80,1,0,81,1,6,82,1,32,a4,9,80,1,0,81,1,6,82,1,32,a5,f,a1,4,80,2,1,2f,84,7,81,10,55,22,20,48,f1,a7,38,30,36,80,1,64,a1,e,80,6,9,18,2c,6f,e5,7a,81,1,6,82,1,32,a2,e,80,6,9,18,2c,67,cb,e9,81,1,6,82,1,32,a3,b,80,3,8,19,91,81,1,6,82,1,32,89,1,ff,8e,1,1,89,7,81,10,55,22,20,48,f1,8a,4,10,0,0,8,ab,b,80,3,8,19,91,81,1,6,82,1,32,ad,b,80,3,8,19,91,81,1,6,82,1,32,ae,e,80,6,9,18,2c,6f,e5,7a,81,1,6,82,1,32,af,e,80,6,9,18,2c,67,cb,e9,81,1,6,82,1,32,90,1,0,92,1,0,b3,32,30,30,a0,c,2,1,5,2,1,6,2,1,7,2,1,c,a1,20,30,1e,a1,3,81,1,0,a2,17,a0,15,80,1,64,a1,3,81,1,31,a2,b,80,3,8,19,91,81,1,6,82,1,32,aa,30,30,19,80,4,1,0,3,e9,a1,11,87,f,38,38,30,31,37,30,33,30,30,30,33,32,30,38,39,30,13,80,4,1,0,3,eb,a1,b,a9,9,80,7,81,10,55,22,20,48,f1,ab,82,1,6f,30,17,80,7,5a,4e,5f,50,4b,45,59,a1,c,87,a,47,56,5a,4e,30,30,30,30,37,32,30,22,80,1b,43,48,41,52,47,45,41,42,4c,45,5f,51,55,41,4e,54,49,54,59,5f,55,44,4d,43,4f,44,45,a1,3,87,1,35,30,17,80,e,55,53,41,47,45,5f,49,4e,44,5f,50,4b,45,59,a1,5,87,3,4f,55,54,30,11,80,a,49,53,5f,50,52,45,50,41,49,44,a1,3,87,1,4e,30,12,80,7,53,4e,5f,50,4b,45,59,a1,7,87,5,54,4c,50,48,59,30,f,80,8,43,61,6c,6c,54,79,70,65,a1,3,87,1,31,30,11,80,8,55,4f,4d,5f,50,4b,45,59,a1,5,87,3,53,65,63,30,1e,80,15,4c,4f,47,49,43,41,4c,5f,51,55,41,4e,54,49,54,59,5f,43,4f,44,45,a1,5,87,3,44,55,52,30,12,80,c,53,50,4c,5f,4e,4f,5f,43,4c,41,53,53,a1,2,87,0,30,17,80,c,4e,45,54,57,4f,52,4b,5f,50,4b,45,59,a1,7,87,5,42,47,44,47,50,30,d,80,6,53,50,4c,5f,4e,4f,a1,3,82,1,0,30,1b,80,13,42,55,53,49,4e,45,53,53,5f,49,4e,46,4f,5f,42,53,5f,49,44,a1,4,87,2,35,34,30,15,80,7,5a,50,5f,50,4b,45,59,a1,a,87,8,5a,50,30,30,31,30,34,35,30,11,80,a,58,5f,46,49,4c,45,5f,49,4e,44,a1,3,87,1,48,30,10,80,9,49,53,5f,48,59,42,52,49,44,a1,3,87,1,4e,30,17,80,7,54,54,5f,50,4b,45,59,a1,c,87,a,54,57,54,54,30,30,30,30,38,38,8d,1,2,8e,1,1,af,33,a0,f,80,1,31,81,1,0,82,1,0,83,1,0,84,1,0,a1,f,80,1,0,81,1,0,82,1,0,83,1,0,84,1,0,a2,f,80,1,0,81,1,0,82,1,0,83,1,0,84,1,0,b1,d,80,1,0,81,2,3,f7,82,1,15,83,1,30]</dataRecordResult>
+   </data>
+</serviceResult>
+
+1447153040.493000[20151110 16:57:20.493000] Module: PSC-TrafficHandler/8.1/A/1 Event: OperationManager: Trace of output message, ResultData and ChargingState ID: 5000101 Type: 2269699863188406273 Count: 38205 Aff.Obj: 1711080561 Info: 
+<interrogationResult>
+   <header>
+      <subscriberId type="Subscriber (SDP format)">1711080561</subscriberId>
+      <chargingContextId>CAPv2_V.1.0@ericsson.com</chargingContextId>
+      <requestInfo>
+         <requestId>0x[63,63,6e,31,35,2e,67,72,61,6d,65,65,6e,70,68,6f,6e,65,2e,63,6f,6d,2e,9c,49,a0]</requestId>
+         <requestResent>false</requestResent>
+      </requestInfo>
+      <chargingSessionData>
+         <sessionId>5-1709679126-16a2e765</sessionId>
+         <originRealm>grameenphone.com</originRealm>
+         <originHost>ccn15.grameenphone.com</originHost>
+      </chargingSessionData>
+      <chargingControlRequestType>REQ_TERMINATION</chargingControlRequestType>
+   </header>
+   <data>
+      <code>OK</code>
+   </data>
+</interrogationResult>
+
+1447153040.500000[20151110 16:57:20.500000] Module: PSC-CIPDiameter/8.1/B/1 Event: CIPDiameter: Tracing diameter answer ID: 7100021 Type: 2269699863189094401 Count: 34875 Aff.Obj: 8801711080561 Info: Send result with size 1184 byte
+--------------------Begin Raw-----------------------
+01 00 04 A0 40 FF FF FE 01 00 00 10 2E 9C 49 A0 2E 9C 49 A0 00 00 01 07 40 00
+00 1D 35 2D 31 37 30 39 36 37 39 31 32 36 2D 31 36 61 32 65 37 36 35 00 00 00
+00 00 01 0C 40 00 00 0C 00 00 07 D1 00 00 01 08 40 00 00 1F 53 44 50 37 35 62
+2E 67 72 61 6D 65 65 6E 70 68 6F 6E 65 2E 63 6F 6D 00 00 00 01 28 40 00 00 21
+53 44 50 37 35 76 69 70 2E 67 72 61 6D 65 65 6E 70 68 6F 6E 65 2E 63 6F 6D 00
+00 00 00 00 01 04 40 00 00 20 00 00 01 02 40 00 00 0C 01 00 00 10 00 00 01 0A
+40 00 00 0C 00 00 00 C1 00 00 01 9F 40 00 00 0C 00 00 00 01 00 00 01 A0 40 00
+00 0C 00 00 00 03 00 00 00 37 40 00 00 0C D9 EC 4B D4 00 00 01 C8 40 00 03 D8
+00 00 04 2C C0 00 00 0D 00 00 00 C1 31 00 00 00 00 00 01 0C 40 00 00 0C 00 00
+07 D1 00 00 01 A7 40 00 00 38 00 00 01 A9 40 00 00 0C 00 00 00 32 00 00 01 BD
+40 00 00 24 00 00 01 BF 40 00 00 10 00 00 00 00 00 08 19 91 00 00 01 AD 40 00
+00 0C FF FF FF FA 00 00 04 28 C0 00 03 79 00 00 00 C1 A0 82 03 69 81 01 00 A2
+08 30 06 80 01 00 81 01 31 83 13 32 30 31 35 31 31 31 30 31 36 35 37 32 30 2B
+30 36 30 30 84 13 32 30 31 35 31 31 31 30 31 36 35 36 33 31 2B 30 36 30 30 85
+01 00 87 01 00 A8 45 30 43 80 02 39 39 81 3A 32 30 31 35 31 31 31 30 54 31 31
+31 39 35 39 30 30 30 2D 31 30 2E 37 2E 32 36 2E 32 30 35 2D 38 34 36 38 30 38
+37 38 38 2D 39 30 33 39 35 34 31 34 30 2C 20 76 65 72 3A 20 30 82 01 00 A9 81
+F3 80 06 81 71 11 80 50 16 81 02 03 F7 82 01 0F A3 09 80 01 00 81 01 06 82 01
+32 A4 09 80 01 00 81 01 06 82 01 32 A5 0F A1 04 80 02 01 2F 84 07 81 10 55 22
+20 48 F1 A7 38 30 36 80 01 64 A1 0E 80 06 09 18 2C 6F E5 7A 81 01 06 82 01 32
+A2 0E 80 06 09 18 2C 67 CB E9 81 01 06 82 01 32 A3 0B 80 03 08 19 91 81 01 06
+82 01 32 89 01 FF 8E 01 01 89 07 81 10 55 22 20 48 F1 8A 04 10 00 00 08 AB 0B
+80 03 08 19 91 81 01 06 82 01 32 AD 0B 80 03 08 19 91 81 01 06 82 01 32 AE 0E
+80 06 09 18 2C 6F E5 7A 81 01 06 82 01 32 AF 0E 80 06 09 18 2C 67 CB E9 81 01
+06 82 01 32 90 01 00 92 01 00 B3 32 30 30 A0 0C 02 01 05 02 01 06 02 01 07 02
+01 0C A1 20 30 1E A1 03 81 01 00 A2 17 A0 15 80 01 64 A1 03 81 01 31 A2 0B 80
+03 08 19 91 81 01 06 82 01 32 AA 30 30 19 80 04 01 00 03 E9 A1 11 87 0F 38 38
+30 31 37 30 33 30 30 30 33 32 30 38 39 30 13 80 04 01 00 03 EB A1 0B A9 09 80
+07 81 10 55 22 20 48 F1 AB 82 01 6F 30 17 80 07 5A 4E 5F 50 4B 45 59 A1 0C 87
+0A 47 56 5A 4E 30 30 30 30 37 32 30 22 80 1B 43 48 41 52 47 45 41 42 4C 45 5F
+51 55 41 4E 54 49 54 59 5F 55 44 4D 43 4F 44 45 A1 03 87 01 35 30 17 80 0E 55
+53 41 47 45 5F 49 4E 44 5F 50 4B 45 59 A1 05 87 03 4F 55 54 30 11 80 0A 49 53
+5F 50 52 45 50 41 49 44 A1 03 87 01 4E 30 12 80 07 53 4E 5F 50 4B 45 59 A1 07
+87 05 54 4C 50 48 59 30 0F 80 08 43 61 6C 6C 54 79 70 65 A1 03 87 01 31 30 11
+80 08 55 4F 4D 5F 50 4B 45 59 A1 05 87 03 53 65 63 30 1E 80 15 4C 4F 47 49 43
+41 4C 5F 51 55 41 4E 54 49 54 59 5F 43 4F 44 45 A1 05 87 03 44 55 52 30 12 80
+0C 53 50 4C 5F 4E 4F 5F 43 4C 41 53 53 A1 02 87 00 30 17 80 0C 4E 45 54 57 4F
+52 4B 5F 50 4B 45 59 A1 07 87 05 42 47 44 47 50 30 0D 80 06 53 50 4C 5F 4E 4F
+A1 03 82 01 00 30 1B 80 13 42 55 53 49 4E 45 53 53 5F 49 4E 46 4F 5F 42 53 5F
+49 44 A1 04 87 02 35 34 30 15 80 07 5A 50 5F 50 4B 45 59 A1 0A 87 08 5A 50 30
+30 31 30 34 35 30 11 80 0A 58 5F 46 49 4C 45 5F 49 4E 44 A1 03 87 01 48 30 10
+80 09 49 53 5F 48 59 42 52 49 44 A1 03 87 01 4E 30 17 80 07 54 54 5F 50 4B 45
+59 A1 0C 87 0A 54 57 54 54 30 30 30 30 38 38 8D 01 02 8E 01 01 AF 33 A0 0F 80
+01 31 81 01 00 82 01 00 83 01 00 84 01 00 A1 0F 80 01 00 81 01 00 82 01 00 83
+01 00 84 01 00 A2 0F 80 01 00 81 01 00 82 01 00 83 01 00 84 01 00 B1 0D 80 01
+00 81 02 03 F7 82 01 15 83 01 30 00 00 00 
+--------------------End Raw------------------------
+--------------------Begin Command -----------------------
+Head: [-p--:16777214:16777232]
+    263 [-m-:263:0] {352D313730393637393132362D3136613265373635}      I     Session-Id [-m-:263:0] {352D313730393637393132362D3136613265373635}
+    Result-Code [-m-:268:0] {000007D1}                                I     Result-Code [-m-:268:0] {2001} {DIAMETER_SUCCESS}
+    Origin-Host [-m-:264:0] {5344503735622E6772616D65656E70686F6E652E636F6D} I     Origin-Host [-m-:264:0] {5344503735622E6772616D65656E70686F6E652E636F6D}
+    Origin-Realm [-m-:296:0] {53445037357669702E6772616D65656E70686F6E652E636F6D} I     Origin-Realm [-m-:296:0] {53445037357669702E6772616D65656E70686F6E652E636F6D}
+    260 [-m-:260:0]                                                   I     Vendor-Specific-Application-Id [-m-:260:0]
+        258 [-m-:258:0] {01000010}                                    I         Auth-Application-Id [-m-:258:0] {16777232}
+        266 [-m-:266:0] {000000C1}                                    I         Vendor-Id [-m-:266:0] {193}
+    415 [-m-:415:0] {00000001}                                        I     CC-Request-Number [-m-:415:0] {1}
+    416 [-m-:416:0] {00000003}                                        I     CC-Request-Type [-m-:416:0] {3} {TERMINATION_REQUEST}
+    55 [-m-:55:0] {D9EC4BD4}                                          I     Event-Timestamp [-m-:55:0] {D9EC4BD4}
+    456 [-m-:456:0]                                                   I     MSCC [-m-:456:0]
+        1068 [vm-:1068:193] {31}                                      I         Service-Session-Id [vm-:1068:193] {31}
+        268 [-m-:268:0] {000007D1}                                    I         Result-Code [-m-:268:0] {2001} {DIAMETER_SUCCESS}
+        423 [-m-:423:0]                                               I         Cost-Information [-m-:423:0]
+            425 [-m-:425:0] {00000032}                                I             Currency-Code [-m-:425:0] {50}
+            445 [-m-:445:0]                                           I             Unit-Value [-m-:445:0]
+                447 [-m-:447:0] {0000000000081991}                    I                 Value-Digits [-m-:447:0] {530833}
+                429 [-m-:429:0] {FFFFFFFA}                            I                 Exponent [-m-:429:0] {-6}
+        1064 [vm-:1064:193] {A0820369810100A2083006800100810131831332303135313131303136353732302B30363030841332303135313131303136353633312B30363030850100870100A845304380023939813A3230313531313130543131313935393030302D31302E372E32362E3230352D3834363830383738382D3930333935343134302C207665723A2030820100A981F38006817111805016810203F782010FA309800100810106820132A409800100810106820132A50FA1048002012F8407811055222048F1A7383036800164A10E800609182C6FE57A810106820132A20E800609182C67CBE9810106820132A30B80030819918101068201328901FF8E01018907811055222048F18A0410000008AB0B8003081991810106820132AD0B8003081991810106820132AE0E800609182C6FE57A810106820132AF0E800609182C67CBE9810106820132900100920100B3323030A00C02010502010602010702010CA120301EA103810100A217A015800164A103810131A20B8003081991810106820132AA3030198004010003E9A111870F38383031373033303030333230383930138004010003EBA10BA9098007811055222048F1AB82016F301780075A4E5F504B4559A10C870A47565A4E3030303037323022801B43484152474541424C455F5155414E544954595F55444D434F4445A1038701353017800E55534147455F494E445F504B4559A10587034F55543011800A49535F50524550414944A10387014E30128007534E5F504B4559A1078705544C504859300F800843616C6C54797065A10387013130118008554F4D5F504B4559A1058703536563301E80154C4F474943414C5F5155414E544954595F434F4445A10587034455523012800C53504C5F4E4F5F434C415353A10287003017800C4E4554574F524B5F504B4559A10787054247444750300D800653504C5F4E4FA103820100301B8013425553494E4553535F494E464F5F42535F4944A10487023534301580075A505F504B4559A10A87085A503030313034353011800A585F46494C455F494E44A1038701483010800949535F485942524944A10387014E3017800754545F504B4559A10C870A545754543030303038388D01028E0101AF33A00F800131810100820100830100840100A10F800100810100820100830100840100A20F800100810100820100830100840100B10D800100810203F7820115830130} I         CDR-Information [vm-:1064:193] {A0820369810100A2083006800100810131831332303135313131303136353732302B30363030841332303135313131303136353633312B30363030850100870100A845304380023939813A3230313531313130543131313935393030302D31302E372E32362E3230352D3834363830383738382D3930333935343134302C207665723A2030820100A981F38006817111805016810203F782010FA309800100810106820132A409800100810106820132A50FA1048002012F8407811055222048F1A7383036800164A10E800609182C6FE57A810106820132A20E800609182C67CBE9810106820132A30B80030819918101068201328901FF8E01018907811055222048F18A0410000008AB0B8003081991810106820132AD0B8003081991810106820132AE0E800609182C6FE57A810106820132AF0E800609182C67CBE9810106820132900100920100B3323030A00C02010502010602010702010CA120301EA103810100A217A015800164A103810131A20B8003081991810106820132AA3030198004010003E9A111870F38383031373033303030333230383930138004010003EBA10BA9098007811055222048F1AB82016F301780075A4E5F504B4559A10C870A47565A4E3030303037323022801B43484152474541424C455F5155414E544954595F55444D434F4445A1038701353017800E55534147455F494E445F504B4559A10587034F55543011800A49535F50524550414944A10387014E30128007534E5F504B4559A1078705544C504859300F800843616C6C54797065A10387013130118008554F4D5F504B4559A1058703536563301E80154C4F474943414C5F5155414E544954595F434F4445A10587034455523012800C53504C5F4E4F5F434C415353A10287003017800C4E4554574F524B5F504B4559A10787054247444750300D800653504C5F4E4FA103820100301B8013425553494E4553535F494E464F5F42535F4944A10487023534301580075A505F504B4559A10A87085A503030313034353011800A585F46494C455F494E44A1038701483010800949535F485942524944A10387014E3017800754545F504B4559A10C870A545754543030303038388D01028E0101AF33A00F800131810100820100830100840100A10F800100810100820100830100840100A20F800100810100820100830100840100B10D800100810203F7820115830130}
+--------------------End Command -----------------------
+
+1447153516.354000[20151110 17:05:16.354000] Module: PSC-TrafficHandler/8.1/A/1 Event: Tree execution trace ID: 9900006 Type: 2269699863190011905 Count: 110667 Aff.Obj: 01711082251 Info: Provider: NumberNormalization RatingPlan: 0
+Print out of data set:
+-- Full DataSet output --
+Service: NumberNormalization
+Values:
+  Wanted Nature of number = International
+  Nature of number = Unknown
+  Number to normalize = 01711082251
+
+-- Output done --
+
+
+ ========================================== [Number_Normalization_int_to_sdp]
+  ========================================== [To International]
+   1? <TRUE> Integer : Wanted Nature of number(International) = International
+   ========================================== [National]
+    1? <FALSE> The Nature of Address (Unknown) is NOT equal to National
+   ========================================== [International]
+    1? <FALSE> The Nature of Address (Unknown) is NOT equal to International
+   ========================================== [Unknown]
+    ========================================== [Start with 880]
+     1? <FALSE> Number to normalize (01711082251) is NOT in list
+    ========================================== [start with 00880]
+     1? <FALSE> Number to normalize (01711082251) is NOT in list
+    ========================================== [Start with 01]
+     1? <TRUE> Number to normalize (01711082251) is in list
+     1! Number to normalize: Unknown - 01711082251
+     1! Normalized number  : International - 8801711082251
+
+
+
+Parameters that were changed:
+Normalized number = 8801711082251
+
+
+1447153516.354000[20151110 17:05:16.354000] Module: PSC-TrafficHandler/8.1/A/1 Event: Trace of AF lookup result ID: 4100002 Type: 2269699863188111361 Count: 495 Aff.Obj: 8801711082251 Info: 
+Other Party Number: 8801711082251
+IP:null
+AccountFinder Communication Is OK:true
+1447153516.359000[20151110 17:05:16.359000] Module: PSC-TrafficHandler/8.1/A/1 Event: Trace of AF lookup result ID: 4100002 Type: 2269699863188111361 Count: 496 Aff.Obj: 8801711082251 Info: 
+Other Party Number: 8801711082251
+IP:10.172.33.16
+AccountFinder Communication Is OK:true

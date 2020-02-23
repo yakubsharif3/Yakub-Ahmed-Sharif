@@ -1,0 +1,33 @@
+
+tail -f TraceEventLogFile.txt.0 | tr "|" "\n"
+
+path var/opt/fds/logs
+#######################
+
+Step 1. Goto specific SDP
+2. then goto EVENTS--> Trace
+3. Select PSC- trafficHandler
+4. Put MSISDN from 1711083088 at Target
+5. Add
+ssh sdp
+cd /var/opt/fds/logs
+ls -lart | grep -i trace
+cat /dev/null TraceEventLogFile.txt.0
+6. wait for customer calling
+7. After confirming may be a call is occurred.
+8. goto CLI mode of the specific SDP
+9. goto the path ....var/opt/fds/logs
+10. execute the following command....tail -f TraceEventLogFile.txt.0 | tr "|" "\n"
+
+Then start the analysis....
+
+
+
+
+after finishing the task 
+
+11. Remove the Trace number
+
+
+
+

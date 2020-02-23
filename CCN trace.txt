@@ -1,0 +1,6 @@
+ssh telorb@ccn22io2 (password telorb)
+ping_all
+cd /opt/telorb/axe/tsp/applog/ (for trace)
+ls -lart | grep -i trace
+cat /dev/null >TraceEventLogFile.txt.0 (last file)
+tail -f TraceEventLogFile.txt.0 | tr "|" "\n"

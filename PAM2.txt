@@ -1,0 +1,36 @@
+53,3
+PAM_INSTALL,1709644325,1,0,1204,3,,,
+PAM_INSTALL,1713147533,1,0,1204,3,,,
+PAM_INSTALL,1713337023,1,0,1204,3,,,
+
+ager theke activate 2007
+khli rate plan change hoise 2014 e
+
+
+
+
+1.sdp wise test sim collection krte hbe
+2. 2ta test phone round robin sobar kse thakte hbe
+3.
+sdp72 alarms
+
+52,1,,
+GENERAL,1743322385,0,16384,,,,,,,,
+
+
+
+53,6
+PAM_INSTALL,1713187914,1,0,1220,1,,,
+PAM_INSTALL,1709644322,1,0,1204,3,,,
+PAM_INSTALL,1730332299,1,0,1250,3,,,
+PAM_INSTALL,1713440996,1,0,1134,3,,,
+PAM_INSTALL,1766699792,1,0,1133,1,,,
+PAM_INSTALL,1769334451,1,0,1250,1,,,
+
+
+
+53,1
+PAM_INSTALL,1730332299,1,0,1250,3,,,
+
+fds/config/plugin
+

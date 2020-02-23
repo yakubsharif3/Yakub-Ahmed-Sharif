@@ -1,0 +1,5 @@
+to see any number failed from air use below command in the given airs
+ERS to AIR and AIR to SAP: 35,41,52,56,70,73,74,75
+SAP to AIr : 56,60,47,48,71,72,66
+/var/opt/air/ftp/batchfiles/onlinerecords
+cat the recent files

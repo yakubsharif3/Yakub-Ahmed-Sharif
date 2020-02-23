@@ -1,0 +1,999 @@
+root@xion:/# 
+root@xion:/# ssh sdp80a
+This computer system including all related equipment, network devices (specifically
+including Internet access), are provided only for authorized use. All computer systems
+may be monitored for all lawful purposes, including to ensure that their use is
+authorized, for management of the system, to facilitate protection against unauthorized
+access, and to verify security procedures, survivability and operational security.
+Monitoring includes active attacks by authorized personnel and their entities to test or
+verify the security of the system. During monitoring, information may be examined,
+recorded, copied and used for authorized purposes. All information including personal
+information, placed on or sent over this system may be monitored. Uses of this system,
+authorized or unauthorized, constitutes consent to monitoring of this system.
+Unauthorized use may subject you to criminal prosecution. Evidence of any such
+unauthorized use collected during monitoring may be used for administrative, criminal or
+other adverse action. Use of this system constitutes consent to monitoring for these
+purposes.
+
+IF YOU ARE NOT AN AUTHORIZED USER, PLEASE EXIT IMMEDIATELY 
+root@sdp80a's password: 
+################################################################################
+# Warning! You have entered into a secured area!                               #
+# Your IP, Login Time, Username has been noted for auditing purposes.          #
+# This service is restricted to authorized users only.                         #
+# All activities on this system are logged. Unauthorized access will be fully  #
+# investigated and action would be taken appropriatley.                        #
+#                                                                              #
+# LOG OFF IMMEDIATELY IF YOU ARE NOT AN AUTHORIZED USER                        #
+################################################################################
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# bash
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# cd /var/opt/fds/FP
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# ls -ltr
+total 39856
+-rw-r--r-- 1 root    root   1681128 Jul 26 15:21 SUBSCRPT_DATA_20150726_00020.LOADED
+-rw-r--r-- 1 sdpuser staff   611732 Jul 26 15:45 SUBSCRPT_DATA_20150726_00020.RPT
+-rw-r--r-- 1 root    root   1580429 Jul 26 15:46 SUBSCRPT_DATA_20150726_00021.LOADED
+-rw-r--r-- 1 sdpuser staff       20 Jul 26 15:50 SUBSCRPT_DATA_20150726_00021.RPT
+-rw-r--r-- 1 root    root    402221 Jul 27 15:53 SUBSCRPT_DATA_20150727_15531.LOADED
+-rw-r--r-- 1 root    root    824111 Jul 27 16:00 SUBSCRPT_DATA_20150727_15591.LOADED
+-rw-r--r-- 1 sdpuser staff     5927 Jul 27 16:09 SUBSCRPT_DATA_20150727_15591.RPT
+-rw-r--r-- 1 sdpuser staff     5762 Jul 27 16:10 SUBSCRPT_DATA_20150727_15531.RPT
+-rw-r--r-- 1 root    root    906521 Jul 27 16:12 SUBSCRPT_DATA_20150727_16111.LOADED
+-rw-r--r-- 1 root    root    442442 Jul 27 16:15 SUBSCRPT_DATA_20150727_16141.LOADED
+-rw-r--r-- 1 sdpuser staff     6464 Jul 27 16:21 SUBSCRPT_DATA_20150727_16111.RPT
+-rw-r--r-- 1 sdpuser staff     6284 Jul 27 16:22 SUBSCRPT_DATA_20150727_16141.RPT
+-rw-r--r-- 1 root    root    402221 Jul 27 16:34 SUBSCRPT_DATA_20150727_16341.LOADED
+-rw-r--r-- 1 root    root    824111 Jul 27 16:38 SUBSCRPT_DATA_20150727_16371.LOADED
+-rw-r--r-- 1 sdpuser staff     5927 Jul 27 16:39 SUBSCRPT_DATA_20150727_16371.RPT
+-rw-r--r-- 1 sdpuser staff     5762 Jul 27 16:40 SUBSCRPT_DATA_20150727_16341.RPT
+-rw-r--r-- 1 root    root     16389 Jul 28 15:52 SUBSCRPT_DATA_20150728_15521.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Jul 29 04:00 SUBSCRPT_DATA_20150728_15521.RPT
+-rw-r--r-- 1 root    root         7 Jul 29 11:33 SUBSCRPT_DATA_20150729_11321.LOADED
+-rw-r--r-- 1 root    root       996 Jul 29 14:20 SUBSCRPT_DATA_20150729_14202.LOADED
+-rw-r--r-- 1 root    root  29927129 Jul 29 17:51 SUBSCRPT_DATA_20150729_17411.LOADED
+-rw-r--r-- 1 sdpuser staff   105541 Jul 30 04:27 SUBSCRPT_DATA_20150729_17411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Jul 30 04:27 SUBSCRPT_DATA_20150729_11321.RPT
+-rw-r--r-- 1 sdpuser staff       17 Jul 30 04:27 SUBSCRPT_DATA_20150729_14202.RPT
+-rw-r--r-- 1 root    root         7 Aug  2 23:32 SUBSCRPT_DATA_20150802_23311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  2 23:34 SUBSCRPT_DATA_20150802_23331.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 04:00 SUBSCRPT_DATA_20150802_23331.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 04:00 SUBSCRPT_DATA_20150802_23311.RPT
+-rw-r--r-- 1 root    root         7 Aug  3 11:10 SUBSCRPT_DATA_20150803_11101.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:12 SUBSCRPT_DATA_20150803_11121.LOADED
+-rw-r--r-- 1 root    root     21228 Aug  3 11:23 SUBSCRPT_DATA_20150803_11231.LOADED
+-rw-r--r-- 1 root    root     19942 Aug  3 11:25 SUBSCRPT_DATA_20150803_11251.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Aug  3 11:29 SUBSCRPT_DATA_20150803_11231.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 11:29 SUBSCRPT_DATA_20150803_11101.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 11:29 SUBSCRPT_DATA_20150803_11121.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  3 11:29 SUBSCRPT_DATA_20150803_11251.RPT
+-rw-r--r-- 1 root    root     49858 Aug  3 13:38 SUBSCRPT_DATA_20150803_13381.LOADED
+-rw-r--r-- 1 root    root     53074 Aug  3 13:47 SUBSCRPT_DATA_20150803_13471.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:58 SUBSCRPT_DATA_20150803_13581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 14:04 SUBSCRPT_DATA_20150803_14041.LOADED
+-rw-r--r-- 1 sdpuser staff       19 Aug  3 14:21 SUBSCRPT_DATA_20150803_13471.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 14:21 SUBSCRPT_DATA_20150803_14041.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  3 14:21 SUBSCRPT_DATA_20150803_13381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 14:21 SUBSCRPT_DATA_20150803_13581.RPT
+-rw-r--r-- 1 root    root       100 Aug  4 21:38 SUBSCRPT_DATA_20150804_21381.LOADED
+-rw-r--r-- 1 root    root       106 Aug  4 21:39 SUBSCRPT_DATA_20150804_21391.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:26 SUBSCRPT_DATA_20150804_22261.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:31 SUBSCRPT_DATA_20150804_22311.LOADED
+-rw-r--r-- 1 root    root      2860 Aug  4 22:35 SUBSCRPT_DATA_20150804_22351.LOADED
+-rw-r--r-- 1 root    root      3044 Aug  4 22:38 SUBSCRPT_DATA_20150804_22381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:41 SUBSCRPT_DATA_20150804_22411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:42 SUBSCRPT_DATA_20150804_22421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22421.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  5 04:00 SUBSCRPT_DATA_20150804_22381.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  5 04:00 SUBSCRPT_DATA_20150804_22351.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22411.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug  5 04:00 SUBSCRPT_DATA_20150804_21391.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22261.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug  5 04:00 SUBSCRPT_DATA_20150804_21381.RPT
+-rw-r--r-- 1 root    root   2377893 Aug  5 22:31 SUBSCRPT_DATA_20150805_00002.LOADED
+-rw-r--r-- 1 sdpuser staff     1731 Aug  6 04:03 SUBSCRPT_DATA_20150805_00002.RPT
+-rw-r--r-- 1 root    root     11169 Aug  6 10:57 SUBSCRPT_DATA_20150806_10561.LOADED
+-rw-r--r-- 1 root    root     11889 Aug  6 10:59 SUBSCRPT_DATA_20150806_10581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:02 SUBSCRPT_DATA_20150806_11021.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:04 SUBSCRPT_DATA_20150806_11041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11021.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  6 11:18 SUBSCRPT_DATA_20150806_10581.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  6 11:18 SUBSCRPT_DATA_20150806_10561.RPT
+-rw-r--r-- 1 root    root         7 Aug  6 23:59 SUBSCRPT_DATA_20150806_23591.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:01 SUBSCRPT_DATA_20150807_00011.LOADED
+-rw-r--r-- 1 root    root      1229 Aug  7 00:05 SUBSCRPT_DATA_20150807_00051.LOADED
+-rw-r--r-- 1 root    root      1155 Aug  7 00:06 SUBSCRPT_DATA_20150807_00061.LOADED
+-rw-r--r-- 1 root    root      7232 Aug  7 00:14 SUBSCRPT_DATA_20150807_00141.LOADED
+-rw-r--r-- 1 root    root      7698 Aug  7 00:15 SUBSCRPT_DATA_20150807_00151.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:41 SUBSCRPT_DATA_20150807_00401.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:42 SUBSCRPT_DATA_20150807_00421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00401.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  7 04:00 SUBSCRPT_DATA_20150807_00061.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  7 04:00 SUBSCRPT_DATA_20150807_00151.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00011.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00421.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  7 04:00 SUBSCRPT_DATA_20150807_00141.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150806_23591.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  7 04:00 SUBSCRPT_DATA_20150807_00051.RPT
+-rw-r--r-- 1 root    root         7 Aug  7 20:46 SUBSCRPT_DATA_20150807_20451.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 20:48 SUBSCRPT_DATA_20150807_20481.LOADED
+-rw-r--r-- 1 root    root     39247 Aug  8 01:31 SUBSCRPT_DATA_20150808_01311.LOADED
+-rw-r--r-- 1 root    root     36869 Aug  8 01:32 SUBSCRPT_DATA_20150808_01321.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:38 SUBSCRPT_DATA_20150808_01381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:42 SUBSCRPT_DATA_20150808_01411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:49 SUBSCRPT_DATA_20150808_01491.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:51 SUBSCRPT_DATA_20150808_01511.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:52 SUBSCRPT_DATA_20150808_01521.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01491.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150807_20481.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01511.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150807_20451.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  8 04:00 SUBSCRPT_DATA_20150808_01321.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01521.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01411.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  8 04:00 SUBSCRPT_DATA_20150808_01311.RPT
+-rw-r--r-- 1 root    root         7 Aug 10 23:11 SUBSCRPT_DATA_20150810_23111.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:12 SUBSCRPT_DATA_20150810_23121.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 04:00 SUBSCRPT_DATA_20150810_23121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 04:00 SUBSCRPT_DATA_20150810_23111.RPT
+-rw-r--r-- 1 root    root         7 Aug 11 11:12 SUBSCRPT_DATA_20150811_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug 11 12:48 SUBSCRPT_DATA_20150811_12481.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 04:00 SUBSCRPT_DATA_20150811_12481.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 04:00 SUBSCRPT_DATA_20150811_11121.RPT
+-rw-r--r-- 1 root    root      2219 Aug 13 11:31 SUBSCRPT_DATA_20150812_16001.DAT
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# exit
+exit
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# exit
+logout
+Connection to sdp80a closed.
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# ssh sdp79a
+This computer system including all related equipment, network devices (specifically
+including Internet access), are provided only for authorized use. All computer systems
+may be monitored for all lawful purposes, including to ensure that their use is
+authorized, for management of the system, to facilitate protection against unauthorized
+access, and to verify security procedures, survivability and operational security.
+Monitoring includes active attacks by authorized personnel and their entities to test or
+verify the security of the system. During monitoring, information may be examined,
+recorded, copied and used for authorized purposes. All information including personal
+information, placed on or sent over this system may be monitored. Uses of this system,
+authorized or unauthorized, constitutes consent to monitoring of this system.
+Unauthorized use may subject you to criminal prosecution. Evidence of any such
+unauthorized use collected during monitoring may be used for administrative, criminal or
+other adverse action. Use of this system constitutes consent to monitoring for these
+purposes.
+
+IF YOU ARE NOT AN AUTHORIZED USER, PLEASE EXIT IMMEDIATELY 
+root@sdp79a's password: 
+################################################################################
+# Warning! You have entered into a secured area!                               #
+# Your IP, Login Time, Username has been noted for auditing purposes.          #
+# This service is restricted to authorized users only.                         #
+# All activities on this system are logged. Unauthorized access will be fully  #
+# investigated and action would be taken appropriatley.                        #
+#                                                                              #
+# LOG OFF IMMEDIATELY IF YOU ARE NOT AN AUTHORIZED USER                        #
+################################################################################
+[root@sdp79a ~]# 
+[root@sdp79a ~]# 
+[root@sdp79a ~]# 
+[root@sdp79a ~]# bash
+[root@sdp79a ~]# 
+[root@sdp79a ~]# 
+[root@sdp79a ~]# 
+[root@sdp79a ~]# cd /var/opt/fds/FP
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]#  ls -ltr
+total 21196
+-rw-r--r-- 1 root    root    163985 Jul 26 15:20 SUBSCRPT_DATA_20150726_00020.LOADED
+-rw-r--r-- 1 sdpuser staff    55675 Jul 26 15:40 SUBSCRPT_DATA_20150726_00020.RPT
+-rw-r--r-- 1 root    root    146118 Jul 26 15:41 SUBSCRPT_DATA_20150726_00021.LOADED
+-rw-r--r-- 1 sdpuser staff       19 Jul 26 15:42 SUBSCRPT_DATA_20150726_00021.RPT
+-rw-r--r-- 1 root    root    142750 Jul 27 15:53 SUBSCRPT_DATA_20150727_15531.LOADED
+-rw-r--r-- 1 root    root      3999 Jul 27 16:00 SUBSCRPT_DATA_20150727_15591.LOADED
+-rw-r--r-- 1 sdpuser staff      184 Jul 27 16:08 SUBSCRPT_DATA_20150727_15531.RPT
+-rw-r--r-- 1 sdpuser staff      117 Jul 27 16:08 SUBSCRPT_DATA_20150727_15591.RPT
+-rw-r--r-- 1 root    root      4398 Jul 27 16:12 SUBSCRPT_DATA_20150727_16111.LOADED
+-rw-r--r-- 1 root    root    157024 Jul 27 16:15 SUBSCRPT_DATA_20150727_16141.LOADED
+-rw-r--r-- 1 sdpuser staff      199 Jul 27 16:20 SUBSCRPT_DATA_20150727_16141.RPT
+-rw-r--r-- 1 sdpuser staff      126 Jul 27 16:20 SUBSCRPT_DATA_20150727_16111.RPT
+-rw-r--r-- 1 root    root    142750 Jul 27 16:34 SUBSCRPT_DATA_20150727_16341.LOADED
+-rw-r--r-- 1 root    root      3999 Jul 27 16:38 SUBSCRPT_DATA_20150727_16371.LOADED
+-rw-r--r-- 1 sdpuser staff      184 Jul 27 16:39 SUBSCRPT_DATA_20150727_16341.RPT
+-rw-r--r-- 1 sdpuser staff      117 Jul 27 16:39 SUBSCRPT_DATA_20150727_16371.RPT
+-rw-r--r-- 1 root    root      9876 Jul 28 15:52 SUBSCRPT_DATA_20150728_15521.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Jul 29 02:00 SUBSCRPT_DATA_20150728_15521.RPT
+-rw-r--r-- 1 root    root         7 Jul 29 11:33 SUBSCRPT_DATA_20150729_11321.LOADED
+-rw-r--r-- 1 root    root       840 Jul 29 14:20 SUBSCRPT_DATA_20150729_14202.LOADED
+-rw-r--r-- 1 root    root  18412063 Jul 29 17:50 SUBSCRPT_DATA_20150729_17411.LOADED
+-rw-r--r-- 1 sdpuser staff       17 Jul 30 02:00 SUBSCRPT_DATA_20150729_14202.RPT
+-rw-r--r-- 1 sdpuser staff    54621 Jul 30 02:16 SUBSCRPT_DATA_20150729_17411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Jul 30 02:16 SUBSCRPT_DATA_20150729_11321.RPT
+-rw-r--r-- 1 root    root         7 Aug  2 23:32 SUBSCRPT_DATA_20150802_23311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  2 23:34 SUBSCRPT_DATA_20150802_23331.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 02:00 SUBSCRPT_DATA_20150802_23331.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 02:00 SUBSCRPT_DATA_20150802_23311.RPT
+-rw-r--r-- 1 root    root         7 Aug  3 11:10 SUBSCRPT_DATA_20150803_11101.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:12 SUBSCRPT_DATA_20150803_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:23 SUBSCRPT_DATA_20150803_11231.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:25 SUBSCRPT_DATA_20150803_11251.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:38 SUBSCRPT_DATA_20150803_13381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:47 SUBSCRPT_DATA_20150803_13471.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:58 SUBSCRPT_DATA_20150803_13581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 14:04 SUBSCRPT_DATA_20150803_14041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_13381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_13471.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11251.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_13581.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_14041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11231.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11101.RPT
+-rw-r--r-- 1 root    root         7 Aug  4 21:38 SUBSCRPT_DATA_20150804_21381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 21:39 SUBSCRPT_DATA_20150804_21391.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:26 SUBSCRPT_DATA_20150804_22261.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:31 SUBSCRPT_DATA_20150804_22311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:35 SUBSCRPT_DATA_20150804_22351.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:38 SUBSCRPT_DATA_20150804_22381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:41 SUBSCRPT_DATA_20150804_22411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:42 SUBSCRPT_DATA_20150804_22421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_21391.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_21381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22421.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22351.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22261.RPT
+-rw-r--r-- 1 root    root   1782285 Aug  5 22:31 SUBSCRPT_DATA_20150805_00002.LOADED
+-rw-r--r-- 1 sdpuser staff      600 Aug  6 02:02 SUBSCRPT_DATA_20150805_00002.RPT
+-rw-r--r-- 1 root    root     76115 Aug  6 10:57 SUBSCRPT_DATA_20150806_10561.LOADED
+-rw-r--r-- 1 root    root     81025 Aug  6 10:59 SUBSCRPT_DATA_20150806_10581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:02 SUBSCRPT_DATA_20150806_11021.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:04 SUBSCRPT_DATA_20150806_11041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11021.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  6 11:18 SUBSCRPT_DATA_20150806_10561.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  6 11:18 SUBSCRPT_DATA_20150806_10581.RPT
+-rw-r--r-- 1 root    root         7 Aug  6 23:59 SUBSCRPT_DATA_20150806_23591.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:01 SUBSCRPT_DATA_20150807_00011.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:05 SUBSCRPT_DATA_20150807_00051.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:06 SUBSCRPT_DATA_20150807_00061.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:14 SUBSCRPT_DATA_20150807_00141.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:15 SUBSCRPT_DATA_20150807_00151.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:41 SUBSCRPT_DATA_20150807_00401.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:42 SUBSCRPT_DATA_20150807_00421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00151.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00141.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00051.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00421.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00061.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00011.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00401.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150806_23591.RPT
+-rw-r--r-- 1 root    root         7 Aug  7 20:46 SUBSCRPT_DATA_20150807_20451.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 20:48 SUBSCRPT_DATA_20150807_20481.LOADED
+-rw-r--r-- 1 root    root     12879 Aug  8 01:31 SUBSCRPT_DATA_20150808_01311.LOADED
+-rw-r--r-- 1 root    root     12099 Aug  8 01:32 SUBSCRPT_DATA_20150808_01321.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:38 SUBSCRPT_DATA_20150808_01381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:42 SUBSCRPT_DATA_20150808_01411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:49 SUBSCRPT_DATA_20150808_01491.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:51 SUBSCRPT_DATA_20150808_01511.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:52 SUBSCRPT_DATA_20150808_01521.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01511.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  8 02:00 SUBSCRPT_DATA_20150808_01311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01491.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  8 02:00 SUBSCRPT_DATA_20150808_01321.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01521.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150807_20451.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150807_20481.RPT
+-rw-r--r-- 1 root    root        33 Aug 10 22:30 SUBSCRPT_DATA_20150810_00002.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:11 SUBSCRPT_DATA_20150810_23111.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:12 SUBSCRPT_DATA_20150810_23121.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 02:00 SUBSCRPT_DATA_20150810_23111.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 02:00 SUBSCRPT_DATA_20150810_23121.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug 11 02:00 SUBSCRPT_DATA_20150810_00002.RPT
+-rw-r--r-- 1 root    root         7 Aug 11 11:12 SUBSCRPT_DATA_20150811_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug 11 12:48 SUBSCRPT_DATA_20150811_12481.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 02:00 SUBSCRPT_DATA_20150811_11121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 02:00 SUBSCRPT_DATA_20150811_12481.RPT
+-rw-r--r-- 1 root    root      1790 Aug 13 09:59 SUBSCRPT_DATA_20150812_16001.DAT
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# ls -ltr
+total 21200
+-rw-r--r-- 1 root    root    163985 Jul 26 15:20 SUBSCRPT_DATA_20150726_00020.LOADED
+-rw-r--r-- 1 sdpuser staff    55675 Jul 26 15:40 SUBSCRPT_DATA_20150726_00020.RPT
+-rw-r--r-- 1 root    root    146118 Jul 26 15:41 SUBSCRPT_DATA_20150726_00021.LOADED
+-rw-r--r-- 1 sdpuser staff       19 Jul 26 15:42 SUBSCRPT_DATA_20150726_00021.RPT
+-rw-r--r-- 1 root    root    142750 Jul 27 15:53 SUBSCRPT_DATA_20150727_15531.LOADED
+-rw-r--r-- 1 root    root      3999 Jul 27 16:00 SUBSCRPT_DATA_20150727_15591.LOADED
+-rw-r--r-- 1 sdpuser staff      184 Jul 27 16:08 SUBSCRPT_DATA_20150727_15531.RPT
+-rw-r--r-- 1 sdpuser staff      117 Jul 27 16:08 SUBSCRPT_DATA_20150727_15591.RPT
+-rw-r--r-- 1 root    root      4398 Jul 27 16:12 SUBSCRPT_DATA_20150727_16111.LOADED
+-rw-r--r-- 1 root    root    157024 Jul 27 16:15 SUBSCRPT_DATA_20150727_16141.LOADED
+-rw-r--r-- 1 sdpuser staff      199 Jul 27 16:20 SUBSCRPT_DATA_20150727_16141.RPT
+-rw-r--r-- 1 sdpuser staff      126 Jul 27 16:20 SUBSCRPT_DATA_20150727_16111.RPT
+-rw-r--r-- 1 root    root    142750 Jul 27 16:34 SUBSCRPT_DATA_20150727_16341.LOADED
+-rw-r--r-- 1 root    root      3999 Jul 27 16:38 SUBSCRPT_DATA_20150727_16371.LOADED
+-rw-r--r-- 1 sdpuser staff      184 Jul 27 16:39 SUBSCRPT_DATA_20150727_16341.RPT
+-rw-r--r-- 1 sdpuser staff      117 Jul 27 16:39 SUBSCRPT_DATA_20150727_16371.RPT
+-rw-r--r-- 1 root    root      9876 Jul 28 15:52 SUBSCRPT_DATA_20150728_15521.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Jul 29 02:00 SUBSCRPT_DATA_20150728_15521.RPT
+-rw-r--r-- 1 root    root         7 Jul 29 11:33 SUBSCRPT_DATA_20150729_11321.LOADED
+-rw-r--r-- 1 root    root       840 Jul 29 14:20 SUBSCRPT_DATA_20150729_14202.LOADED
+-rw-r--r-- 1 root    root  18412063 Jul 29 17:50 SUBSCRPT_DATA_20150729_17411.LOADED
+-rw-r--r-- 1 sdpuser staff       17 Jul 30 02:00 SUBSCRPT_DATA_20150729_14202.RPT
+-rw-r--r-- 1 sdpuser staff    54621 Jul 30 02:16 SUBSCRPT_DATA_20150729_17411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Jul 30 02:16 SUBSCRPT_DATA_20150729_11321.RPT
+-rw-r--r-- 1 root    root         7 Aug  2 23:32 SUBSCRPT_DATA_20150802_23311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  2 23:34 SUBSCRPT_DATA_20150802_23331.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 02:00 SUBSCRPT_DATA_20150802_23331.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 02:00 SUBSCRPT_DATA_20150802_23311.RPT
+-rw-r--r-- 1 root    root         7 Aug  3 11:10 SUBSCRPT_DATA_20150803_11101.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:12 SUBSCRPT_DATA_20150803_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:23 SUBSCRPT_DATA_20150803_11231.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:25 SUBSCRPT_DATA_20150803_11251.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:38 SUBSCRPT_DATA_20150803_13381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:47 SUBSCRPT_DATA_20150803_13471.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:58 SUBSCRPT_DATA_20150803_13581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 14:04 SUBSCRPT_DATA_20150803_14041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_13381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_13471.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11251.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_13581.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_14041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11231.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  4 02:00 SUBSCRPT_DATA_20150803_11101.RPT
+-rw-r--r-- 1 root    root         7 Aug  4 21:38 SUBSCRPT_DATA_20150804_21381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 21:39 SUBSCRPT_DATA_20150804_21391.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:26 SUBSCRPT_DATA_20150804_22261.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:31 SUBSCRPT_DATA_20150804_22311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:35 SUBSCRPT_DATA_20150804_22351.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:38 SUBSCRPT_DATA_20150804_22381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:41 SUBSCRPT_DATA_20150804_22411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:42 SUBSCRPT_DATA_20150804_22421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_21391.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_21381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22421.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22351.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 02:00 SUBSCRPT_DATA_20150804_22261.RPT
+-rw-r--r-- 1 root    root   1782285 Aug  5 22:31 SUBSCRPT_DATA_20150805_00002.LOADED
+-rw-r--r-- 1 sdpuser staff      600 Aug  6 02:02 SUBSCRPT_DATA_20150805_00002.RPT
+-rw-r--r-- 1 root    root     76115 Aug  6 10:57 SUBSCRPT_DATA_20150806_10561.LOADED
+-rw-r--r-- 1 root    root     81025 Aug  6 10:59 SUBSCRPT_DATA_20150806_10581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:02 SUBSCRPT_DATA_20150806_11021.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:04 SUBSCRPT_DATA_20150806_11041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11021.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  6 11:18 SUBSCRPT_DATA_20150806_10561.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  6 11:18 SUBSCRPT_DATA_20150806_10581.RPT
+-rw-r--r-- 1 root    root         7 Aug  6 23:59 SUBSCRPT_DATA_20150806_23591.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:01 SUBSCRPT_DATA_20150807_00011.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:05 SUBSCRPT_DATA_20150807_00051.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:06 SUBSCRPT_DATA_20150807_00061.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:14 SUBSCRPT_DATA_20150807_00141.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:15 SUBSCRPT_DATA_20150807_00151.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:41 SUBSCRPT_DATA_20150807_00401.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:42 SUBSCRPT_DATA_20150807_00421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00151.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00141.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00051.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00421.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00061.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00011.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150807_00401.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 02:00 SUBSCRPT_DATA_20150806_23591.RPT
+-rw-r--r-- 1 root    root         7 Aug  7 20:46 SUBSCRPT_DATA_20150807_20451.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 20:48 SUBSCRPT_DATA_20150807_20481.LOADED
+-rw-r--r-- 1 root    root     12879 Aug  8 01:31 SUBSCRPT_DATA_20150808_01311.LOADED
+-rw-r--r-- 1 root    root     12099 Aug  8 01:32 SUBSCRPT_DATA_20150808_01321.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:38 SUBSCRPT_DATA_20150808_01381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:42 SUBSCRPT_DATA_20150808_01411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:49 SUBSCRPT_DATA_20150808_01491.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:51 SUBSCRPT_DATA_20150808_01511.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:52 SUBSCRPT_DATA_20150808_01521.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01511.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  8 02:00 SUBSCRPT_DATA_20150808_01311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01491.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  8 02:00 SUBSCRPT_DATA_20150808_01321.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01521.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150807_20451.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150808_01381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 02:00 SUBSCRPT_DATA_20150807_20481.RPT
+-rw-r--r-- 1 root    root        33 Aug 10 22:30 SUBSCRPT_DATA_20150810_00002.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:11 SUBSCRPT_DATA_20150810_23111.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:12 SUBSCRPT_DATA_20150810_23121.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 02:00 SUBSCRPT_DATA_20150810_23111.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 02:00 SUBSCRPT_DATA_20150810_23121.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug 11 02:00 SUBSCRPT_DATA_20150810_00002.RPT
+-rw-r--r-- 1 root    root         7 Aug 11 11:12 SUBSCRPT_DATA_20150811_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug 11 12:48 SUBSCRPT_DATA_20150811_12481.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 02:00 SUBSCRPT_DATA_20150811_11121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 02:00 SUBSCRPT_DATA_20150811_12481.RPT
+-rw-r--r-- 1 root    root      1790 Aug 13 09:59 SUBSCRPT_DATA_20150812_16001.LOADED
+-rw-r--r-- 1 sdpuser staff      197 Aug 13 11:36 SUBSCRPT_DATA_20150812_16001.RPT
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# cat SUBSCRPT_DATA_20150812_16001.RPT
+61,GENERAL,1713590939,0,512,,,,,,,,
+61,GENERAL,1713730710,0,512,,,,,,,,
+61,GENERAL,1713765561,0,512,,,,,,,,
+61,GENERAL,1713905729,0,512,,,,,,,,
+61,GENERAL,1713915495,0,512,,,,,,,,
+54,SUCCESS      
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# 
+[root@sdp79a FP]# exit
+exit
+[root@sdp79a ~]# 
+[root@sdp79a ~]# 
+[root@sdp79a ~]# 
+[root@sdp79a ~]# exit
+logout
+Connection to sdp79a closed.
+You have new mail in /var/mail/root
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# ssh sdp80a 
+This computer system including all related equipment, network devices (specifically
+including Internet access), are provided only for authorized use. All computer systems
+may be monitored for all lawful purposes, including to ensure that their use is
+authorized, for management of the system, to facilitate protection against unauthorized
+access, and to verify security procedures, survivability and operational security.
+Monitoring includes active attacks by authorized personnel and their entities to test or
+verify the security of the system. During monitoring, information may be examined,
+recorded, copied and used for authorized purposes. All information including personal
+information, placed on or sent over this system may be monitored. Uses of this system,
+authorized or unauthorized, constitutes consent to monitoring of this system.
+Unauthorized use may subject you to criminal prosecution. Evidence of any such
+unauthorized use collected during monitoring may be used for administrative, criminal or
+other adverse action. Use of this system constitutes consent to monitoring for these
+purposes.
+
+IF YOU ARE NOT AN AUTHORIZED USER, PLEASE EXIT IMMEDIATELY 
+root@sdp80a's password: 
+################################################################################
+# Warning! You have entered into a secured area!                               #
+# Your IP, Login Time, Username has been noted for auditing purposes.          #
+# This service is restricted to authorized users only.                         #
+# All activities on this system are logged. Unauthorized access will be fully  #
+# investigated and action would be taken appropriatley.                        #
+#                                                                              #
+# LOG OFF IMMEDIATELY IF YOU ARE NOT AN AUTHORIZED USER                        #
+################################################################################
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# bash
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# 
+[root@sdp80a ~]# cd /var/opt/fds/FP
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# ls -ltr
+total 39856
+-rw-r--r-- 1 root    root   1681128 Jul 26 15:21 SUBSCRPT_DATA_20150726_00020.LOADED
+-rw-r--r-- 1 sdpuser staff   611732 Jul 26 15:45 SUBSCRPT_DATA_20150726_00020.RPT
+-rw-r--r-- 1 root    root   1580429 Jul 26 15:46 SUBSCRPT_DATA_20150726_00021.LOADED
+-rw-r--r-- 1 sdpuser staff       20 Jul 26 15:50 SUBSCRPT_DATA_20150726_00021.RPT
+-rw-r--r-- 1 root    root    402221 Jul 27 15:53 SUBSCRPT_DATA_20150727_15531.LOADED
+-rw-r--r-- 1 root    root    824111 Jul 27 16:00 SUBSCRPT_DATA_20150727_15591.LOADED
+-rw-r--r-- 1 sdpuser staff     5927 Jul 27 16:09 SUBSCRPT_DATA_20150727_15591.RPT
+-rw-r--r-- 1 sdpuser staff     5762 Jul 27 16:10 SUBSCRPT_DATA_20150727_15531.RPT
+-rw-r--r-- 1 root    root    906521 Jul 27 16:12 SUBSCRPT_DATA_20150727_16111.LOADED
+-rw-r--r-- 1 root    root    442442 Jul 27 16:15 SUBSCRPT_DATA_20150727_16141.LOADED
+-rw-r--r-- 1 sdpuser staff     6464 Jul 27 16:21 SUBSCRPT_DATA_20150727_16111.RPT
+-rw-r--r-- 1 sdpuser staff     6284 Jul 27 16:22 SUBSCRPT_DATA_20150727_16141.RPT
+-rw-r--r-- 1 root    root    402221 Jul 27 16:34 SUBSCRPT_DATA_20150727_16341.LOADED
+-rw-r--r-- 1 root    root    824111 Jul 27 16:38 SUBSCRPT_DATA_20150727_16371.LOADED
+-rw-r--r-- 1 sdpuser staff     5927 Jul 27 16:39 SUBSCRPT_DATA_20150727_16371.RPT
+-rw-r--r-- 1 sdpuser staff     5762 Jul 27 16:40 SUBSCRPT_DATA_20150727_16341.RPT
+-rw-r--r-- 1 root    root     16389 Jul 28 15:52 SUBSCRPT_DATA_20150728_15521.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Jul 29 04:00 SUBSCRPT_DATA_20150728_15521.RPT
+-rw-r--r-- 1 root    root         7 Jul 29 11:33 SUBSCRPT_DATA_20150729_11321.LOADED
+-rw-r--r-- 1 root    root       996 Jul 29 14:20 SUBSCRPT_DATA_20150729_14202.LOADED
+-rw-r--r-- 1 root    root  29927129 Jul 29 17:51 SUBSCRPT_DATA_20150729_17411.LOADED
+-rw-r--r-- 1 sdpuser staff   105541 Jul 30 04:27 SUBSCRPT_DATA_20150729_17411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Jul 30 04:27 SUBSCRPT_DATA_20150729_11321.RPT
+-rw-r--r-- 1 sdpuser staff       17 Jul 30 04:27 SUBSCRPT_DATA_20150729_14202.RPT
+-rw-r--r-- 1 root    root         7 Aug  2 23:32 SUBSCRPT_DATA_20150802_23311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  2 23:34 SUBSCRPT_DATA_20150802_23331.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 04:00 SUBSCRPT_DATA_20150802_23331.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 04:00 SUBSCRPT_DATA_20150802_23311.RPT
+-rw-r--r-- 1 root    root         7 Aug  3 11:10 SUBSCRPT_DATA_20150803_11101.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:12 SUBSCRPT_DATA_20150803_11121.LOADED
+-rw-r--r-- 1 root    root     21228 Aug  3 11:23 SUBSCRPT_DATA_20150803_11231.LOADED
+-rw-r--r-- 1 root    root     19942 Aug  3 11:25 SUBSCRPT_DATA_20150803_11251.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Aug  3 11:29 SUBSCRPT_DATA_20150803_11231.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 11:29 SUBSCRPT_DATA_20150803_11101.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 11:29 SUBSCRPT_DATA_20150803_11121.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  3 11:29 SUBSCRPT_DATA_20150803_11251.RPT
+-rw-r--r-- 1 root    root     49858 Aug  3 13:38 SUBSCRPT_DATA_20150803_13381.LOADED
+-rw-r--r-- 1 root    root     53074 Aug  3 13:47 SUBSCRPT_DATA_20150803_13471.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:58 SUBSCRPT_DATA_20150803_13581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 14:04 SUBSCRPT_DATA_20150803_14041.LOADED
+-rw-r--r-- 1 sdpuser staff       19 Aug  3 14:21 SUBSCRPT_DATA_20150803_13471.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 14:21 SUBSCRPT_DATA_20150803_14041.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  3 14:21 SUBSCRPT_DATA_20150803_13381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 14:21 SUBSCRPT_DATA_20150803_13581.RPT
+-rw-r--r-- 1 root    root       100 Aug  4 21:38 SUBSCRPT_DATA_20150804_21381.LOADED
+-rw-r--r-- 1 root    root       106 Aug  4 21:39 SUBSCRPT_DATA_20150804_21391.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:26 SUBSCRPT_DATA_20150804_22261.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:31 SUBSCRPT_DATA_20150804_22311.LOADED
+-rw-r--r-- 1 root    root      2860 Aug  4 22:35 SUBSCRPT_DATA_20150804_22351.LOADED
+-rw-r--r-- 1 root    root      3044 Aug  4 22:38 SUBSCRPT_DATA_20150804_22381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:41 SUBSCRPT_DATA_20150804_22411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:42 SUBSCRPT_DATA_20150804_22421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22421.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  5 04:00 SUBSCRPT_DATA_20150804_22381.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  5 04:00 SUBSCRPT_DATA_20150804_22351.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22411.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug  5 04:00 SUBSCRPT_DATA_20150804_21391.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22261.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug  5 04:00 SUBSCRPT_DATA_20150804_21381.RPT
+-rw-r--r-- 1 root    root   2377893 Aug  5 22:31 SUBSCRPT_DATA_20150805_00002.LOADED
+-rw-r--r-- 1 sdpuser staff     1731 Aug  6 04:03 SUBSCRPT_DATA_20150805_00002.RPT
+-rw-r--r-- 1 root    root     11169 Aug  6 10:57 SUBSCRPT_DATA_20150806_10561.LOADED
+-rw-r--r-- 1 root    root     11889 Aug  6 10:59 SUBSCRPT_DATA_20150806_10581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:02 SUBSCRPT_DATA_20150806_11021.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:04 SUBSCRPT_DATA_20150806_11041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11021.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  6 11:18 SUBSCRPT_DATA_20150806_10581.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  6 11:18 SUBSCRPT_DATA_20150806_10561.RPT
+-rw-r--r-- 1 root    root         7 Aug  6 23:59 SUBSCRPT_DATA_20150806_23591.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:01 SUBSCRPT_DATA_20150807_00011.LOADED
+-rw-r--r-- 1 root    root      1229 Aug  7 00:05 SUBSCRPT_DATA_20150807_00051.LOADED
+-rw-r--r-- 1 root    root      1155 Aug  7 00:06 SUBSCRPT_DATA_20150807_00061.LOADED
+-rw-r--r-- 1 root    root      7232 Aug  7 00:14 SUBSCRPT_DATA_20150807_00141.LOADED
+-rw-r--r-- 1 root    root      7698 Aug  7 00:15 SUBSCRPT_DATA_20150807_00151.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:41 SUBSCRPT_DATA_20150807_00401.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:42 SUBSCRPT_DATA_20150807_00421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00401.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  7 04:00 SUBSCRPT_DATA_20150807_00061.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  7 04:00 SUBSCRPT_DATA_20150807_00151.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00011.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00421.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  7 04:00 SUBSCRPT_DATA_20150807_00141.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150806_23591.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  7 04:00 SUBSCRPT_DATA_20150807_00051.RPT
+-rw-r--r-- 1 root    root         7 Aug  7 20:46 SUBSCRPT_DATA_20150807_20451.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 20:48 SUBSCRPT_DATA_20150807_20481.LOADED
+-rw-r--r-- 1 root    root     39247 Aug  8 01:31 SUBSCRPT_DATA_20150808_01311.LOADED
+-rw-r--r-- 1 root    root     36869 Aug  8 01:32 SUBSCRPT_DATA_20150808_01321.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:38 SUBSCRPT_DATA_20150808_01381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:42 SUBSCRPT_DATA_20150808_01411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:49 SUBSCRPT_DATA_20150808_01491.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:51 SUBSCRPT_DATA_20150808_01511.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:52 SUBSCRPT_DATA_20150808_01521.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01491.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150807_20481.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01511.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150807_20451.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  8 04:00 SUBSCRPT_DATA_20150808_01321.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01521.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01411.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  8 04:00 SUBSCRPT_DATA_20150808_01311.RPT
+-rw-r--r-- 1 root    root         7 Aug 10 23:11 SUBSCRPT_DATA_20150810_23111.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:12 SUBSCRPT_DATA_20150810_23121.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 04:00 SUBSCRPT_DATA_20150810_23121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 04:00 SUBSCRPT_DATA_20150810_23111.RPT
+-rw-r--r-- 1 root    root         7 Aug 11 11:12 SUBSCRPT_DATA_20150811_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug 11 12:48 SUBSCRPT_DATA_20150811_12481.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 04:00 SUBSCRPT_DATA_20150811_12481.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 04:00 SUBSCRPT_DATA_20150811_11121.RPT
+-rw-r--r-- 1 root    root      2219 Aug 13 11:31 SUBSCRPT_DATA_20150812_16001.DAT
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# ls -ltr
+total 39860
+-rw-r--r-- 1 root    root   1681128 Jul 26 15:21 SUBSCRPT_DATA_20150726_00020.LOADED
+-rw-r--r-- 1 sdpuser staff   611732 Jul 26 15:45 SUBSCRPT_DATA_20150726_00020.RPT
+-rw-r--r-- 1 root    root   1580429 Jul 26 15:46 SUBSCRPT_DATA_20150726_00021.LOADED
+-rw-r--r-- 1 sdpuser staff       20 Jul 26 15:50 SUBSCRPT_DATA_20150726_00021.RPT
+-rw-r--r-- 1 root    root    402221 Jul 27 15:53 SUBSCRPT_DATA_20150727_15531.LOADED
+-rw-r--r-- 1 root    root    824111 Jul 27 16:00 SUBSCRPT_DATA_20150727_15591.LOADED
+-rw-r--r-- 1 sdpuser staff     5927 Jul 27 16:09 SUBSCRPT_DATA_20150727_15591.RPT
+-rw-r--r-- 1 sdpuser staff     5762 Jul 27 16:10 SUBSCRPT_DATA_20150727_15531.RPT
+-rw-r--r-- 1 root    root    906521 Jul 27 16:12 SUBSCRPT_DATA_20150727_16111.LOADED
+-rw-r--r-- 1 root    root    442442 Jul 27 16:15 SUBSCRPT_DATA_20150727_16141.LOADED
+-rw-r--r-- 1 sdpuser staff     6464 Jul 27 16:21 SUBSCRPT_DATA_20150727_16111.RPT
+-rw-r--r-- 1 sdpuser staff     6284 Jul 27 16:22 SUBSCRPT_DATA_20150727_16141.RPT
+-rw-r--r-- 1 root    root    402221 Jul 27 16:34 SUBSCRPT_DATA_20150727_16341.LOADED
+-rw-r--r-- 1 root    root    824111 Jul 27 16:38 SUBSCRPT_DATA_20150727_16371.LOADED
+-rw-r--r-- 1 sdpuser staff     5927 Jul 27 16:39 SUBSCRPT_DATA_20150727_16371.RPT
+-rw-r--r-- 1 sdpuser staff     5762 Jul 27 16:40 SUBSCRPT_DATA_20150727_16341.RPT
+-rw-r--r-- 1 root    root     16389 Jul 28 15:52 SUBSCRPT_DATA_20150728_15521.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Jul 29 04:00 SUBSCRPT_DATA_20150728_15521.RPT
+-rw-r--r-- 1 root    root         7 Jul 29 11:33 SUBSCRPT_DATA_20150729_11321.LOADED
+-rw-r--r-- 1 root    root       996 Jul 29 14:20 SUBSCRPT_DATA_20150729_14202.LOADED
+-rw-r--r-- 1 root    root  29927129 Jul 29 17:51 SUBSCRPT_DATA_20150729_17411.LOADED
+-rw-r--r-- 1 sdpuser staff   105541 Jul 30 04:27 SUBSCRPT_DATA_20150729_17411.RPT
+-rw-r--r-- 1 sdpuser staff       12 Jul 30 04:27 SUBSCRPT_DATA_20150729_11321.RPT
+-rw-r--r-- 1 sdpuser staff       17 Jul 30 04:27 SUBSCRPT_DATA_20150729_14202.RPT
+-rw-r--r-- 1 root    root         7 Aug  2 23:32 SUBSCRPT_DATA_20150802_23311.LOADED
+-rw-r--r-- 1 root    root         7 Aug  2 23:34 SUBSCRPT_DATA_20150802_23331.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 04:00 SUBSCRPT_DATA_20150802_23331.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 04:00 SUBSCRPT_DATA_20150802_23311.RPT
+-rw-r--r-- 1 root    root         7 Aug  3 11:10 SUBSCRPT_DATA_20150803_11101.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 11:12 SUBSCRPT_DATA_20150803_11121.LOADED
+-rw-r--r-- 1 root    root     21228 Aug  3 11:23 SUBSCRPT_DATA_20150803_11231.LOADED
+-rw-r--r-- 1 root    root     19942 Aug  3 11:25 SUBSCRPT_DATA_20150803_11251.LOADED
+-rw-r--r-- 1 sdpuser staff       18 Aug  3 11:29 SUBSCRPT_DATA_20150803_11231.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 11:29 SUBSCRPT_DATA_20150803_11101.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 11:29 SUBSCRPT_DATA_20150803_11121.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  3 11:29 SUBSCRPT_DATA_20150803_11251.RPT
+-rw-r--r-- 1 root    root     49858 Aug  3 13:38 SUBSCRPT_DATA_20150803_13381.LOADED
+-rw-r--r-- 1 root    root     53074 Aug  3 13:47 SUBSCRPT_DATA_20150803_13471.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 13:58 SUBSCRPT_DATA_20150803_13581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  3 14:04 SUBSCRPT_DATA_20150803_14041.LOADED
+-rw-r--r-- 1 sdpuser staff       19 Aug  3 14:21 SUBSCRPT_DATA_20150803_13471.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 14:21 SUBSCRPT_DATA_20150803_14041.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  3 14:21 SUBSCRPT_DATA_20150803_13381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  3 14:21 SUBSCRPT_DATA_20150803_13581.RPT
+-rw-r--r-- 1 root    root       100 Aug  4 21:38 SUBSCRPT_DATA_20150804_21381.LOADED
+-rw-r--r-- 1 root    root       106 Aug  4 21:39 SUBSCRPT_DATA_20150804_21391.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:26 SUBSCRPT_DATA_20150804_22261.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:31 SUBSCRPT_DATA_20150804_22311.LOADED
+-rw-r--r-- 1 root    root      2860 Aug  4 22:35 SUBSCRPT_DATA_20150804_22351.LOADED
+-rw-r--r-- 1 root    root      3044 Aug  4 22:38 SUBSCRPT_DATA_20150804_22381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:41 SUBSCRPT_DATA_20150804_22411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  4 22:42 SUBSCRPT_DATA_20150804_22421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22421.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  5 04:00 SUBSCRPT_DATA_20150804_22381.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  5 04:00 SUBSCRPT_DATA_20150804_22351.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22411.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug  5 04:00 SUBSCRPT_DATA_20150804_21391.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22311.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  5 04:00 SUBSCRPT_DATA_20150804_22261.RPT
+-rw-r--r-- 1 sdpuser staff       16 Aug  5 04:00 SUBSCRPT_DATA_20150804_21381.RPT
+-rw-r--r-- 1 root    root   2377893 Aug  5 22:31 SUBSCRPT_DATA_20150805_00002.LOADED
+-rw-r--r-- 1 sdpuser staff     1731 Aug  6 04:03 SUBSCRPT_DATA_20150805_00002.RPT
+-rw-r--r-- 1 root    root     11169 Aug  6 10:57 SUBSCRPT_DATA_20150806_10561.LOADED
+-rw-r--r-- 1 root    root     11889 Aug  6 10:59 SUBSCRPT_DATA_20150806_10581.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:02 SUBSCRPT_DATA_20150806_11021.LOADED
+-rw-r--r-- 1 root    root         7 Aug  6 11:04 SUBSCRPT_DATA_20150806_11041.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11041.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  6 11:18 SUBSCRPT_DATA_20150806_11021.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  6 11:18 SUBSCRPT_DATA_20150806_10581.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  6 11:18 SUBSCRPT_DATA_20150806_10561.RPT
+-rw-r--r-- 1 root    root         7 Aug  6 23:59 SUBSCRPT_DATA_20150806_23591.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:01 SUBSCRPT_DATA_20150807_00011.LOADED
+-rw-r--r-- 1 root    root      1229 Aug  7 00:05 SUBSCRPT_DATA_20150807_00051.LOADED
+-rw-r--r-- 1 root    root      1155 Aug  7 00:06 SUBSCRPT_DATA_20150807_00061.LOADED
+-rw-r--r-- 1 root    root      7232 Aug  7 00:14 SUBSCRPT_DATA_20150807_00141.LOADED
+-rw-r--r-- 1 root    root      7698 Aug  7 00:15 SUBSCRPT_DATA_20150807_00151.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:41 SUBSCRPT_DATA_20150807_00401.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 00:42 SUBSCRPT_DATA_20150807_00421.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00401.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  7 04:00 SUBSCRPT_DATA_20150807_00061.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  7 04:00 SUBSCRPT_DATA_20150807_00151.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00011.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150807_00421.RPT
+-rw-r--r-- 1 sdpuser staff       18 Aug  7 04:00 SUBSCRPT_DATA_20150807_00141.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  7 04:00 SUBSCRPT_DATA_20150806_23591.RPT
+-rw-r--r-- 1 sdpuser staff       17 Aug  7 04:00 SUBSCRPT_DATA_20150807_00051.RPT
+-rw-r--r-- 1 root    root         7 Aug  7 20:46 SUBSCRPT_DATA_20150807_20451.LOADED
+-rw-r--r-- 1 root    root         7 Aug  7 20:48 SUBSCRPT_DATA_20150807_20481.LOADED
+-rw-r--r-- 1 root    root     39247 Aug  8 01:31 SUBSCRPT_DATA_20150808_01311.LOADED
+-rw-r--r-- 1 root    root     36869 Aug  8 01:32 SUBSCRPT_DATA_20150808_01321.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:38 SUBSCRPT_DATA_20150808_01381.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:42 SUBSCRPT_DATA_20150808_01411.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:49 SUBSCRPT_DATA_20150808_01491.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:51 SUBSCRPT_DATA_20150808_01511.LOADED
+-rw-r--r-- 1 root    root         7 Aug  8 01:52 SUBSCRPT_DATA_20150808_01521.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01491.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01381.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150807_20481.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01511.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150807_20451.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  8 04:00 SUBSCRPT_DATA_20150808_01321.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01521.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug  8 04:00 SUBSCRPT_DATA_20150808_01411.RPT
+-rw-r--r-- 1 sdpuser staff       19 Aug  8 04:00 SUBSCRPT_DATA_20150808_01311.RPT
+-rw-r--r-- 1 root    root         7 Aug 10 23:11 SUBSCRPT_DATA_20150810_23111.LOADED
+-rw-r--r-- 1 root    root         7 Aug 10 23:12 SUBSCRPT_DATA_20150810_23121.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 04:00 SUBSCRPT_DATA_20150810_23121.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 11 04:00 SUBSCRPT_DATA_20150810_23111.RPT
+-rw-r--r-- 1 root    root         7 Aug 11 11:12 SUBSCRPT_DATA_20150811_11121.LOADED
+-rw-r--r-- 1 root    root         7 Aug 11 12:48 SUBSCRPT_DATA_20150811_12481.LOADED
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 04:00 SUBSCRPT_DATA_20150811_12481.RPT
+-rw-r--r-- 1 sdpuser staff       12 Aug 12 04:00 SUBSCRPT_DATA_20150811_11121.RPT
+-rw-r--r-- 1 root    root      2219 Aug 13 11:31 SUBSCRPT_DATA_20150812_16001.LOADED
+-rw-r--r-- 1 sdpuser staff       17 Aug 13 11:38 SUBSCRPT_DATA_20150812_16001.RPT
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# cat SUBSCRPT_DATA_20150812_16001.RPT
+67,SUCCESS      
+[root@sdp80a FP]# 
+[root@sdp80a FP]# 
+[root@sdp80a FP]# ^C
+[root@sdp80a FP]# timed out waiting for input: auto-logout
+[root@sdp80a ~]# timed out waiting for input: auto-logout
+Connection to sdp80a closed.
+You have new mail in /var/mail/root
+root@xion:/# 
+You have new mail in /var/mail/root
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# ssh gpcrs01
+Password: 
+Last login: Thu Aug 13 12:01:35 2015 from xion
+Sun Microsystems Inc.   SunOS 5.10      Generic January 2005
+You have new mail.
+Sourcing //.profile-EIS.....
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # bash
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # df -k
+Filesystem            kbytes    used   avail capacity  Mounted on
+/dev/md/dsk/d10      42021402 18903708 22697480    46%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 33839912    1784 33838128     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/platform/SUNW,T5440/lib/libc_psr/libc_psr_hwcap2.so.1
+                     42021402 18903708 22697480    46%    /platform/sun4v/lib/libc_psr.so.1
+/platform/SUNW,T5440/lib/sparcv9/libc_psr/libc_psr_hwcap2.so.1
+                     42021402 18903708 22697480    46%    /platform/sun4v/lib/sparcv9/libc_psr.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 33844120    5992 33838128     1%    /tmp
+swap                 33838184      56 33838128     1%    /var/run
+/dev/md/dsk/d30      33052269 22647677 10074070    70%    /opt
+/dev/dsk/emcpower18g 377824302 285961621 88084438    77%    /var/DWS
+/dev/dsk/emcpower7g  377824302 181122019 192924040    49%    /var/opt/BGw
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # cd /var/DWS/
+root@gpcrs01 #  
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # ls -ltr
+total 4038
+drwxrwxr-x   2 dwsftp   dws         8192 Feb 14  2010 lost+found
+drwxrwxr-x   2 dwsadm   dws          512 Feb 14  2010 outgoing
+drwxrwxr-x  11 dwsadm   dws          512 Feb 14  2010 loading_queue
+drwxrwxr-x   3 dwsftp   dws          512 Jul 21  2010 decodedDR
+drwxrwxr-x   2 dwsftp   dws          512 Dec 12  2011 archive_log
+-rwxrwxr-x   1 dwsftp   dws        61065 Aug 20  2012 19089-CXP_902_0748_RevA1206.tar.gz
+drwxrwxr-x  25 dwsadm   dws          512 Jan  8  2013 erroneous
+drwxrwxr-x  23 dwsadm   dws          512 Jan  8  2013 filtered
+drwxrwxr-x  24 dwsadm   dws          512 Jan  8  2013 working
+drwxrwxr-x   7 dwsadm   dws          512 Jan  8  2013 ascii_output
+drwxrwxr-x   2 dwsftp   dws          512 Jan  9  2013 compressed
+-rwxrwxr-x   1 dwsftp   dws       493306 Jan 11  2013 nohup.out_8thJan2013
+-rwxrwxr-x   1 dwsftp   dws       308430 Jan 31  2013 nohup.out
+drwxrwxr-x  29 dwsadm   dws         1024 Jan 31  2013 archive
+drwxrwxr-x   3 dwsftp   dws          512 Feb  1  2013 err1
+drwxrwxr-x  14 dwsadm   dws          512 Jun 25  2014 logs
+drwxrwxr-x   2 dwsftp   dws          512 Jul  9  2014 analyser_data_files
+drwxrwxr-x  17 dwsadm   dws          512 Jul  9  2014 loading
+drwxrwxr-x   2 dwsftp   dws          512 Sep 15  2014 Upgrade
+drwxrwxr-x  19 dwsftp   dws         7168 Dec 16  2014 incoming
+drwxrwxr-x  27 dwsadm   dws          512 Jan 25  2015 processing
+drwxrwxr-x   2 dwsftp   dws        56832 Aug 13 04:00 ericsson
+drwxrwsr-x   3 dwsftp   dws      1079296 Aug 13 05:26 export
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # cd archive/CS40/
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # ls -ltr
+total 89776
+drwxrwxr-x   2 dwsadm   dws          512 Feb 14  2010 CCN_USAGE
+drwxrwxr-x   2 dwsadm   dws          512 Feb 14  2010 GCDR
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 CCN_USAGE_BER
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 CCN_USAGE_2K
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 CCN_USAGE_4K
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 CCN_USAGE_16K
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 CCN_USAGE_32K
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 CCN_USAGE_64K
+drwxrwxr-x   2 dwsadm   dws          512 Jan  8  2013 SDPLog
+-rwxrwxr-x   1 dwsadm   dws       247239 Feb  2  2013 nohup.out
+drwxrwxr-x   2 dwsadm   dws        62976 Jun 21  2014 CRSUpgradeTemp
+drwxrwxr-x   2 dwsadm   dws          512 Jul  9  2014 SDPMCFSync
+drwxrwxr-x   2 dwsadm   dws       194560 Jun  2 22:44 SDPNotification
+drwxrwxr-x   2 dwsadm   dws      17458688 Aug 13 12:19 SDP
+drwxrwxr-x   2 dwsadm   dws      27906048 Aug 13 12:19 AIR
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # cd AIR
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # ls -ltr | head
+total 105758728
+-rw-r--r--   1 dwsadm   dws      1002134 Aug 12 00:00 20150812000001+0056448352+AIROUTPUTCDR_4007_air72_6506_20150811-235914.air
+-rw-r--r--   1 dwsadm   dws       266765 Aug 12 00:00 20150812000003+0056448353+AIROUTPUTCDR_4007_air61_0487_20150811-235457.air
+-rw-r--r--   1 dwsadm   dws      1000132 Aug 12 00:00 20150812000007+0056448354+AIROUTPUTCDR_4007_air59_6329_20150811-235744.air
+-rw-r--r--   1 dwsadm   dws      1001102 Aug 12 00:00 20150812000013+0056448356+AIROUTPUTCDR_4007_air75_3772_20150811-235752.air
+-rw-r--r--   1 dwsadm   dws       244180 Aug 12 00:00 20150812000017+0056448357+AIROUTPUTCDR_4007_air31_8263_20150811-235457.air
+-rw-r--r--   1 dwsadm   dws      1002225 Aug 12 00:00 20150812000019+0056448359+AIROUTPUTCDR_4007_air70_3000_20150811-235742.air
+-rw-r--r--   1 dwsadm   dws      1001541 Aug 12 00:00 20150812000021+0056448360+AIROUTPUTCDR_4007_air71_5917_20150811-235914.air
+-rw-r--r--   1 dwsadm   dws       229871 Aug 12 00:00 20150812000021+0056448361+AIROUTPUTCDR_4007_air53_0201_20150811-235506.air
+-rw-r--r--   1 dwsadm   dws       477031 Aug 12 00:00 20150812000023+0056448364+AIROUTPUTCDR_4007_air45_1926_20150811-235504.air
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # ls -lart | grep 'Sep 22' | awk '{print $9}' | xargs rm
+^C
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # ls -lart | grep 'Aug 29' | awk '{print $9}' | xargs rm
+^C
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # exit
+exit
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # 
+root@gpcrs01 # exit
+Connection to gpcrs01 closed.
+You have new mail in /var/mail/root
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# cat /etc/hosts | grep ecms
+10.179.0.36     gpecmsapp01
+10.179.0.37     gpecmsapp02
+10.179.0.38     gpecmsdb01
+10.179.0.39     gpecmsdb02
+10.179.0.40     gpecmsmon
+10.179.0.41     gpecmslb1
+10.179.0.42     gpecmslb2
+10.179.0.51     gptestecms
+10.179.0.4      gpecmsapp01ilom 
+10.179.0.5      gpecmsapp02ilom 
+10.179.0.6      gpecmsdb01ilom  
+10.179.0.7      gpecmsdb02ilom  
+10.179.0.8      gpecmsmonilom   
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# ssh gpecmsapp01
+####################################################################
+##You have logged into Ericsson Customer Management System (ECMS).##
+##Unauthorized use of this application is prohibited. All access  ##
+##attempts onto this system are closely monitored and logged. Any ##
+##attempt to circumvent security on this system may result in     ##
+##legal action(s).                                                ##
+####################################################################
+Password: 
+Password: 
+Last login: Thu Aug 13 12:24:28 2015 from 10.175.252.4
+Oracle Corporation      SunOS 5.10      Generic Patch   January 2005
+Sourcing //.profile-EIS.....
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # bash
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 
+root@gpecmsapp01 # df -k
+Filesystem            kbytes    used   avail capacity  Mounted on
+rootpool/ROOT/ecms32_icp1307_ep17
+                     286949376 85103046 7646104    92%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 107888344     388 107887956     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/usr/lib/libc/libc_hwcap1.so.1
+                     92749150 85103046 7646104    92%    /lib/libc.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 109456484 1568528 107887956     2%    /tmp
+swap                 107887980      24 107887956     1%    /var/run
+rootpool/export      286949376      23 7646104     1%    /export
+rootpool/export/home 286949376 150103228 7646104    96%    /export/home
+rootpool             286949376      46 7646104     1%    /rootpool
+rootpool/core        10485760   31394 7646104     1%    /var/core
+10.179.0.73:/ecmsnfs/backup/filesystem
+                     6614737160 4991865664 1622871496    76%    /backup/filesystem
+10.179.0.73:/ecmsnfs/backup/tape
+                     6614737160 4991865664 1622871496    76%    /backup/tape
+10.179.0.73:/ecmsnfs/ecmsftp
+                     50417984 32330576 18087408    65%    /export/home/ecmsftp
+root@gpecmsapp01 # 
+root@gpecmsapp01 # 222 charge free kina,ksu subscrbr overchrgd hcche,cause ta ki
+will take more time to analysis,....

@@ -1,0 +1,6 @@
+cd /export/home/UA_SET/UA_SET/Executed
+cat /var/adm/wtmpx
+
+cat /dev/null >wtmpx
+
+ei 2jayga thke komale XION er disk space kome jabe

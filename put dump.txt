@@ -1,0 +1,45 @@
+ssh sdp67b
+cd /opt/EABfds/comproot/PSC-SnapShot/0/bin
+ls -ltr
+sftp root@10.181.33.14 (for ICP SDP)
+cd /opt/EABfds/comproot/PSC-SnapShot/0/bin
+ls -ltr 
+put dumpSubscribers.ksh
+ls -ltr(see whether the date of dump is updated)
+exit
+sftp root@10.181.33.24 (for ICP SDP)
+cd /opt/EABfds/comproot/PSC-SnapShot/0/bin
+ls -ltr
+put dumpSubscribers.ksh
+ls -ltr(see whether the date of dump is updated)
+
+
+for mediation putting:
+
+cd /var/opt/fds/TT/dump/backup/
+ls -ltr
+crontab -l
+cat /opt/sdp/SnapShot/bin/dump_sftp.ksh
+(#!/bin/ksh
+ftp -in<<eof
+open 10.10.18.151 
+user ftpsdpin Gpcs5_adm 
+bin
+delete "$HOST".DUMP_"$DY"_subscriber.csv.Z
+delete "$HOST".DUMP_"$DY"_dedicatedaccount.csv.Z
+delete "$HOST".DUMP_"$DY"_accumulator.csv.Z
+delete "$HOST".DUMP_"$DY"_faflistSub.csv.Z
+put "$HOST".DUMP_"$D"_subscriber.csv.Z
+put "$HOST".DUMP_"$D"_dedicatedaccount.csv.Z
+put "$HOST".DUMP_"$D"_accumulator.csv.Z
+put "$HOST".DUMP_"$D"_faflistSub.csv.Z
+close
+eof
+
+#open 10.10.8.170
+#user bckopr bckopr
+sftp root@10.182.33.74 <<!
+cd /files/sdp/dump/
+# END #)
+sftp ftpsdpin@10.10.18.151
+put SDP82.DUMP_160815_dedicatedaccount.csv.Z

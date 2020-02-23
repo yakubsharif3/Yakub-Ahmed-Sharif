@@ -1,0 +1,11 @@
+kstat -m igb -i 0 | egrep 'link_speed|link_duplex|adv_cap_autoneg' | awk '{ print $1,$2}'
+
+
+#######
+
+1. Enter to the specific sdp
+2. ipconfig -a
+3. igb    0 collected form the command output
+4. then 
+       kstat -m igb -i 0 | egrep 'link_speed|link_duplex|adv_cap_autoneg' | awk '{ print $1,$2}'
+  

@@ -1,0 +1,363 @@
+root@air30>
+root@air30>cd /opt/temp/
+root@air30>
+root@air30>
+root@air30>ls -lrht
+total 15200540
+drwxr-xr-x   2 root     root         512 Jul 16  2014 EP_14_02/
+-rw-r--r--   1 root     root        9.7M Sep  2  2014 EP_14_02.tar
+-rw-r--r--   1 root     root        7.2G Sep  2  2014 air30_backup.tar
+drwxr-xr-x   3 root     root         512 Sep  2  2014 air30_backup/
+drwxr-xr-x   8 root     root        1.0K Sep  2  2014 failinfo_air30__20140902-123604/
+-rw-r--r--   1 root     root        1.8M Sep  2  2014 failinfo_air30__20140902-123604-air30.tar.gz
+-rw-r--r--   1 root     root          14 Sep  4  2014 GPTTS040914.txt
+-rw-r--r--   1 root     root        618K Sep 10  2014 CXC1721391_2-Rev-8.0-2091.100.2.858.4-fast-solaris.pkg
+-rw-r--r--   1 root     root          14 Sep 24  2014 TEST.txt
+-rw-r--r--   1 root     root          14 Oct 23  2014 gptts546534.txt
+-rw-r--r--   1 root     root          28 Nov 10  2014 sdp86.txt
+-rw-r--r--   1 root     root        137K Nov 17  2014 GOC.txt
+-rw-r--r--   1 root     root          57 Nov 17  2014 SDP19
+-rw-r--r--   1 root     root          14 Nov 18  2014 GPTTS540927.txt
+-rw-r--r--   1 root     root        1.4K Nov 23  2014 ucipair70.txt
+-rw-r--r--   1 root     root        435K Nov 27  2014 REP_001.txt
+-rw-r--r--   1 root     root          14 Dec  3  2014 gptts
+-rw-r--r--   1 root     root        302K Dec  3  2014 REP_002.txt
+-rw-r--r--   1 root     root          14 Dec 31  2014 ECMS.txt
+-rw-r--r--   1 root     root          14 Dec 31  2014 Nowshadvi73.txt
+-rw-r--r--   1 root     root          14 Jan  1  2015 25_msisdn
+-rw-r--r--   1 root     root         140 Jan  1  2015 45_msisdn
+-rw-r--r--   1 root     root          14 Jan  3  2015 GPTTS
+-rw-r--r--   1 root     root         802 Jan 13  2015 installsub.xml
+-rw-r--r--   1 root     root          14 Feb 22 16:42 sdp8.txt
+-rw-r--r--   1 root     root          14 Feb 24 13:25 sdp19.txt
+-rw-r--r--   1 root     root          14 Mar  1 13:45 sdp7.txt
+-rw-r--r--   1 root     root          14 Mar  1 13:50 sdp9.txt
+-rw-r--r--   1 root     root          14 Mar 11 11:44 t.txt
+-rw-r--r--   1 root     root         140 Mar 12 12:19 test_120315.txt
+-rw-r--r--   1 root     root         23K Mar 15 14:26 EMPDSIM.txt
+-rw-r--r--   1 root     root          14 Jun  8 17:40 text.txt
+-rw-r--r--   1 root     root          28 Jun 10 13:23 gytest.txt
+-rw-r--r--   1 root     root         140 Jun 17 13:11 ADN_GP_CONNECT.txt
+-rw-r--r--   1 root     root        347K Jun 17 13:30 All_GP_Connect.txt
+-rw-r--r--   1 root     root          14 Jun 17 16:30 ADN_TEST
+-rw-r--r--   1 root     root         140 Jun 21 13:29 GP_Connect_SIBL.txt
+-rw-r--r--   1 root     root        5.3K Jun 22 14:49 APN_DPDC.txt
+-rw-r--r--   1 root     root        3.2M Jun 24 00:28 CXC1328500_2-Rev-4.0-2132.100.2.858.3-fast-solaris.pkg
+-rw-r--r--   1 root     root        4.3M Jun 24 00:29 CXC1328501_2-Rev-4.0-2122.100.2.858.3-fast-solaris.pkg
+-rw-r--r--   1 root     root          14 Jun 24 14:37 RA_SDP74.txt
+-rw-r--r--   1 root     root          14 Jun 24 14:43 RA_SDP49.txt
+-rw-r--r--   1 root     root          14 Jun 24 14:43 RA_SDP82.txt
+drwxrwxrwx   2 root     root        2.0K Jun 29 00:01 AF-dump/
+-rw-r--r--   1 root     root        410K Jul  1 17:25 PROV_003_06_2015.txt
+-rw-r--r--   1 root     root          14 Jul 16 09:10 EM_160715.txt
+drwxr-xr-x   2 root     root        1.0K Jul 21 17:14 afloading/
+-rw-r--r--   1 root     root         98K Aug 19 16:39 mbd_20150808_150819_SDP1.txt
+-rw-r--r--   1 root     root        215K Aug 19 16:39 SDP10.txt
+-rw-r--r--   1 root     root         69K Aug 19 16:39 SDP3.txt
+-rw-r--r--   1 root     root        132K Aug 19 16:39 SDP2.txt
+-rw-r--r--   1 root     root         75K Aug 19 16:39 SDP4.txt
+-rw-r--r--   1 root     root         89K Aug 19 16:39 SDP47.txt
+-rw-r--r--   1 root     root         86K Aug 19 16:39 SDP48.txt
+-rw-r--r--   1 root     root         87K Aug 19 16:39 SDP49.txt
+-rw-r--r--   1 root     root         65K Aug 19 16:39 SDP5.txt
+-rw-r--r--   1 root     root         81K Aug 19 16:39 SDP50.txt
+-rw-r--r--   1 root     root         80K Aug 19 16:39 SDP51.txt
+-rw-r--r--   1 root     root         78K Aug 19 16:39 SDP52.txt
+-rw-r--r--   1 root     root         85K Aug 19 16:39 SDP53.txt
+-rw-r--r--   1 root     root         88K Aug 19 16:39 SDP54.txt
+-rw-r--r--   1 root     root         91K Aug 19 16:39 SDP55.txt
+-rw-r--r--   1 root     root         88K Aug 19 16:39 SDP56.txt
+-rw-r--r--   1 root     root         78K Aug 19 16:39 SDP57.txt
+-rw-r--r--   1 root     root         95K Aug 19 16:39 SDP58.txt
+-rw-r--r--   1 root     root         33K Aug 19 16:39 SDP59.txt
+-rw-r--r--   1 root     root        144K Aug 19 16:39 SDP6.txt
+-rw-r--r--   1 root     root         32K Aug 19 16:39 SDP60.txt
+-rw-r--r--   1 root     root         35K Aug 19 16:39 SDP61.txt
+-rw-r--r--   1 root     root        103K Aug 19 16:39 SDP62.txt
+-rw-r--r--   1 root     root        124K Aug 19 16:39 SDP63.txt
+-rw-r--r--   1 root     root        100K Aug 19 16:39 SDP64.txt
+-rw-r--r--   1 root     root        106K Aug 19 16:39 SDP65.txt
+-rw-r--r--   1 root     root        123K Aug 19 16:39 SDP66.txt
+-rw-r--r--   1 root     root         81K Aug 19 16:39 SDP67.txt
+-rw-r--r--   1 root     root         86K Aug 19 16:39 SDP68.txt
+-rw-r--r--   1 root     root         72K Aug 19 16:39 SDP69.txt
+-rw-r--r--   1 root     root        153K Aug 19 16:39 SDP7.txt
+-rw-r--r--   1 root     root         66K Aug 19 16:39 SDP70.txt
+-rw-r--r--   1 root     root        313K Aug 19 16:39 SDP71.txt
+-rw-r--r--   1 root     root         78K Aug 19 16:39 SDP72.txt
+-rw-r--r--   1 root     root         63K Aug 19 16:39 SDP73.txt
+-rw-r--r--   1 root     root         72K Aug 19 16:39 SDP74.txt
+-rw-r--r--   1 root     root         66K Aug 19 16:39 SDP77.txt
+-rw-r--r--   1 root     root        183K Aug 19 16:39 SDP78.txt
+-rw-r--r--   1 root     root         81K Aug 19 16:39 SDP79.txt
+-rw-r--r--   1 root     root        188K Aug 19 16:39 SDP8.txt
+-rw-r--r--   1 root     root        132K Aug 19 16:39 SDP80.txt
+-rw-r--r--   1 root     root         67K Aug 19 16:39 SDP9.txt
+root@air30>
+root@air30>more mbd_20150808_150819_SDP1.txt
+8801746572424
+8801746563843
+8801730820715
+8801751972776
+8801746552069
+8801730832479
+8801746540589
+8801751940836
+8801746569782
+8801740919299
+8801730820654
+8801751999406
+8801751911706
+8801730827245
+8801751988502
+8801781351740
+8801781159750
+8801781230181
+8801735260130
+8801781222090
+8801746581676
+8801781431768
+8801733341668
+8801786933101
+8801793036771
+8801799526935
+8801751984843
+8801733389240
+8801735049834
+8801733348344
+8801786722327
+8801781150678
+8801781220719
+8801786980665
+8801786918187
+8801751959307
+8801786786774
+8801751948081
+8801751986041
+8801751986029
+8801730842439
+8801786845485
+8801781355335
+8801745396251
+8801735269813
+8801731474999
+8801786805450
+8801751997177
+8801746587700
+8801781318918
+8801781155543
+8801751914451
+8801751962050
+8801793089548
+root@air30>
+root@air30>
+root@air30>
+root@air30>nslookup 880178115067.8.msisdn.sub.cs 
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+** server can't find 880178115067.8.msisdn.sub.cs: NXDOMAIN
+
+root@air30>
+root@air30>
+root@air30>nslookup 880178115067.8.msisdn.sub.cs
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+** server can't find 880178115067.8.msisdn.sub.cs: NXDOMAIN
+
+root@air30>
+root@air30>
+root@air30>nslookup 880178115067.8.msisdn.sub.cs
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+880178115067.8.msisdn.sub.cs    canonical name = 01.cs.
+Name:   01.cs
+Address: 10.181.33.64
+
+root@air30>
+root@air30>
+root@air30>ls -lrht
+total 15200540
+drwxr-xr-x   2 root     root         512 Jul 16  2014 EP_14_02/
+-rw-r--r--   1 root     root        9.7M Sep  2  2014 EP_14_02.tar
+-rw-r--r--   1 root     root        7.2G Sep  2  2014 air30_backup.tar
+drwxr-xr-x   3 root     root         512 Sep  2  2014 air30_backup/
+drwxr-xr-x   8 root     root        1.0K Sep  2  2014 failinfo_air30__20140902-123604/
+-rw-r--r--   1 root     root        1.8M Sep  2  2014 failinfo_air30__20140902-123604-air30.tar.gz
+-rw-r--r--   1 root     root          14 Sep  4  2014 GPTTS040914.txt
+-rw-r--r--   1 root     root        618K Sep 10  2014 CXC1721391_2-Rev-8.0-2091.100.2.858.4-fast-solaris.pkg
+-rw-r--r--   1 root     root          14 Sep 24  2014 TEST.txt
+-rw-r--r--   1 root     root          14 Oct 23  2014 gptts546534.txt
+-rw-r--r--   1 root     root          28 Nov 10  2014 sdp86.txt
+-rw-r--r--   1 root     root        137K Nov 17  2014 GOC.txt
+-rw-r--r--   1 root     root          57 Nov 17  2014 SDP19
+-rw-r--r--   1 root     root          14 Nov 18  2014 GPTTS540927.txt
+-rw-r--r--   1 root     root        1.4K Nov 23  2014 ucipair70.txt
+-rw-r--r--   1 root     root        435K Nov 27  2014 REP_001.txt
+-rw-r--r--   1 root     root          14 Dec  3  2014 gptts
+-rw-r--r--   1 root     root        302K Dec  3  2014 REP_002.txt
+-rw-r--r--   1 root     root          14 Dec 31  2014 ECMS.txt
+-rw-r--r--   1 root     root          14 Dec 31  2014 Nowshadvi73.txt
+-rw-r--r--   1 root     root          14 Jan  1  2015 25_msisdn
+-rw-r--r--   1 root     root         140 Jan  1  2015 45_msisdn
+-rw-r--r--   1 root     root          14 Jan  3  2015 GPTTS
+-rw-r--r--   1 root     root         802 Jan 13  2015 installsub.xml
+-rw-r--r--   1 root     root          14 Feb 22 16:42 sdp8.txt
+-rw-r--r--   1 root     root          14 Feb 24 13:25 sdp19.txt
+-rw-r--r--   1 root     root          14 Mar  1 13:45 sdp7.txt
+-rw-r--r--   1 root     root          14 Mar  1 13:50 sdp9.txt
+-rw-r--r--   1 root     root          14 Mar 11 11:44 t.txt
+-rw-r--r--   1 root     root         140 Mar 12 12:19 test_120315.txt
+-rw-r--r--   1 root     root         23K Mar 15 14:26 EMPDSIM.txt
+-rw-r--r--   1 root     root          14 Jun  8 17:40 text.txt
+-rw-r--r--   1 root     root          28 Jun 10 13:23 gytest.txt
+-rw-r--r--   1 root     root         140 Jun 17 13:11 ADN_GP_CONNECT.txt
+-rw-r--r--   1 root     root        347K Jun 17 13:30 All_GP_Connect.txt
+-rw-r--r--   1 root     root          14 Jun 17 16:30 ADN_TEST
+-rw-r--r--   1 root     root         140 Jun 21 13:29 GP_Connect_SIBL.txt
+-rw-r--r--   1 root     root        5.3K Jun 22 14:49 APN_DPDC.txt
+-rw-r--r--   1 root     root        3.2M Jun 24 00:28 CXC1328500_2-Rev-4.0-2132.100.2.858.3-fast-solaris.pkg
+-rw-r--r--   1 root     root        4.3M Jun 24 00:29 CXC1328501_2-Rev-4.0-2122.100.2.858.3-fast-solaris.pkg
+-rw-r--r--   1 root     root          14 Jun 24 14:37 RA_SDP74.txt
+-rw-r--r--   1 root     root          14 Jun 24 14:43 RA_SDP49.txt
+-rw-r--r--   1 root     root          14 Jun 24 14:43 RA_SDP82.txt
+drwxrwxrwx   2 root     root        2.0K Jun 29 00:01 AF-dump/
+-rw-r--r--   1 root     root        410K Jul  1 17:25 PROV_003_06_2015.txt
+-rw-r--r--   1 root     root          14 Jul 16 09:10 EM_160715.txt
+drwxr-xr-x   2 root     root        1.0K Jul 21 17:14 afloading/
+-rw-r--r--   1 root     root         98K Aug 19 16:39 mbd_20150808_150819_SDP1.txt
+-rw-r--r--   1 root     root        215K Aug 19 16:39 SDP10.txt
+-rw-r--r--   1 root     root         69K Aug 19 16:39 SDP3.txt
+-rw-r--r--   1 root     root        132K Aug 19 16:39 SDP2.txt
+-rw-r--r--   1 root     root         75K Aug 19 16:39 SDP4.txt
+-rw-r--r--   1 root     root         89K Aug 19 16:39 SDP47.txt
+-rw-r--r--   1 root     root         86K Aug 19 16:39 SDP48.txt
+-rw-r--r--   1 root     root         87K Aug 19 16:39 SDP49.txt
+-rw-r--r--   1 root     root         65K Aug 19 16:39 SDP5.txt
+-rw-r--r--   1 root     root         81K Aug 19 16:39 SDP50.txt
+-rw-r--r--   1 root     root         80K Aug 19 16:39 SDP51.txt
+-rw-r--r--   1 root     root         78K Aug 19 16:39 SDP52.txt
+-rw-r--r--   1 root     root         85K Aug 19 16:39 SDP53.txt
+-rw-r--r--   1 root     root         88K Aug 19 16:39 SDP54.txt
+-rw-r--r--   1 root     root         91K Aug 19 16:39 SDP55.txt
+-rw-r--r--   1 root     root         88K Aug 19 16:39 SDP56.txt
+-rw-r--r--   1 root     root         78K Aug 19 16:39 SDP57.txt
+-rw-r--r--   1 root     root         95K Aug 19 16:39 SDP58.txt
+-rw-r--r--   1 root     root         33K Aug 19 16:39 SDP59.txt
+-rw-r--r--   1 root     root        144K Aug 19 16:39 SDP6.txt
+-rw-r--r--   1 root     root         32K Aug 19 16:39 SDP60.txt
+-rw-r--r--   1 root     root         35K Aug 19 16:39 SDP61.txt
+-rw-r--r--   1 root     root        103K Aug 19 16:39 SDP62.txt
+-rw-r--r--   1 root     root        124K Aug 19 16:39 SDP63.txt
+-rw-r--r--   1 root     root        100K Aug 19 16:39 SDP64.txt
+-rw-r--r--   1 root     root        106K Aug 19 16:39 SDP65.txt
+-rw-r--r--   1 root     root        123K Aug 19 16:39 SDP66.txt
+-rw-r--r--   1 root     root         81K Aug 19 16:39 SDP67.txt
+-rw-r--r--   1 root     root         86K Aug 19 16:39 SDP68.txt
+-rw-r--r--   1 root     root         72K Aug 19 16:39 SDP69.txt
+-rw-r--r--   1 root     root        153K Aug 19 16:39 SDP7.txt
+-rw-r--r--   1 root     root         66K Aug 19 16:39 SDP70.txt
+-rw-r--r--   1 root     root        313K Aug 19 16:39 SDP71.txt
+-rw-r--r--   1 root     root         78K Aug 19 16:39 SDP72.txt
+-rw-r--r--   1 root     root         63K Aug 19 16:39 SDP73.txt
+-rw-r--r--   1 root     root         72K Aug 19 16:39 SDP74.txt
+-rw-r--r--   1 root     root         66K Aug 19 16:39 SDP77.txt
+-rw-r--r--   1 root     root        183K Aug 19 16:39 SDP78.txt
+-rw-r--r--   1 root     root         81K Aug 19 16:39 SDP79.txt
+-rw-r--r--   1 root     root        188K Aug 19 16:39 SDP8.txt
+-rw-r--r--   1 root     root        132K Aug 19 16:39 SDP80.txt
+-rw-r--r--   1 root     root         67K Aug 19 16:39 SDP9.txt
+root@air30>
+root@air30>
+root@air30>more SDP10.txt
+8801790929609
+8801790920839
+8801795622966
+8801796758034
+8801798262300
+8801797077337
+8801796236332
+8801795885357
+8801796602549
+8801796795274
+8801798249022
+8801706435687
+8801796933895
+8801797085382
+8801796391432
+8801798241826
+8801790947228
+8801796489917
+8801798281104
+8801706535648
+8801795865033
+8801798267955
+8801795970834
+8801795645187
+8801795804432
+8801798220161
+8801795961483
+8801796247776
+8801796221639
+8801799108096
+8801798234006
+8801795575016
+8801790931955
+8801795640903
+8801706450841
+8801796645039
+8801797066240
+8801795606581
+8801706452660
+8801796445396
+8801795625736
+8801796380620
+8801795612595
+8801797029961
+8801796322175
+8801795561846
+8801796251514
+8801795600426
+8801797079806
+8801795940554
+8801795721831
+8801798263339
+8801798295017
+8801795950584
+root@air30>
+root@air30>
+root@air30>nslookup 880179597083.4.msisdn.sub.cs
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+** server can't find 880179597083.4.msisdn.sub.cs: NXDOMAIN
+
+root@air30>
+root@air30>
+root@air30>nslookup 880179597083.4.msisdn.sub.cs
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+880179597083.4.msisdn.sub.cs    canonical name = 10.cs.
+Name:   10.cs
+Address: 10.179.33.31
+
+root@air30>
+root@air30>
+root@air30>pwd
+/opt/temp
+root@air30>nslookup 880179597083.4.msisdn.sub.cs
+
+Thanks & Best Regards
+Md. Zamshed Ali
+Lead Engineer
+Intelligent Network | Core & Service Platforms |  Service Operations | Technology
+ 
+Mobile: +8801711080792
+E-mail: zamshed.ali@grameenphone.com
+
+
+________________________________________
+Grameenphone exists to help customers get the full benefit of communications services in their daily lives. We’re here to help.

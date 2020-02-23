@@ -1,0 +1,192 @@
+You have new mail in /var/mail/root
+root@xion:/# telnet 10.179.0.51 8019
+Trying 10.179.0.51...
+telnet: Unable to connect to remote host: Connection refused
+You have new mail in /var/mail/root
+root@xion:/# ssh 10.179.0.51
+####################################################################
+##You have logged into Ericsson Customer Management System (ECMS).##
+##Unauthorized use of this application is prohibited. All access  ##
+##attempts onto this system are closely monitored and logged. Any ##
+##attempt to circumvent security on this system may result in     ##
+##legal action(s).                                                ##
+####################################################################
+Password: 
+Last login: Mon Sep 21 13:43:12 2015 from 10.166.33.17
+Oracle Corporation      SunOS 5.10      Generic Patch   January 2005
+Sourcing //.profile-EIS.....
+root@gptestecms # cd ECMS_CA
+root@gptestecms # 
+root@gptestecms # 
+root@gptestecms # du -sh*    
+du: illegal option -- *
+usage: du [-a] [-d] [-h|-k] [-r] [-o|-s] [-H|-L] [file ...]
+root@gptestecms # du -sh *
+  29M   ECMS_war_backup
+ 836K   adapter-configuration
+  30M   adapter-monitor
+   0K   adapter-monitor-error.log
+  13M   adapter-performance-util
+  10M   adapter-performance-util-final.zip
+  10K   adapter-performance.log
+   1K   adapter_restart.pl
+ 1.3G   adapterlogs
+ 117M   build_august_05
+  78K   config.zip
+root@gptestecms # df -k
+Filesystem            kbytes    used   avail capacity  Mounted on
+rootpool/ROOT/sol10u10
+                     286949972 163564009       0   100%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 34409796     376 34409420     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/usr/lib/libc/libc_hwcap1.so.1
+                     163564009 163564009       0   100%    /lib/libc.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 34486252   76832 34409420     1%    /tmp
+swap                 34409448      28 34409420     1%    /var/run
+rootpool/backup      157286400   19036       0   100%    /backup
+rootpool/export      286949972      22       0   100%    /export
+rootpool/export/home 286949972 28521860       0   100%    /export/home
+rootpool             286949972      47       0   100%    /rootpool
+rootpool/core        10485760  234987       0   100%    /var/core
+root@gptestecms # cd adapterlogs
+root@gptestecms # 
+root@gptestecms # ls -ltr
+total 1451268
+-rwxrwxrwx   1 root     root         474 Feb 17  2014 calculateTPS.sh
+-rw-r--r--   1 root     root     2556497 Feb 17  2014 summary.log
+-rwxrwxrwx   1 root     root         665 Feb 21  2014 test.sh
+-rw-r--r--   1 root     root     1457892 Feb 26  2014 outputfile
+-rw-r--r--   1 root     root     27532344 Sep 25  2014 mw_gptestecms1.pcap
+-rw-r--r--   1 root     root     33309640 Sep 25  2014 mw_gptestecms2.pcap
+-rw-r--r--   1 root     root           0 Aug 29 23:59 adapterErrorLog-3.log
+-rw-r--r--   1 root     root           0 Aug 29 23:59 adapterErrorLog-4.log
+-rw-r--r--   1 root     root           0 Aug 31 11:19 adapterErrorLog.log
+-rw-r--r--   1 root     root     16821593 Sep  3 16:39 adapterLog-2_03092015.log
+-rw-r--r--   1 root     root     12932996 Sep  3 16:39 adapterLog-1_03092015.log
+drwxr-xr-x   2 root     root          36 Sep  3 17:52 back_3_sep
+-rw-r--r--   1 root     root     26214571 Sep 19 03:28 adapterLog-1.1.log
+-rw-r--r--   1 root     root     26219008 Sep 20 09:12 adapterErrorLog-5.5.log
+-rw-r--r--   1 root     root     26219008 Sep 20 09:38 adapterErrorLog-5.4.log
+-rw-r--r--   1 root     root     26219008 Sep 20 10:01 adapterErrorLog-5.3.log
+-rw-r--r--   1 root     root     26215776 Sep 20 10:46 adapterErrorLog-5.2.log
+-rw-r--r--   1 root     root     26216384 Sep 20 11:36 adapterErrorLog-5.1.log
+-rw-r--r--   1 root     root     26228689 Sep 20 11:36 adapterLog-5.5.log
+-rw-r--r--   1 root     root     26223791 Sep 20 11:41 adapterLog-5.4.log
+-rw-r--r--   1 root     root     26214548 Sep 20 13:12 adapterLog-5.3.log
+-rw-r--r--   1 root     root     2929423 Sep 20 19:23 adapterErrorLog-1.log
+-rw-r--r--   1 root     root     26214570 Sep 20 20:34 adapterLog-5.2.log
+-rw-r--r--   1 root     root     1927175 Sep 20 23:59 adapterLog.log
+-rw-r--r--   1 root     root     13758456 Sep 20 23:59 adapterLog-3.log
+-rw-r--r--   1 root     root     12970688 Sep 20 23:59 adapterLog-4.log
+-rw-r--r--   1 root     root     26271823 Sep 21 00:13 adapterLog-5.1.log
+-rw-r--r--   1 root     root     25394801 Sep 21 00:13 adapterErrorLog-5.log
+-rw-r--r--   1 root     root     5998401 Sep 21 00:13 adapterLog-5.log
+-rw-r--r--   1 root     root     26215098 Sep 21 01:43 adapterErrorLog-2.5.log
+-rw-r--r--   1 root     root     26215746 Sep 21 01:51 adapterErrorLog-2.4.log
+-rw-r--r--   1 root     root     26214635 Sep 21 01:59 adapterErrorLog-2.3.log
+-rw-r--r--   1 root     root     26230403 Sep 21 02:07 adapterErrorLog-2.2.log
+-rw-r--r--   1 root     root     26237204 Sep 21 02:14 adapterLog-2.5.log
+-rw-r--r--   1 root     root     26239317 Sep 21 02:15 adapterLog-2.4.log
+-rw-r--r--   1 root     root     26228137 Sep 21 02:18 adapterLog-2.3.log
+-rw-r--r--   1 root     root     26214901 Sep 21 02:18 adapterErrorLog-2.1.log
+-rw-r--r--   1 root     root     26215984 Sep 21 02:22 adapterLog-2.2.log
+-rw-r--r--   1 root     root     26263931 Sep 21 02:25 adapterLog-2.1.log
+-rw-r--r--   1 root     root     24248320 Sep 21 03:39 adapterLog-2.log
+-rw-r--r--   1 root     root     4718476 Sep 21 03:41 adapterErrorLog-2.log
+-rw-r--r--   1 root     root     1834933 Sep 21 03:49 adapterLog-1.log
+root@gptestecms # Sep 21 14:24:00 gptestecms last message repeated 1 time
+
+root@gptestecms # \rm -f Sep 21 14:31:15 gptestecms sendmail[23240]: [ID 801593 mail.alert] t8KIVDBW007646: SYSERR(root): queueup: cannot create queue temp file ./tft8KIVDBW007646, uid=25: No space left on device
+
+root@gptestecms # Sep 21 14:31:46 gptestecms sendmail[22927]: [ID 801593 mail.alert] t8KIR1Uf007570: queueup: cannot create ./tft8KIR1Uf007570, euid=25: File exists
+
+root@gptestecms # df -k
+Filesystem            kbytes    used   avail capacity  Mounted on
+rootpool/ROOT/sol10u10
+                     286950045 163564055       0   100%    /
+/devices                   0       0       0     0%    /devices
+ctfs                       0       0       0     0%    /system/contract
+proc                       0       0       0     0%    /proc
+mnttab                     0       0       0     0%    /etc/mnttab
+swap                 34321124     376 34320748     1%    /etc/svc/volatile
+objfs                      0       0       0     0%    /system/object
+sharefs                    0       0       0     0%    /etc/dfs/sharetab
+/usr/lib/libc/libc_hwcap1.so.1
+                     163564055 163564055       0   100%    /lib/libc.so.1
+fd                         0       0       0     0%    /dev/fd
+swap                 34397580   76832 34320748     1%    /tmp
+swap                 34320772      24 34320748     1%    /var/run
+rootpool/backup      157286400   19036       0   100%    /backup
+rootpool/export      286950045      22       0   100%    /export
+rootpool/export/home 286950045 28521857       0   100%    /export/home
+rootpool             286950045      47       0   100%    /rootpool
+rootpool/core        10485760  234987       0   100%    /var/core
+root@gptestecms # exit
+Connection to 10.179.0.51 closed.
+You have new mail in /var/mail/root
+root@xion:/# telnet 10.179.0.51 8019
+Trying 10.179.0.51...
+Connected to 10.179.0.51.
+Escape character is '^]'.
+Login:CMAX:RESP:-4430:E8003.ECMS SessionTimeout;
+Connection to 10.179.0.51 closed by foreign host.
+root@xion:/# Login:CMAX:
+-bash: Login:CMAX:: command not found
+root@xion:/# telnet 10.179.0.51 8019
+Trying 10.179.0.51...
+Connected to 10.179.0.51.
+Escape character is '^]'.
+LOGIN:CMAX:M@ximus12345#;
+RESP:0;
+logout;
+RESP:7:Command not supported in Adapter.;
+Connection to 10.179.0.51 closed by foreign host.
+root@xion:/# 
+root@xion:/# 
+root@xion:/# telnet 10.179.0.51 8020
+Trying 10.179.0.51...
+Connected to 10.179.0.51.
+Escape character is '^]'.
+LOGIN:CMAX:M@ximus12345#;
+RESP:0;
+
+logout;
+RESP:7:Command not supported in Adapter.;
+Connection to 10.179.0.51 closed by foreign host.
+root@xion:/# telnet 10.179.0.40 8019
+Trying 10.179.0.40...
+Connected to 10.179.0.40.
+Escape character is '^]'.
+LOGIN:CMAX:M@ximus12345#;
+RESP:0;
+logout;
+RESP:7:Command not supported in Adapter.;
+Connection to 10.179.0.40 closed by foreign host.
+root@xion:/# 
+root@xion:/# telnet 10.179.0.40 8020
+Trying 10.179.0.40...
+Connected to 10.179.0.40.
+Escape character is '^]'.
+LOGIN:CMAX:M@ximus12345#;
+RESP:0;
+logout;  
+RESP:7:Command not supported in Adapter.;
+Connection to 10.179.0.40 closed by foreign host.
+root@xion:/# 
+Last login: Mon Sep 21 14:47:33 2015 from 10.7.118.111
+----------------------------------------------------------------------
+WARNING: Duplicate number '1' in configuration hash
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+WARNING: Duplicate number '2' in configuration hash
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+WARNING: Duplicate number '3' in configuration hash
+----------------------------------------------------------------------
+

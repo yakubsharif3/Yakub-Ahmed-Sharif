@@ -1,0 +1,23 @@
+179  15:06   dmesg
+   180  15:06   ifconfig -a
+   181  15:06   signmcli
+   182  15:06   cd /var/opt/fds/logs/
+   183  15:06   tail -f event.log.0
+   184  15:07   netstat -nrv
+   185  15:07   netstat
+   186  15:07   netstat | grep 10000
+   187  15:08   man netstat
+   188  15:08   df -h
+   189  15:08   cd /var/adm/
+   190  15:08   more messages.0
+   191  15:08   more messages
+   192  15:08   history
+   193  15:08   netstat -a | grep 10010
+   194  15:09   cat /etc/hosts | grep itdev2
+   195  15:09   snoop -xV itdev2
+   196  15:10   history
+   197  15:10   netstat -a | grep 10010
+   198  15:10   ifconfig -a
+   199  15:11   df -h
+   200  15:12   exit
+   201  15:13   history

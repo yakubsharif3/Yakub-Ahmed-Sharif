@@ -1,0 +1,488 @@
+keep]# 
+[root@occ04 keep]# 
+
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# /opt/esa/bin/fmactivealarms 
+Active alarms:
+!---------------------------------------------------------------
+Module             : SystemResources
+Error Code         : 990501
+Resource Id        : 1.1.1.99.5
+Timestamp          : Sun Jun 28 10:35:49 BDT 2015
+Model Description  : SystemResources:Process count is high
+Active Description : Process count, 505 processes are on the system
+Event Type         : 3
+Probable Cause     : 207
+Severity           : minor
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+!---------------------------------------------------------------
+Module             : SystemResources
+Error Code         : 990601
+Resource Id        : 1.1.1.99.6
+Timestamp          : Sun Jun 28 10:35:49 BDT 2015
+Model Description  : SystemResources:Local device is down/lost
+Active Description : Local Device Status, Device "eth7" is down
+Event Type         : 2
+Probable Cause     : 1024
+Severity           : minor
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+!---------------------------------------------------------------
+Module             : SystemResources
+Error Code         : 990401
+Resource Id        : 1.1.1.99.4.4.101.116.104.51
+Timestamp          : Sun Jun 28 10:35:49 BDT 2015
+Model Description  : SystemResources:Interface status, Network interface down
+Active Description : Interface status, Network interface ("eth3") is down
+Event Type         : 2
+Probable Cause     : 500
+Severity           : minor
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+!---------------------------------------------------------------
+Module             : SystemResources
+Error Code         : 990401
+Resource Id        : 1.1.1.99.4.4.101.116.104.55
+Timestamp          : Sun Jun 28 10:35:49 BDT 2015
+Model Description  : SystemResources:Interface status, Network interface down
+Active Description : Interface status, Network interface ("eth7") is down
+Event Type         : 2
+Probable Cause     : 500
+Severity           : minor
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+!---------------------------------------------------------------
+Module             : Application
+Error Code         : 14100
+Resource Id        : 1.1.1.94.77.65.78.65.71.69.82
+Timestamp          : Thu Aug 13 13:16:53 BDT 2015
+Model Description  : Application:Business Logic Updated, Information
+Active Description : MANAGER # Configuration state changed 4_19089-CXC_1730371/32-co
+Event Type         : 4
+Probable Cause     : 1024
+Severity           : indeterminate
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+!---------------------------------------------------------------
+Module             : Application
+Error Code         : 13056
+Resource Id        : 1.1.1.94.83.69.82.86.69.82
+Timestamp          : Thu Aug 13 13:17:26 BDT 2015
+Model Description  : Application:Business Logic Updated, Information
+Active Description : SERVER # Changes made to activity  Activity SDP Diameter Back-End updated.
+Event Type         : 2
+Probable Cause     : 506
+Severity           : indeterminate
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+!---------------------------------------------------------------
+Module             : Application
+Error Code         : 24002
+Resource Id        : 1.1.1.94.83.69.82.86.69.82.46.47.118.97.114.47.111.99.99.47.99.100.114
+Timestamp          : Wed Aug 19 09:58:15 BDT 2015
+Model Description  : Application:Disk Directory Full, Major
+Active Description : SERVER./var/occ/cdr # Disk Utilization warning 15% left on /var/occ/cdr
+Event Type         : 4
+Probable Cause     : 151
+Severity           : major
+Orig Source IP     : 10.165.36.32
+---------------------------------------------------------------!
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# ls -ltr
+total 4216
+drwxr-xr-x. 2 ogw med 1159168 Aug 16 23:59 20150816
+drwxr-xr-x. 2 ogw med 1355776 Aug 17 23:59 20150817
+drwxr-xr-x. 2 ogw med 1372160 Aug 18 23:59 20150818
+drwxr-xr-x. 2 ogw med  413696 Aug 19 09:58 20150819
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# 
+[root@occ04 keep]# timed out waiting for input: auto-logout
+[root@occ04 ~]# timed out waiting for input: auto-logout
+Connection to occ4 closed.
+You have new mail in /var/mail/root
+root@xion:/# 
+You have new mail in /var/mail/root
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# 
+root@xion:/# ssh sdp91a
+This computer system including all related equipment, network devices (specifically
+including Internet access), are provided only for authorized use. All computer systems
+may be monitored for all lawful purposes, including to ensure that their use is
+authorized, for management of the system, to facilitate protection against unauthorized
+access, and to verify security procedures, survivability and operational security.
+Monitoring includes active attacks by authorized personnel and their entities to test or
+verify the security of the system. During monitoring, information may be examined,
+recorded, copied and used for authorized purposes. All information including personal
+information, placed on or sent over this system may be monitored. Uses of this system,
+authorized or unauthorized, constitutes consent to monitoring of this system.
+Unauthorized use may subject you to criminal prosecution. Evidence of any such
+unauthorized use collected during monitoring may be used for administrative, criminal or
+other adverse action. Use of this system constitutes consent to monitoring for these
+purposes.
+
+IF YOU ARE NOT AN AUTHORIZED USER, PLEASE EXIT IMMEDIATELY 
+root@sdp91a's password: 
+Last login: Wed Aug 19 10:22:08 2015 from 10.166.33.17
+################################################################################
+# Warning! You have entered into a secured area!                               #
+# Your IP, Login Time, Username has been noted for auditing purposes.          #
+# This service is restricted to authorized users only.                         #
+# All activities on this system are logged. Unauthorized access will be fully  #
+# investigated and action would be taken appropriatley.                        #
+#                                                                              #
+# LOG OFF IMMEDIATELY IF YOU ARE NOT AN AUTHORIZED USER                        #
+################################################################################
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# bash
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# FDSClusterMgr processstat
+Process                   Member1 Member2 
+FDSAuthority              On      On      
+FDSCompCtrl               On      On      
+FDSConfigSync             On      On      
+FDSExternalRequestHandler On      On      
+FDSFunctionCtrl           On      On      
+FDSMoHandler              On      On      
+FDSvIPManager             On      On      
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# \
+> 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# 
+[root@sdp91a ~]# cd /tmp
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# ls -ltr
+total 794480
+-rw-r--r-- 1 root    root     2446 Jun 24 15:28 current-tblstats
+drwxr-xr-x 2 sdpuser staff      40 Jun 24 15:28 FDSGlueDoors
+-rw-r--r-- 1 root    root        4 Jun 24 15:28 FDSReferenceResolver.pid
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-TrafficHandler_8.1_A_1_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-TrafficHandler_8.1_A_1_AccountFinderClient.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-TrafficHandler_8.1_A_1_LDAPClient.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-TrafficHandler_8.1_A_1_LDAPClient.stat.0
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_PeriodicAdjustment_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_EnhancedServiceFeeDeduction_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_ClearDedicatedAccount_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_NegativeBalanceBarring_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_ValueVoucherExpiry_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_ServiceFeeDeduction_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:30 PSC-SubscriberHandler_8.2_A_1_LifeCycleChange_GeneratedCdrs.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_Notification.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_PSC-SubscriberHandler_8.2_0.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_ESy.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_ESyNotification.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_Gx.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_GxNotification.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_Sy.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-CIPDiameter_8.1_A_1_SyNotification.stat.0.lck
+-rw-r--r-- 1 sdpuser staff    1364 Jun 24 15:31 slapd.conf
+-rw-r--r-- 1 sdpuser staff       5 Jun 24 15:31 slapd.pid
+-rw-r--r-- 1 sdpuser staff      99 Jun 24 15:31 slapd.args
+drwxr-xr-x 2 sdpuser staff     160 Jun 24 15:31 hsperfdata_sdpuser
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-DCIPDiameter_1.0_A_1_Anchor.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-DCIPDiameter_1.0_A_1_Remote.stat.0.lck
+-rw-r--r-- 1 sdpuser staff       0 Jun 24 15:31 PSC-DCIPDiameter_1.0_A_1_AccountFinderClient.stat.0.lck
+drwxr-xr-x 2 sdpuser staff     700 Jun 24 15:32 sdp91:Member1
+-rw-r--r-- 1 root    root     6425 Jun 24 15:55 templates.toc
+drwx------ 2 root    root       40 Jul 13 02:00 tmpERQ99U
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-TrafficHandler_8.1_A_1_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_EnhancedServiceFeeDeduction_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_LifeCycleChange_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_ClearDedicatedAccount_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_ValueVoucherExpiry_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_NegativeBalanceBarring_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_ServiceFeeDeduction_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:33 PSC-SubscriberHandler_8.2_A_1_PeriodicAdjustment_GeneratedCdrs.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:34 PSC-CIPDiameter_8.1_A_1_Notification.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:34 PSC-CIPDiameter_8.1_A_1_SyNotification.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:34 PSC-CIPDiameter_8.1_A_1_ESyNotification.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:34 PSC-CIPDiameter_8.1_A_1_GxNotification.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 16 10:35 PSC-DCIPDiameter_1.0_A_1_Anchor.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-TrafficHandler_8.1_A_1_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_EnhancedServiceFeeDeduction_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_ClearDedicatedAccount_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_ValueVoucherExpiry_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_LifeCycleChange_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_ServiceFeeDeduction_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_NegativeBalanceBarring_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:05 PSC-SubscriberHandler_8.2_A_1_PeriodicAdjustment_GeneratedCdrs.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:06 PSC-CIPDiameter_8.1_A_1_Notification.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:06 PSC-CIPDiameter_8.1_A_1_SyNotification.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:06 PSC-CIPDiameter_8.1_A_1_ESyNotification.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:06 PSC-CIPDiameter_8.1_A_1_GxNotification.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Jul 27 08:06 PSC-DCIPDiameter_1.0_A_1_Anchor.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  1 18:50 PSC-TrafficHandler_8.1_A_1_AccountFinderClient.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  1 18:52 PSC-DCIPDiameter_1.0_A_1_AccountFinderClient.stat.4
+drwx------ 2 root    root       40 Aug  2 02:00 tmpo3ZQRb
+-rw-r--r-- 1 sdpuser staff 8388715 Aug  7 02:18 PSC-CIPDiameter_8.1_A_1_PSC-SubscriberHandler_8.2_0.stat.4
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:36 PSC-TrafficHandler_8.1_A_1_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:36 PSC-TrafficHandler_8.1_A_1_AccountFinderClient.stat.3
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_EnhancedServiceFeeDeduction_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_ClearDedicatedAccount_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_ValueVoucherExpiry_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_ServiceFeeDeduction_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_LifeCycleChange_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_NegativeBalanceBarring_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-SubscriberHandler_8.2_A_1_PeriodicAdjustment_GeneratedCdrs.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-CIPDiameter_8.1_A_1_Notification.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-CIPDiameter_8.1_A_1_SyNotification.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-CIPDiameter_8.1_A_1_GxNotification.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:37 PSC-CIPDiameter_8.1_A_1_ESyNotification.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:38 PSC-DCIPDiameter_1.0_A_1_Anchor.stat.2
+-rw-r--r-- 1 sdpuser staff 8388684 Aug  7 05:38 PSC-DCIPDiameter_1.0_A_1_AccountFinderClient.stat.3
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 10 10:31 PSC-CIPDiameter_8.1_A_1_PSC-SubscriberHandler_8.2_0.stat.3
+-rw-r--r-- 1 sdpuser staff 8388722 Aug 10 15:25 PSC-DCIPDiameter_1.0_A_1_Remote.stat.4
+-rw-r--r-- 1 sdpuser staff 8388765 Aug 12 16:22 PSC-TrafficHandler_8.1_A_1_AccountFinderClient.stat.2
+-rw-r--r-- 1 sdpuser staff 8388765 Aug 12 16:24 PSC-DCIPDiameter_1.0_A_1_AccountFinderClient.stat.2
+-rw-r--r-- 1 sdpuser staff 8388722 Aug 12 21:08 PSC-DCIPDiameter_1.0_A_1_Remote.stat.3
+-rw-r--r-- 1 sdpuser staff  362454 Aug 13 11:14 FSC-Scheduler_8.2_A_1_LifeCycleChange.stat.4
+-rw-r--r-- 1 sdpuser staff  362454 Aug 13 13:59 FSC-Scheduler_8.2_A_1_ClearDedicatedAccount.stat.4
+drwx------ 2 root    root    80560 Aug 13 15:17 configDump_C7MZdp
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 13 18:44 PSC-CIPDiameter_8.1_A_1_PSC-SubscriberHandler_8.2_0.stat.2
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 13 18:44 PSC-CIPDiameter_8.1_A_1_ESy.stat.4
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 14 10:46 PSC-CIPDiameter_8.1_A_1_Gx.stat.4
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 14 10:46 PSC-CIPDiameter_8.1_A_1_Sy.stat.4
+-rw-r--r-- 1 sdpuser staff  362454 Aug 14 22:27 FSC-Scheduler_8.2_A_1_PeriodicAccountManagement.stat.4
+-rw-r--r-- 1 sdpuser staff  362454 Aug 14 23:11 FSC-Scheduler_8.2_A_1_LifeCycleChange.stat.3
+-rw-r--r-- 1 sdpuser staff     162 Aug 15 00:00 PSC-LDAP_8.1_A_1_LDAPClient.stat.4
+-rw-r--r-- 1 sdpuser staff  362454 Aug 15 01:56 FSC-Scheduler_8.2_A_1_ClearDedicatedAccount.stat.3
+-rw-r--r-- 1 sdpuser staff 8388723 Aug 15 02:50 PSC-DCIPDiameter_1.0_A_1_Remote.stat.2
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 15 10:50 PSC-CIPDiameter_8.1_A_1_ESy.stat.3
+-rw-r--r-- 1 sdpuser staff 8388715 Aug 15 18:52 PSC-CIPDiameter_8.1_A_1_Gx.stat.3
+-rw-r--r-- 1 sdpuser staff 8388715 Aug 15 18:52 PSC-CIPDiameter_8.1_A_1_Sy.stat.3
+-rw-r--r-- 1 sdpuser staff 3849120 Aug 15 23:59 PSC-SDPInapHD_1.0_A_1.stat.4
+-rw-r--r-- 1 sdpuser staff  256608 Aug 15 23:59 PSC-SogInterface_8.2_A_1_ServiceControl_17314,17035-10.175.43.14:3300.stat.4
+-rw-r--r-- 1 sdpuser staff  769824 Aug 15 23:59 FSC-UssdHD_1.0_A_1.stat.4
+-rw-r--r-- 1 sdpuser staff  769824 Aug 15 23:59 PSC-LDAP_8.1_A_1.stat.4
+-rw-r--r-- 1 sdpuser staff     162 Aug 16 00:00 PSC-LDAP_8.1_A_1_LDAPClient.stat.3
+-rw-r--r-- 1 sdpuser staff  362454 Aug 16 10:25 FSC-Scheduler_8.2_A_1_PeriodicAccountManagement.stat.3
+-rw-r--r-- 1 sdpuser staff  362454 Aug 16 11:09 FSC-Scheduler_8.2_A_1_LifeCycleChange.stat.2
+-rw-r--r-- 1 sdpuser staff  362454 Aug 16 13:54 FSC-Scheduler_8.2_A_1_ClearDedicatedAccount.stat.2
+-rw-r--r-- 1 sdpuser staff 8388679 Aug 16 21:31 PSC-CIPDiameter_8.1_A_1.stat.4
+-rw-r--r-- 1 sdpuser staff  256527 Aug 16 23:59 PSC-SogInterface_8.2_A_1_ServiceControl_17314,17035-10.175.43.14:3300.stat.3
+-rw-r--r-- 1 sdpuser staff 3848715 Aug 16 23:59 PSC-SDPInapHD_1.0_A_1.stat.3
+-rw-r--r-- 1 sdpuser staff  769743 Aug 16 23:59 FSC-UssdHD_1.0_A_1.stat.3
+-rw-r--r-- 1 sdpuser staff  769743 Aug 16 23:59 PSC-LDAP_8.1_A_1.stat.3
+-rw-r--r-- 1 sdpuser staff     162 Aug 17 00:00 PSC-LDAP_8.1_A_1_LDAPClient.stat.2
+-rw-r--r-- 1 sdpuser staff 8388715 Aug 17 02:57 PSC-CIPDiameter_8.1_A_1_PSC-SubscriberHandler_8.2_0.stat.1
+-rw-r--r-- 1 sdpuser staff 8388715 Aug 17 02:57 PSC-CIPDiameter_8.1_A_1_ESy.stat.2
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 17 02:57 PSC-CIPDiameter_8.1_A_1_Gx.stat.2
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 17 02:57 PSC-CIPDiameter_8.1_A_1_Sy.stat.2
+-rw-r--r-- 1 sdpuser staff 8388722 Aug 17 08:33 PSC-DCIPDiameter_1.0_A_1_Remote.stat.1
+-rw-r--r-- 1 sdpuser staff 8388811 Aug 17 15:46 PSC-CIPDiameter_8.1_A_1.stat.3
+drwx------ 2 root    root    20140 Aug 17 15:54 configDump_Ymjg_o
+drwx------ 2 root    root    87080 Aug 17 16:48 configDump_FczsLc
+-rw-r--r-- 1 sdpuser staff  362454 Aug 17 22:22 FSC-Scheduler_8.2_A_1_PeriodicAccountManagement.stat.2
+-rw-r--r-- 1 sdpuser staff  362454 Aug 17 23:06 FSC-Scheduler_8.2_A_1_LifeCycleChange.stat.1
+-rw-r--r-- 1 sdpuser staff  256608 Aug 17 23:59 PSC-SogInterface_8.2_A_1_ServiceControl_17314,17035-10.175.43.14:3300.stat.2
+-rw-r--r-- 1 sdpuser staff 3849120 Aug 17 23:59 PSC-SDPInapHD_1.0_A_1.stat.2
+-rw-r--r-- 1 sdpuser staff  769824 Aug 17 23:59 FSC-UssdHD_1.0_A_1.stat.2
+-rw-r--r-- 1 sdpuser staff  769824 Aug 17 23:59 PSC-LDAP_8.1_A_1.stat.2
+-rw-r--r-- 1 sdpuser staff     162 Aug 18 00:00 PSC-LDAP_8.1_A_1_LDAPClient.stat.1
+-rw-r--r-- 1 sdpuser staff  362454 Aug 18 01:51 FSC-Scheduler_8.2_A_1_ClearDedicatedAccount.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-TrafficHandler_8.1_A_1_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_EnhancedServiceFeeDeduction_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_ClearDedicatedAccount_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_ValueVoucherExpiry_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_LifeCycleChange_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_ServiceFeeDeduction_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_NegativeBalanceBarring_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-SubscriberHandler_8.2_A_1_PeriodicAdjustment_GeneratedCdrs.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:08 PSC-TrafficHandler_8.1_A_1_AccountFinderClient.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:09 PSC-CIPDiameter_8.1_A_1_Notification.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:09 PSC-CIPDiameter_8.1_A_1_SyNotification.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:09 PSC-CIPDiameter_8.1_A_1_GxNotification.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:09 PSC-CIPDiameter_8.1_A_1_ESyNotification.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:09 PSC-DCIPDiameter_1.0_A_1_Anchor.stat.1
+-rw-r--r-- 1 sdpuser staff 8388684 Aug 18 03:10 PSC-DCIPDiameter_1.0_A_1_AccountFinderClient.stat.1
+-rw-r--r-- 1 sdpuser staff 8388678 Aug 18 10:02 PSC-CIPDiameter_8.1_A_1.stat.2
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 18 11:02 PSC-CIPDiameter_8.1_A_1_Gx.stat.1
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 18 11:02 PSC-CIPDiameter_8.1_A_1_Sy.stat.1
+-rw-r--r-- 1 root    root     2219 Aug 18 16:21 production.txt
+-rw-r--r-- 1 root    root       13 Aug 18 16:24 command_host
+-rw-r--r-- 1 root    root       63 Aug 18 16:24 command_commandline
+-rw-r--r-- 1 root    root        2 Aug 18 16:24 command_rc
+-rw-r--r-- 1 root    root        0 Aug 18 16:24 err
+-rw-r--r-- 1 root    root        0 Aug 18 16:24 command_stderr
+-rw-r--r-- 1 sdpuser staff  426465 Aug 18 16:26 PSC-SubscriberHandler_8.2_A_1_ClearDedicatedAccount_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  426465 Aug 18 16:26 PSC-SubscriberHandler_8.2_A_1_NegativeBalanceBarring_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  426627 Aug 18 16:27 PSC-SubscriberHandler_8.2_A_1_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  426546 Aug 18 16:27 PSC-SubscriberHandler_8.2_A_1_EnhancedServiceFeeDeduction_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  426870 Aug 18 16:28 PSC-TrafficHandler_8.1_A_1_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  853254 Aug 18 16:28 PSC-TrafficHandler_8.1_A_1_AccountFinderClient.stat.0
+drwxr-xr-x 4 root    root      120 Aug 18 16:37 dbprepare
+drwx------ 2 root    root    90400 Aug 18 17:57 configDump_q2xfi8
+-rw-r--r-- 1 sdpuser staff  502524 Aug 18 18:52 PSC-SubscriberHandler_8.2_A_1_ValueVoucherExpiry_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  503172 Aug 18 19:01 PSC-SubscriberHandler_8.2_A_1_ServiceFeeDeduction_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff 8388716 Aug 18 19:03 PSC-CIPDiameter_8.1_A_1_ESy.stat.1
+drwx------ 2 root    root    55960 Aug 18 20:00 configDump_nvinyq
+-rw-r--r-- 1 root    root        0 Aug 18 20:00 TTResolverLock.lck
+-rw-r--r-- 1 sdpuser staff  532480 Aug 18 21:00 PSC-SubscriberHandler_8.2_A_1_PeriodicAdjustment_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  533061 Aug 18 21:00 PSC-SubscriberHandler_8.2_A_1_LifeCycleChange_GeneratedCdrs.stat.0
+-rw-r--r-- 1 sdpuser staff  256608 Aug 18 23:59 PSC-SogInterface_8.2_A_1_ServiceControl_17314,17035-10.175.43.14:3300.stat.1
+-rw-r--r-- 1 sdpuser staff  769824 Aug 18 23:59 FSC-UssdHD_1.0_A_1.stat.1
+-rw-r--r-- 1 sdpuser staff  769824 Aug 18 23:59 PSC-LDAP_8.1_A_1.stat.1
+-rw-r--r-- 1 sdpuser staff 3831460 Aug 18 23:59 PSC-SDPInapHD_1.0_A_1.stat.1
+-rw-r--r-- 1 sdpuser staff     162 Aug 19 00:00 PSC-LDAP_8.1_A_1_LDAPClient.stat.0
+-rw-r--r-- 1 sdpuser staff 8389239 Aug 19 04:31 PSC-CIPDiameter_8.1_A_1.stat.1
+drwxr-xr-x 2 root    root       80 Aug 19 06:10 hsperfdata_root
+-rw-r--r-- 1 root    root        0 Aug 19 06:10 open-files
+-rw-r--r-- 1 root    root        0 Aug 19 06:10 files
+-rw-r--r-- 1 root    root        0 Aug 19 06:10 categorized-files
+-rw-r--r-- 1 sdpuser staff  361996 Aug 19 10:19 FSC-Scheduler_8.2_A_1_PeriodicAccountManagement.stat.1
+-rw-r--r-- 1 sdpuser staff  726188 Aug 19 10:23 PSC-PPASInterface_8.2_A_1.stat
+-rw-r--r-- 1 sdpuser staff  487121 Aug 19 10:23 CDRProcessor.stat
+-rw-r--r-- 1 sdpuser staff 7785136 Aug 19 10:23 PSC-DCIPDiameter_1.0_A_1_Remote.stat.0
+-rw-r--r-- 1 sdpuser staff  355436 Aug 19 10:23 FSC-Scheduler_8.2_A_1_LifeCycleChange.stat.0
+-rw-r--r-- 1 sdpuser staff     694 Aug 19 10:23 FSC-Scheduler_8.2_A_1_PeriodicAccountManagement.stat.0
+-rw-r--r-- 1 sdpuser staff  327664 Aug 19 10:23 FSC-Scheduler_8.2_A_1_ClearDedicatedAccount.stat.0
+-rw-r--r-- 1 sdpuser staff 2629247 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1.stat.0
+-rw-r--r-- 1 sdpuser staff 5799778 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_PSC-SubscriberHandler_8.2_0.stat.0
+-rw-r--r-- 1 sdpuser staff 1002123 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_Notification.stat.0
+-rw-r--r-- 1 sdpuser staff  111126 Aug 19 10:23 PSC-SogInterface_8.2_A_1_ServiceControl_17314,17035-10.175.43.14:3300.stat.0
+-rw-r--r-- 1 sdpuser staff 1002123 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_SyNotification.stat.0
+-rw-r--r-- 1 sdpuser staff 1002123 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_GxNotification.stat.0
+-rw-r--r-- 1 sdpuser staff 1002123 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_ESyNotification.stat.0
+-rw-r--r-- 1 sdpuser staff 1001880 Aug 19 10:23 PSC-DCIPDiameter_1.0_A_1_Anchor.stat.0
+-rw-r--r-- 1 sdpuser staff 3206060 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_ESy.stat.0
+-rw-r--r-- 1 sdpuser staff 6062943 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_Gx.stat.0
+-rw-r--r-- 1 sdpuser staff 6062943 Aug 19 10:23 PSC-CIPDiameter_8.1_A_1_Sy.stat.0
+-rw-r--r-- 1 sdpuser staff  330747 Aug 19 10:23 FSC-UssdHD_1.0_A_1.stat.0
+-rw-r--r-- 1 sdpuser staff  330747 Aug 19 10:23 PSC-LDAP_8.1_A_1.stat.0
+-rw-r--r-- 1 sdpuser staff 1616223 Aug 19 10:23 PSC-SDPInapHD_1.0_A_1.stat.0
+-rw-r--r-- 1 sdpuser staff 2003397 Aug 19 10:23 PSC-DCIPDiameter_1.0_A_1_AccountFinderClient.stat.0
+-rw-r--r-- 1 root    root        1 Aug 19 10:23 i4jdaemon__opt_esa_bin_esafma
+-rw-r--r-- 1 root    root        1 Aug 19 10:23 i4jdaemon__opt_esa_bin_esama
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# tail -f PSC-CIPDiameter_8.1_A_1.stat.0
+          Refund                                                   0       0              0          0       0      -      -      -
+10:23:51  Diameter                                                 0       0              0          0       0      -      -      -
+          Rejected                                                 0       0              0          0       0      -      -      -
+          FirstInterrogation                                       0       0              0          0       0      -      -      -
+          IntermediateInterrogation                                0       0              0          0       0      -      -      -
+          FinalReport                                              0       0              0          0       0      -      -      -
+          BalanceCheck                                             0       0              0          0       0      -      -      -
+          DirectDebit                                              0       0              0          0       0      -      -      -
+          PriceEnquiry                                             0       0              0          0       0      -      -      -
+          Refund                                                   0       0              0          0       0      -      -      -
+10:24:01  Diameter                                                 0       0              0          0       0      -      -      -
+          Rejected                                                 0       0              0          0       0      -      -      -
+          FirstInterrogation                                       0       0              0          0       0      -      -      -
+          IntermediateInterrogation                                0       0              0          0       0      -      -      -
+          FinalReport                                              0       0              0          0       0      -      -      -
+          BalanceCheck                                             0       0              0          0       0      -      -      -
+          DirectDebit                                              0       0              0          0       0      -      -      -
+          PriceEnquiry                                             0       0              0          0       0      -      -      -
+          Refund                                                   0       0              0          0       0      -      -      -
+^C
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# tail -f PSC-PPASInterface_8.2_A_1.stat
+
+          Incoming   Outgoing    ThroughPut    Aver. resp. time   MIN     MAX     No. measurements   Rejected due
+                                 (requests/sec)      (ms)         (ms)    (ms)                       to overload
+    Tot        0         0         0.00            0.00         0.00     0.00     0                     0
+
+Statistics : Wed Aug 19 10:24:19 2015
+
+          Incoming   Outgoing    ThroughPut    Aver. resp. time   MIN     MAX     No. measurements   Rejected due
+                                 (requests/sec)      (ms)         (ms)    (ms)                       to overload
+    Tot        0         0         0.00            0.00         0.00     0.00     0                     0
+
+Statistics : Wed Aug 19 10:24:29 2015
+
+          Incoming   Outgoing    ThroughPut    Aver. resp. time   MIN     MAX     No. measurements   Rejected due
+                                 (requests/sec)      (ms)         (ms)    (ms)                       to overload
+    Tot        0         0         0.00            0.00         0.00     0.00     0                     0
+
+Statistics : Wed Aug 19 10:24:39 2015
+
+          Incoming   Outgoing    ThroughPut    Aver. resp. time   MIN     MAX     No. measurements   Rejected due
+                                 (requests/sec)      (ms)         (ms)    (ms)                       to overload
+    Tot        0         0         0.00            0.00         0.00     0.00     0                     0
+
+Statistics : Wed Aug 19 10:24:49 2015
+
+          Incoming   Outgoing    ThroughPut    Aver. resp. time   MIN     MAX     No. measurements   Rejected due
+                                 (requests/sec)      (ms)         (ms)    (ms)                       to overload
+    Tot        0         0         0.00            0.00         0.00     0.00     0                     0
+
+
+
+
+Statistics : Wed Aug 19 10:24:59 2015
+
+          Incoming   Outgoing    ThroughPut    Aver. resp. time   MIN     MAX     No. measurements   Rejected due
+                                 (requests/sec)      (ms)         (ms)    (ms)                       to overload
+    Tot        0         0         0.00            0.00         0.00     0.00     0                     0
+^C
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# FDSClusterMgr processoff -m Member1 FDSvIPManager
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# FDSClusterMgr processstat
+Process                   Member1 Member2 
+FDSAuthority              On      On      
+FDSCompCtrl               On      On      
+FDSConfigSync             On      On      
+FDSExternalRequestHandler On      On      
+FDSFunctionCtrl           On      On      
+FDSMoHandler              On      On      
+FDSvIPManager             Off     On      
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# FDSClusterMgr processon -m Member1 FDSvIPManager
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# 
+[root@sdp91a tmp]# FDSClusterMgr processstat
+Process                   Member1 Member2 
+FDSAuthority              On      On      
+FDSCompCtrl               On      On      
+FDSConfigSync             On      On      
+FDSExternalRequestHandler On      On      
+FDSFunctionCtrl           On      On      
+FDSMoHandler              On      On      
+FDSvIPManager             On      On      
+[root@sdp91a tmp]# 
+

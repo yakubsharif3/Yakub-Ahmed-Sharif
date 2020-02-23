@@ -1,0 +1,12 @@
+ssh sdp91a
+bash
+FDSClusterMgr processstat
+ifconfig -a
+cd /tmp
+ls -ltr
+tail -f PSC-CIPDiameter_8.1_A_1.stat.0
+tail -f PSC-PPASInterface_8.2_A_1.stat
+FDSClusterMgr processoff -m Member1 FDSvIPManager
+ifconfig -a
+FDSClusterMgr processon -m Member1 FDSvIPManager
+ifconfig -a

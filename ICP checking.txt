@@ -1,0 +1,95 @@
+hostname
+date
+uptime
+cat /etc/networks
+csswadm list
+cd /var/log | ls -lart
+
+df -h
+iostat 
+ttStatus
+top
+
+ntpq -p
+lvs
+lvdisplay
+cat /proc/cpuinfo | grep -i processor
+
+
+crontab -l
+vi /etc/cron.d/EABcfBackup
+strings /usr/java/latest/jre/lib/zi/ZoneInfoMappings | grep tzdata
+
+cat /var/log/messages
+tail -f /var/log/dmesg
+ttDaemonLog | tail -50
+ps -eo pid,pcpu,args | tail -100
+ps
+service --status-all | grep stopped
+service --status-all | grep running | wc -l
+service --status-all | grep stopped | wc -l
+
+ifconfig -a
+cat /var/opt/fds/config/cluster/FunctionCtrl.cfg | awk '/On/ { print x } ; { x=$0 }' | awk -F "=" '{print $2}' | wc -l
+cat /var/opt/fds/config/cluster/FunctionCtrl.cfg | awk '/Off/ { print x } ; { x=$0 }' | awk -F "=" '{print $2}' | wc -l
+FDSDumpELS | grep -i "unable"
+FDSClusterMgr processstat
+FDSpgrep -l -S
+FDSCluster info
+FDSpgrep -l -C
+
+
+cat /var/opt/fds/logs/*.log.* | grep -i "Unable to communicate with license server" | grep "`date +%Y%m%d`" | wc -l
+tail -100 /var/opt/fds/logs/TTMonitor.log
+/opt/sdp/TTMonitor/bin/TTRepCheck -c DSN=sdp_db 
+/opt/sdp/TTMonitor/bin/NTPCheck
+
+FDStail -t50 /var/opt/fds/logs/sFDS*.log.0
+tail /var/opt/fds/logs/EventLogFile.txt.0
+tail /var/opt/fds/logs/cPSCTrafficHandler.log.0
+tail /var/opt/fds/logs/cPSCDCIPDiameter.log.0
+tail /var/opt/fds/logs/cPSCCIPDiameter.log.0
+tail /var/opt/fds/logs/cTTResolver.log.0
+tail /var/opt/fds/logs/cFSCSMSInterfaceContainer.log.0
+tail /var/opt/fds/logs/cPSCSogInterfaceContainer.log.0 
+tail /var/opt/fds/logs/cPSCBlockHandlerContainer.log.0
+
+tail -f /tmp/PSC-SDPInapHD*
+tail -f /tmp/PSC-CIPDiameter*
+tail -f /tmp/PSC-DCIPDiameter_*_Remote.stat.0
+tail -f /tmp/PSC-DCIPDiameter_*_Anchor.stat.0
+tail -f /tmp/PSC-PPASInterface*
+
+
+ls -lart /var/opt/fds/CDR/offline/cdrin/
+ls -lart /var/opt/fds/CDR/offline/cdrout/
+ls -lrth /var/opt/fds/CDR/scheduledJobSentCdr/
+ls -lrth /var/opt/fds/CDR/scheduledJobUnsentCdr/
+ls -lrth /var/opt/fds/CDR/scheduledJobCdrOut/
+tail /tmp/CDRProcessor.stat
+
+ls -larth /var/opt/fds/statistics
+ls -lart /opt/sdp/SnapShot/bin
+ls -larth /var/opt/fds/TT/dump/
+cd /opt/sdp/SnapShot/bin
+[root@sdp82b bin]# more dump_sftp.ksh
+sftp root@10.182.33.74 <<!
+cd /files/sdp/dump/
+
+
+dmesg | grep -i duplex
+netstat -rn
+
+ss7Stack info
+signmcli -online=yes -read.only=yes
+	sysop
+	procp
+	exit
+
+tail -50 /var/opt/EABcss7ut/logs/ss7trace.log
+added: [root@sdp71b ~]# mii-tool -v eth6
+eth6: 100 Mbit, full duplex, no link
+
+
+for duplexity check use command: kstat -p 'igb:0::/link_(speed|up|duplex)/'
+100MBPS mane full duplex and 2,1 akare thakte hbe
