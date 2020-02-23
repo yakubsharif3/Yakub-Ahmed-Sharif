@@ -1,0 +1,553 @@
+-rw-r--r--   1 root     root       17374 Aug 17 16:13 SDP79
+-rw-r--r--   1 root     root           0 Aug 17 16:13 SDP80
+-rw-r--r--   1 root     root           0 Aug 17 16:13 SDP81
+drwxr-xr-x   2 root     root        1536 Aug 17 16:13 .
+You have new mail in /var/mail//root
+bash-3.2# \rm -f SDP*
+bash-3.2# ls -lart
+total 12430
+-rwxrwxrwx   1 root     root         267 Jul  7 13:41 ReCycle.sh
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 ..
+-rw-r--r--   1 root     root     6344000 Aug 17 16:02 REPSDM004082015_in.txt
+drwxr-xr-x   2 root     root        1536 Aug 17 16:16 .
+bash-3.2# rm REPSDM004082015_in.txt 
+bash-3.2# ls -lart
+total 14
+-rwxrwxrwx   1 root     root         267 Jul  7 13:41 ReCycle.sh
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 ..
+drwxr-xr-x   2 root     root        1536 Aug 17 16:16 .
+bash-3.2# 
+bash-3.2# 
+You have new mail in /var/mail//root
+bash-3.2# 
+bash-3.2# 
+bash-3.2# 
+bash-3.2# exit
+exit
+you have mail
+# 
+# logout;
+logout: not found
+# 
+# 
+# 
+# ^C
+# 
+# 
+# 
+# 
+# exit
+Connection to air42 closed.
+You have new mail in /var/mail/root
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# ls -lart
+total 12420
+drwxr-xr-x   4 root     root         512 Aug 17 15:09 ..
+drwxr-xr-x   2 root     root         512 Aug 17 15:52 .
+-rw-r--r--   1 root     root     6344000 Aug 17 15:52 REPSDM004082015_in.txt
+root@xion:/export/home/aislam/SIM# rm REPSDM004082015_in.txt 
+root@xion:/export/home/aislam/SIM# ls -lart
+total 4
+drwxr-xr-x   4 root     root         512 Aug 17 15:09 ..
+drwxr-xr-x   2 root     root         512 Aug 17 16:18 .
+root@xion:/export/home/aislam/SIM# ls -lart
+total 7188
+drwxr-xr-x   4 root     root         512 Aug 17 15:09 ..
+drwxr-xr-x   2 root     root         512 Aug 17 16:21 .
+-rw-r--r--   1 root     root     3664856 Aug 17 16:21 REPSDM005082015_in.txt
+You have new mail in /var/mail/root
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# head REPSDM005082015_in.txt
+,8801761076321,470010613040352,898801630613040352,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761076870,470010613040354,898801630613040354,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761076955,470010613040355,898801630613040355,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761077365,470010613040357,898801630613040357,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761077528,470010613040359,898801630613040359,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078038,470010613040360,898801630613040360,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078424,470010613040362,898801630613040362,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078637,470010613040364,898801630613040364,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761079204,470010613040366,898801630613040366,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761079385,470010613040367,898801630613040367,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+root@xion:/export/home/aislam/SIM# wc -l REPSDM005082015_in.txt 
+   35239 REPSDM005082015_in.txt
+root@xion:/export/home/aislam/SIM# 
+You have new mail in /var/mail/root
+root@xion:/export/home/aislam/SIM# 
+root@xion:/export/home/aislam/SIM# pwd
+/export/home/aislam/SIM
+root@xion:/export/home/aislam/SIM# cd..
+-bash: cd..: command not found
+root@xion:/export/home/aislam/SIM# ssh air42
+Password: 
+Last login: Mon Aug 17 15:56:54 2015 from xion
+Oracle Corporation      SunOS 5.10      Generic Patch   January 2005
+You have new mail.
+# 
+# 
+# 
+# 
+# bash
+bash-3.2# 
+bash-3.2# 
+bash-3.2# 
+bash-3.2# 
+bash-3.2# cd /opt/temp
+bash-3.2# ls -lart
+total 187450
+drwxr-xr-x  27 root     bin          512 Aug  7  2014 ..
+-rw-r--r--   1 root     root       20480 Aug  7  2014 hs.tar
+-rw-r--r--   1 root     root        6656 Aug  7  2014 resmon.tar
+-rw-r--r--   1 root     root     94865920 Aug  7  2014 air42_backup_5april.tar
+drwxr-xr-x   3 root     root         512 Aug  7  2014 hs
+drwxr-xr-x   3 root     root         512 Aug  7  2014 resmon
+drwxr-xr-x   7 root     root         512 Aug  7  2014 air42_backup_5april
+-rw-r--r--   1 root     root          28 Aug 10  2014 Migration.txt
+-rw-r--r--   1 root     root        2388 Aug 27  2014 delete_Sub_SDP.txt
+-rw-r--r--   1 root     root          14 Aug 27  2014 test.txt
+-rw-r--r--   1 root     root          14 Sep 17  2014 GPTTS.txt
+-rw-r--r--   1 root     root          14 Nov 16  2014 testSDP81.txt
+-rw-r--r--   1 root     root      979930 Nov 23  2014 wrers.txt
+-rw-r--r--   1 root     root          14 Nov 26  2014 temp.txt
+-rw-r--r--   1 root     root          14 Dec 14  2014 TEMP.txt
+-rw-r--r--   1 root     root          14 Dec 31  2014 TEST.txt
+drwxr-xr-x   2 root     root        3072 Feb 16  2015 TempBlock
+-rw-r--r--   1 root     root         707 Apr  7 11:59 DEL.xml
+-rw-r--r--   1 root     root          14 May 26 11:57 tbsdp.txt
+-rw-r--r--   1 root     root          14 Jun 11 23:03 tst.txt
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 .
+drwxr-xr-x   2 root     root        1536 Aug 17 16:16 ReCycle
+bash-3.2# cd ReCycle
+bash-3.2# ls -lart
+total 14
+-rwxrwxrwx   1 root     root         267 Jul  7 13:41 ReCycle.sh
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 ..
+drwxr-xr-x   2 root     root        1536 Aug 17 16:16 .
+bash-3.2# sftp 10.166.33.17
+Connecting to 10.166.33.17...
+Password: 
+Password: 
+sftp> 
+sftp> 
+sftp> 
+sftp> 
+sftp> cd /export/home/aislam/SIM
+sftp> ls -lart
+Invalid flag -a
+sftp> ls -l
+drwxr-xr-x    2 root     root          512 Aug 17 16:21 .
+drwxr-xr-x    4 root     root          512 Aug 17 15:09 ..
+-rw-r--r--    1 root     root      3664856 Aug 17 16:21 REPSDM005082015_in.txt
+sftp> get REPSDM005082015_in.txt
+Fetching /export/home/aislam/SIM/REPSDM005082015_in.txt to REPSDM005082015_in.txt
+sftp> bye
+You have new mail in /var/mail//root
+bash-3.2# 
+bash-3.2# 
+bash-3.2# ls -lart
+total 7198
+-rwxrwxrwx   1 root     root         267 Jul  7 13:41 ReCycle.sh
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 ..
+drwxr-xr-x   2 root     root        1536 Aug 17 16:26 .
+-rw-r--r--   1 root     root     3664856 Aug 17 16:26 REPSDM005082015_in.txt
+bash-3.2# wc -l REPSDM005082015_in.txt
+   35239 REPSDM005082015_in.txt
+bash-3.2# head REPSDM005082015_in.txt
+,8801761076321,470010613040352,898801630613040352,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761076870,470010613040354,898801630613040354,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761076955,470010613040355,898801630613040355,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761077365,470010613040357,898801630613040357,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761077528,470010613040359,898801630613040359,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078038,470010613040360,898801630613040360,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078424,470010613040362,898801630613040362,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078637,470010613040364,898801630613040364,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761079204,470010613040366,898801630613040366,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761079385,470010613040367,898801630613040367,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+bash-3.2# tail REPSDM005082015_in.txt
+,8801761168483,470010613071414,898801630613071414,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761271194,470010613071419,898801630613071419,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761271558,470010613071434,898801630613071434,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761271880,470010613071448,898801630613071448,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761388889,470010613071459,898801630613071459,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761389507,470010613071473,898801630613071473,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761389759,470010613071486,898801630613071486,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761390507,470010613071500,898801630613071500,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761359243,470010613071517,898801630613071517,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761360105,470010613071531,898801630613071531,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+bash-3.2# 
+You have new mail in /var/mail//root
+bash-3.2# 
+bash-3.2# 
+bash-3.2# bash -x ./ReCycle.sh REPSDM005082015_in.txt
++ (( i=1 ))
++ (( i<=10 ))
++ grep ,SET,01 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 01 SDP1
+
++ (( i++ ))
++ (( i<=10 ))
++ awk -F, '{print $2}'
++ grep ,SET,02 REPSDM005082015_in.txt
++ /opt/af/bin/AFDataManager -n -i 02 SDP2
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,03 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 03 SDP3
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,04 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 04 SDP4
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,05 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 05 SDP5
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,06 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 06 SDP6
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,07 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 07 SDP7
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,08 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 08 SDP8
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,09 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 09 SDP9
+
++ (( i++ ))
++ (( i<=10 ))
++ grep ,SET,010 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 010 SDP10
+
++ (( i++ ))
++ (( i<=10 ))
++ (( i=47 ))
++ (( i<=81 ))
++ grep ,SET,47 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 47 SDP47
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,48 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 48 SDP48
+...................................
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,49 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 49 SDP49
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,50 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 50 SDP50
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,51 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 51 SDP51
+..........
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,52 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 52 SDP52
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,53 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 53 SDP53
+..........
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,54 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 54 SDP54
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,55 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 55 SDP55
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,56 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 56 SDP56
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,57 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 57 SDP57
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,58 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 58 SDP58
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,59 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 59 SDP59
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,60 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 60 SDP60
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,61 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 61 SDP61
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,62 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 62 SDP62
+
++ (( i++ ))
++ (( i<=81 ))
++ awk -F, '{print $2}'
++ grep ,SET,63 REPSDM005082015_in.txt
++ /opt/af/bin/AFDataManager -n -i 63 SDP63
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,64 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 64 SDP64
+..........
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,65 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 65 SDP65
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,66 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 66 SDP66
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,67 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 67 SDP67
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,68 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 68 SDP68
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,69 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 69 SDP69
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,70 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 70 SDP70
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,71 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 71 SDP71
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,72 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 72 SDP72
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,73 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 73 SDP73
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,74 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 74 SDP74
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,75 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 75 SDP75
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,76 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 76 SDP76
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,77 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 77 SDP77
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,78 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 78 SDP78
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,79 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 79 SDP79
+
++ (( i++ ))
++ (( i<=81 ))
++ grep ,SET,80 REPSDM005082015_in.txt
++ awk -F, '{print $2}'
++ /opt/af/bin/AFDataManager -n -i 80 SDP80
+
++ (( i++ ))
++ (( i<=81 ))
++ awk -F, '{print $2}'
++ grep ,SET,81 REPSDM005082015_in.txt
++ /opt/af/bin/AFDataManager -n -i 81 SDP81
+
++ (( i++ ))
++ (( i<=81 ))
+bash-3.2# 
+bash-3.2# 
+bash-3.2# 
+bash-3.2# 
+bash-3.2# 
+bash-3.2# head REPSDM005082015_in.txt
+,8801761076321,470010613040352,898801630613040352,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761076870,470010613040354,898801630613040354,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761076955,470010613040355,898801630613040355,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761077365,470010613040357,898801630613040357,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761077528,470010613040359,898801630613040359,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078038,470010613040360,898801630613040360,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078424,470010613040362,898801630613040362,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761078637,470010613040364,898801630613040364,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761079204,470010613040366,898801630613040366,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+,8801761079385,470010613040367,898801630613040367,,,,,,,CLEAR,CUST0001576332,CONTR0001571438,,,,,SET,51
+You have new mail in /var/mail//root
+bash-3.2# tail REPSDM005082015_in.txt
+,8801761168483,470010613071414,898801630613071414,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761271194,470010613071419,898801630613071419,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761271558,470010613071434,898801630613071434,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761271880,470010613071448,898801630613071448,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761388889,470010613071459,898801630613071459,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761389507,470010613071473,898801630613071473,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761389759,470010613071486,898801630613071486,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761390507,470010613071500,898801630613071500,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761359243,470010613071517,898801630613071517,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+,8801761360105,470010613071531,898801630613071531,,,,,,,CLEAR,CUST0001576332,CONTR0001571435,,,,,SET,48
+You have new mail in /var/mail//root
+bash-3.2# ls -lart
+total 8196
+-rwxrwxrwx   1 root     root         267 Jul  7 13:41 ReCycle.sh
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 ..
+-rw-r--r--   1 root     root     3664856 Aug 17 16:26 REPSDM005082015_in.txt
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP1
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP2
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP3
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP4
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP5
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP6
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP7
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP8
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP9
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP10
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP47
+-rw-r--r--   1 root     root      418236 Aug 17 16:28 SDP48
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP49
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP50
+-rw-r--r--   1 root     root       61684 Aug 17 16:28 SDP51
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP52
+-rw-r--r--   1 root     root       13118 Aug 17 16:28 SDP53
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP54
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP55
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP56
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP57
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP58
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP59
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP60
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP61
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP62
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP63
+-rw-r--r--   1 root     root         308 Aug 17 16:28 SDP64
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP65
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP66
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP67
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP68
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP69
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP70
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP71
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP72
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP73
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP74
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP75
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP76
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP77
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP78
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP79
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP80
+-rw-r--r--   1 root     root           0 Aug 17 16:28 SDP81
+drwxr-xr-x   2 root     root        1536 Aug 17 16:28 .
+You have new mail in /var/mail//root
+bash-3.2# 
+bash-3.2# 
+bash-3.2# pwd        
+/opt/temp/ReCycle
+bash-3.2# \rm -f SDP*
+bash-3.2# ls -lart
+total 7198
+-rwxrwxrwx   1 root     root         267 Jul  7 13:41 ReCycle.sh
+drwxr-xr-x   7 root     root        3584 Aug 17 14:35 ..
+-rw-r--r--   1 root     root     3664856 Aug 17 16:26 REPSDM005082015_in.txt
+drwxr-xr-x   2 root     root        1536 Aug 17 16:33 .
+bash-3.2# rm REPSDM005082015_in.txt 
+You have new mail in /var/mail//root
+bash-3.2# 
